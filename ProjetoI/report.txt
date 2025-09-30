@@ -1,0 +1,27 @@
+Informação: Lendo o arquivo netlist 'C:\Users\andre\Desktop\PBLE00\ProjetoI\ProjetoI.net'.
+
+Informação: Usando os designadores de referência para combinar os símbolos e os footprints.
+
+Informação: Lendo o arquivo netlist 'C:\Users\andre\Desktop\PBLE00\ProjetoI\ProjetoI.net'.
+
+Informação: Usando os designadores de referência para combinar os símbolos e os footprints.
+
+Informação: Processando o símbolo 'R1:Resistor_SMD:R_0805_2012Metric'.
+Informação: Processando o símbolo 'R2:Resistor_SMD:R_0805_2012Metric'.
+Informação: Processando o símbolo 'R3:Resistor_SMD:R_0805_2012Metric'.
+Informação: Processando o símbolo 'R4:Resistor_SMD:R_0805_2012Metric'.
+Informação: Processando o símbolo 'U1:Package_SO:MSOP-10_3x3mm_P0.5mm'.
+Informação: Processando o símbolo 'J3:Connector_USB:USB_A_Molex_67643_Horizontal'.
+Informação: Processando o símbolo 'D1:Componentes:SOD3715X145N'.
+Informação: Processando o símbolo 'LED1:Componentes:LED_LTST-C150GKT_LTO'.
+Informação: Processando o símbolo 'LED2:Componentes:LED_LTST-C150GKT_LTO'.
+Informação: Processando o símbolo 'LED3:Componentes:LED_LTST-C150GKT_LTO'.
+Informação: Processando o símbolo 'J1:Componentes:CUI_PJ-002A'.
+Informação: Processando o símbolo 'C1:Capacitor_SMD:C_0805_2012Metric'.
+Informação: Processando o símbolo 'C2:Capacitor_SMD:C_0805_2012Metric'.
+Informação: Total de avisos: 0, erros: 0.
+
+
+
+
+Informação: Total de avisos: 0, erros: 0.

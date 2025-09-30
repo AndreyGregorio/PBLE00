@@ -1,0 +1,89 @@
+# encoding: utf-8
+# 2025 R2
+SetScriptVersion(Version="25.2.170")
+string1 = ACT.DynSendServerCommand(
+    Command="SHOW_DIALOG",
+    Arguments=IronPython.Runtime.PythonDictionary)
+fileType1 = GetFileType(Name="GeometryFileType")
+ImportFile(
+    FilePath="C:/Users/VICTOR/Downloads/ProjetoI.step",
+    FileType=fileType1)
+system1 = GetSystem(Name="Geometry")
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometry1.Edit(IsDiscoveryGeometry=True)
+geometry1.Exit()
+template1 = GetTemplate(
+    TemplateName="Thermal-Electric",
+    Solver="ANSYS")
+system2 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system1)
+geometryComponent1 = system2.GetComponent(Name="Geometry")
+geometryComponent2 = system1.GetComponent(Name="Geometry")
+geometryComponent1.ReplaceWithShare(
+    TargetSystem=system2,
+    ComponentToShare=geometryComponent2,
+    SourceSystem=system1)
+modelComponent1 = system2.GetComponent(Name="Model")
+modelComponent1.Refresh()
+model1 = system2.GetContainer(ComponentName="Model")
+model1.Edit()
+geometry1.Edit(IsDiscoveryGeometry=True)
+geometry1.Exit()
+model1.Edit()
+model1.Exit()
+geometry1.Edit(IsDiscoveryGeometry=True)
+geometry1.Exit()
+geometry1.Edit(IsDiscoveryGeometry=True)
+geometry1.Exit()
+modelComponent1.Refresh()
+model1.Edit()
+geometry1.Edit(IsSpaceClaimGeometry=True)
+geometry1.Exit()
+model1.Exit()
+Save(Overwrite=True)
+string2 = ACT.DynSendServerCommand(
+    Command="SHOW_DIALOG",
+    Arguments=IronPython.Runtime.PythonDictionary)
+ImportFile(
+    FilePath="C:/Users/VICTOR/Downloads/PBL00/PBL00/PBLE00/ProjetoI/ProjetoI.step",
+    FileType=fileType1)
+system3 = GetSystem(Name="Geometry 1")
+system4 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system3)
+geometryComponent3 = system4.GetComponent(Name="Geometry")
+geometryComponent4 = system3.GetComponent(Name="Geometry")
+geometryComponent3.ReplaceWithShare(
+    TargetSystem=system4,
+    ComponentToShare=geometryComponent4,
+    SourceSystem=system3)
+geometry2 = system3.GetContainer(ComponentName="Geometry")
+geometry2.Edit(IsSpaceClaimGeometry=True)
+geometry2.Exit()
+geometry2.Edit(IsSpaceClaimGeometry=True)
+geometry2.Exit()
+system3.Delete()
+ImportFile(
+    FilePath="C:/Users/VICTOR/Downloads/PBL00/PBL00/PBLE00/ProjetoI/ProjetoI.step",
+    FileType=fileType1)
+system4.Delete()
+system5 = GetSystem(Name="Geometry 1")
+system6 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system5)
+geometryComponent5 = system6.GetComponent(Name="Geometry")
+geometryComponent6 = system5.GetComponent(Name="Geometry")
+geometryComponent5.ReplaceWithShare(
+    TargetSystem=system6,
+    ComponentToShare=geometryComponent6,
+    SourceSystem=system5)
+geometry3 = system5.GetContainer(ComponentName="Geometry")
+geometry3.Edit(IsSpaceClaimGeometry=True)
+geometry3.Exit()
+modelComponent2 = system6.GetComponent(Name="Model")
+modelComponent2.Refresh()
+model2 = system6.GetContainer(ComponentName="Model")
+model2.Edit()
+model2.Exit()
+Save(Overwrite=True)
