@@ -1,0 +1,3043 @@
+
+ Ansys Mechanical Enterprise Academic Student      
+
+
+ *------------------------------------------------------------------*
+ |                                                                  |
+ |   W E L C O M E   T O   T H E   A N S Y S (R)  P R O G R A M     |
+ |                                                                  |
+ *------------------------------------------------------------------*
+
+
+
+
+ ***************************************************************
+ *         ANSYS MAPDL 2025 R2          LEGAL NOTICES          *
+ ***************************************************************
+ *                                                             *
+ * Copyright 1971-2025 Ansys, Inc.  All rights reserved.       *
+ * Unauthorized use, distribution or duplication is            *
+ * prohibited.                                                 *
+ *                                                             *
+ * Ansys is a registered trademark of Ansys, Inc. or its       *
+ * subsidiaries in the United States or other countries.       *
+ * See the Ansys, Inc. online documentation or the Ansys, Inc. *
+ * documentation CD or online help for the complete Legal      *
+ * Notice.                                                     *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * THIS ANSYS SOFTWARE PRODUCT AND PROGRAM DOCUMENTATION       *
+ * INCLUDE TRADE SECRETS AND CONFIDENTIAL AND PROPRIETARY      *
+ * PRODUCTS OF ANSYS, INC., ITS SUBSIDIARIES, OR LICENSORS.    *
+ * The software products and documentation are furnished by    *
+ * Ansys, Inc. or its subsidiaries under a software license    *
+ * agreement that contains provisions concerning               *
+ * non-disclosure, copying, length and nature of use,          *
+ * compliance with exporting laws, warranties, disclaimers,    *
+ * limitations of liability, and remedies, and other           *
+ * provisions.  The software products and documentation may be *
+ * used, disclosed, transferred, or copied only in accordance  *
+ * with the terms and conditions of that software license      *
+ * agreement.                                                  *
+ *                                                             *
+ * Ansys, Inc. is a UL registered                              *
+ * ISO 9001:2015 company.                                      *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * This product is subject to U.S. laws governing export and   *
+ * re-export.                                                  *
+ *                                                             *
+ * For U.S. Government users, except as specifically granted   *
+ * by the Ansys, Inc. software license agreement, the use,     *
+ * duplication, or disclosure by the United States Government  *
+ * is subject to restrictions stated in the Ansys, Inc.        *
+ * software license agreement and FAR 12.212 (for non-DOD      *
+ * licenses).                                                  *
+ *                                                             *
+ ***************************************************************
+
+ 2025 R2 
+     
+ Point Releases and Patches installed:   
+     
+ Discovery 2025 R2   
+ Core WB Files 2025 R2   
+ optiSLang 2025 R2   
+ CFX (includes CFD-Post) 2025 R2 
+ Chemkin 2025 R2 
+ EnSight 2025 R2 
+ FENSAP-ICE 2025 R2  
+ Fluent (includes CFD-Post) 2025 R2  
+ Polyflow (includes CFD-Post) 2025 R2
+ Forte (includes EnSight) 2025 R2
+ Rocky 2025 R2   
+ TurboGrid 2025 R2   
+ ACIS Geometry Interface 2025 R2 
+ AutoCAD Geometry Interface 2025 R2  
+ Catia, Version 4 Geometry Interface 2025 R2 
+ Catia, Version 5 Geometry Interface 2025 R2 
+ Catia, Version 6 Geometry Interface 2025 R2 
+ Creo Elements/Direct Modeling Geometry Interface 2025 R2
+ Creo Parametric Geometry Interface 2025 R2  
+ Inventor Geometry Interface 2025 R2 
+ JTOpen Geometry Interface 2025 R2   
+ NX Geometry Interface 2025 R2   
+ Parasolid Geometry Interface  2025 R2   
+ Solid Edge Geometry Interface 2025 R2   
+ SOLIDWORKS Geometry Interface 2025 R2   
+ Speos 2025 R2   
+ SpaceClaim 2025 R2  
+ Speos RPC 2025 R2   
+ Zemax OpticStudio 2025 R2   
+ Dynamic Reporting 2025 R2   
+ Aqwa 2025 R2
+ Autodyn 2025 R2 
+ Material Calibration App 2025 R2
+ Mechanical Products 2025 R2 
+ Motion 2025 R2  
+ Academic Student 2025 R2
+ Ansys, Inc. License Manager 2025 R2 
+ Electromagnetics Student 2025 R2
+
+
+          *****  MAPDL COMMAND LINE ARGUMENTS  *****
+  BATCH MODE REQUESTED (-b)    = NOLIST
+  INPUT FILE COPY MODE (-c)    = COPY
+  DISTRIBUTED MEMORY PARALLEL REQUESTED
+       4 PARALLEL PROCESSES REQUESTED WITH SINGLE THREAD PER PROCESS
+    TOTAL OF     4 CORES REQUESTED
+  INPUT FILE NAME              = C:\Users\andre\Desktop\PBLE00\Projeto-Ansys\_ProjectScratch\Scr9207\dummy.dat
+  OUTPUT FILE NAME             = C:\Users\andre\Desktop\PBLE00\Projeto-Ansys\_ProjectScratch\Scr9207\solve.out
+  START-UP FILE MODE           = NOREAD
+  STOP FILE MODE               = NOREAD
+
+ RELEASE= 2025 R2              BUILD= 25.2      UP20250519   VERSION=WINDOWS x64 
+ CURRENT JOBNAME=file0  16:41:18  OCT 02, 2025 CP=      0.047
+
+
+ PARAMETER _DS_PROGRESS =     999.0000000    
+
+ /INPUT FILE= ds.dat  LINE=       0
+
+
+
+ *** NOTE ***                            CP =       0.219   TIME= 16:41:19
+ The /CONFIG,NOELDB command is not valid in a distributed memory         
+ parallel solution.  Command is ignored.                                 
+
+ *GET  _WALLSTRT  FROM  ACTI  ITEM=TIME WALL  VALUE=  16.6886111    
+
+ TITLE= 
+ Projeto--Steady-State Thermal (B5)                                            
+
+  ACT Extensions:
+      LSDYNA, 2025.2
+      5f463412-bd3e-484b-87e7-cbc0a665e474, wbex
+ /COM,     ANSYSMotion, 2025.2
+      20180725-3f81-49eb-9f31-41364844c769, wbex
+  
+
+ SET PARAMETER DIMENSIONS ON  _WB_PROJECTSCRATCH_DIR
+  TYPE=STRI  DIMENSIONS=      248        1        1
+
+ PARAMETER _WB_PROJECTSCRATCH_DIR(1) = C:\Users\andre\Desktop\PBLE00\Projeto-Ansys\_ProjectScratch\Scr9207\
+
+ SET PARAMETER DIMENSIONS ON  _WB_SOLVERFILES_DIR
+  TYPE=STRI  DIMENSIONS=      248        1        1
+
+ PARAMETER _WB_SOLVERFILES_DIR(1) = C:\Users\andre\Desktop\PBLE00\Projeto-Ansys\Projeto_files\dp0\SYS-2\MECH\
+
+ SET PARAMETER DIMENSIONS ON  _WB_USERFILES_DIR
+  TYPE=STRI  DIMENSIONS=      248        1        1
+
+ PARAMETER _WB_USERFILES_DIR(1) = C:\Users\andre\Desktop\PBLE00\Projeto-Ansys\Projeto_files\user_files\
+ --- Data in consistent MKS units. See Solving Units in the help system for more
+
+ MKS UNITS SPECIFIED FOR INTERNAL    
+  LENGTH        (l)  = METER (M)
+  MASS          (M)  = KILOGRAM (KG)
+  TIME          (t)  = SECOND (SEC)
+  TEMPERATURE   (T)  = CELSIUS (C)
+  TOFFSET            = 273.0
+  CHARGE        (Q)  = COULOMB
+  FORCE         (f)  = NEWTON (N) (KG-M/SEC2)
+  HEAT               = JOULE (N-M)
+
+  PRESSURE           = PASCAL (NEWTON/M**2)
+  ENERGY        (W)  = JOULE (N-M)
+  POWER         (P)  = WATT (N-M/SEC)
+  CURRENT       (i)  = AMPERE (COULOMBS/SEC)
+  CAPACITANCE   (C)  = FARAD
+  INDUCTANCE    (L)  = HENRY
+  MAGNETIC FLUX      = WEBER
+  RESISTANCE    (R)  = OHM
+  ELECTRIC POTENTIAL = VOLT
+
+ INPUT  UNITS ARE ALSO SET TO MKS 
+
+ *** MAPDL - ENGINEERING ANALYSIS SYSTEM  RELEASE 2025 R2          25.2     ***
+ Ansys Mechanical Enterprise Academic Student      
+ 01055371  VERSION=WINDOWS x64   16:41:19  OCT 02, 2025 CP=      0.250
+
+ Projeto--Steady-State Thermal (B5)                                            
+
+
+
+          ***** MAPDL ANALYSIS DEFINITION (PREP7) *****
+ *********** Send User Defined Coordinate System(s) ***********
+ *********** Nodes for the whole assembly ***********
+ *********** Elements for Body 1 'PJ-002A\Solid' ***********
+ *********** Elements for Body 2 'PJ-002A\Solid' ***********
+ *********** Elements for Body 3 'PJ-002A\Solid' ***********
+ *********** Elements for Body 4 'PJ-002A\Solid' ***********
+ *********** Elements for Body 5 'PJ-002A\Solid' ***********
+ *********** Elements for Body 6 'PJ-002A\Solid' ***********
+ *********** Elements for Body 7 'PJ-002A\Solid' ***********
+ *********** Elements for Body 8 'USB_A_Molex_67643_Horizontal\Solid' **********
+ *********** Elements for Body 9 'USB_A_Molex_67643_Horizontal\Solid' **********
+ *********** Elements for Body 10 '1N5819HW-7\Solid' ***********
+ *********** Elements for Body 11 '1N5819HW-7\Solid' ***********
+ *********** Elements for Body 12 '1N5819HW-7\Solid' ***********
+ *********** Elements for Body 13 'MSOP-10_3x3mm_P0.5mm\MSOP-10_3x3mm_P0.5mm' **
+ *********** Elements for Body 14 'LTST-C150GKT\Solid' ***********
+ *********** Elements for Body 15 'LTST-C150GKT\Solid' ***********
+ *********** Elements for Body 16 'LTST-C150GKT\Solid' ***********
+ *********** Elements for Body 17 'LTST-C150GKT\Solid' ***********
+ *********** Elements for Body 18 'LTST-C150GKT\Solid' ***********
+ *********** Elements for Body 19 'LTST-C150GKT\Solid' ***********
+ *********** Elements for Body 20 'LTST-C150GKT\Solid' ***********
+ *********** Elements for Body 21 'LTST-C150GKT\Solid' ***********
+ *********** Elements for Body 22 'LTST-C150GKT\Solid' ***********
+ *********** Elements for Body 23 'LTST-C150GKT\Solid' ***********
+ *********** Elements for Body 24 'LTST-C150GKT\Solid' ***********
+ *********** Elements for Body 25 'LTST-C150GKT\Solid' ***********
+ *********** Elements for Body 26 'LTST-C150GKT\Solid' ***********
+ *********** Elements for Body 27 'LTST-C150GKT\Solid' ***********
+ *********** Elements for Body 28 'LTST-C150GKT\Solid' ***********
+ *********** Elements for Body 29 'R_0805_2012Metric\R_0805_2012Metric' ********
+ *********** Elements for Body 30 'R_0805_2012Metric\R_0805_2012Metric' ********
+ *********** Elements for Body 31 'R_0805_2012Metric\R_0805_2012Metric' ********
+ *********** Elements for Body 32 'R_0805_2012Metric\R_0805_2012Metric' ********
+ *********** Elements for Body 33 'C_0805_2012Metric\C_0805_2012Metric' ********
+ *********** Elements for Body 34 'C_0805_2012Metric\C_0805_2012Metric' ********
+ *********** Elements for Body 35 'ProjetoI_copper\Solid' ***********
+ *********** Elements for Body 36 'ProjetoI_copper\Solid' ***********
+ *********** Elements for Body 37 'ProjetoI_copper\Solid' ***********
+ *********** Elements for Body 38 'ProjetoI_copper\Solid' ***********
+ *********** Elements for Body 39 'ProjetoI_copper\Solid' ***********
+ *********** Elements for Body 40 'ProjetoI_copper\Solid' ***********
+ *********** Elements for Body 41 'ProjetoI_copper\Solid' ***********
+ *********** Elements for Body 42 'ProjetoI_copper\Solid' ***********
+ *********** Elements for Body 43 'ProjetoI_copper\Solid' ***********
+ *********** Elements for Body 44 'ProjetoI_copper\Solid' ***********
+ *********** Elements for Body 45 'ProjetoI_copper\Solid' ***********
+ *********** Elements for Body 46 'ProjetoI_copper\Solid' ***********
+ *********** Elements for Body 47 'ProjetoI_copper\Solid' ***********
+ *********** Elements for Body 48 'ProjetoI_copper\Solid' ***********
+ *********** Elements for Body 49 'ProjetoI_copper\Solid' ***********
+ *********** Elements for Body 50 'ProjetoI_copper\Solid' ***********
+ *********** Elements for Body 51 'ProjetoI_copper\Solid' ***********
+ *********** Elements for Body 52 'ProjetoI_copper\Solid' ***********
+ *********** Elements for Body 53 'ProjetoI_copper\Solid' ***********
+ *********** Elements for Body 54 'ProjetoI_copper\Solid' ***********
+ *********** Elements for Body 55 'ProjetoI_copper\Solid' ***********
+ *********** Elements for Body 56 'ProjetoI_copper\Solid' ***********
+ *********** Elements for Body 57 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 58 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 59 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 60 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 61 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 62 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 63 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 64 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 65 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 66 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 67 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 68 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 69 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 70 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 71 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 72 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 73 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 74 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 75 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 76 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 77 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 78 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 79 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 80 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 81 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 82 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 83 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 84 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 85 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 86 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 87 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 88 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 89 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 90 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 91 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 92 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 93 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 94 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 95 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 96 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 97 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 98 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 99 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 100 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 101 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 102 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 103 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 104 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 105 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 106 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 107 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 108 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 109 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 110 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 111 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 112 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 113 'ProjetoI_pad\Solid' ***********
+ *********** Elements for Body 114 'ProjetoI_via\Solid' ***********
+ *********** Elements for Body 115 'ProjetoI_via\Solid' ***********
+ *********** Elements for Body 116 'ProjetoI_via\Solid' ***********
+ *********** Elements for Body 117 'ProjetoI_via\Solid' ***********
+ *********** Elements for Body 118 'ProjetoI_via\Solid' ***********
+ *********** Elements for Body 119 'ProjetoI_via\Solid' ***********
+ *********** Elements for Body 120 'ProjetoI_via\Solid' ***********
+ *********** Elements for Body 121 'ProjetoI_via\Solid' ***********
+ *********** Elements for Body 122 'ProjetoI_via\Solid' ***********
+ *********** Elements for Body 123 'ProjetoI_via\Solid' ***********
+ *********** Elements for Body 124 'ProjetoI_via\Solid' ***********
+ *********** Elements for Body 125 'ProjetoI_PCB\ProjetoI_PCB' ***********
+ *********** Elements for Body 126 'ProjetoI_copper\Solid' ***********
+ *********** Elements for Body 127 'ProjetoI_copper\Solid' ***********
+ *********** Elements for Body 128 'ProjetoI_copper\Solid' ***********
+ *********** Send Materials ***********
+ *********** Create Contact "Contact Region" ***********
+             Real Constant Set For Above Contact Is 130 & 129
+ *********** Create Contact "Contact Region 2" ***********
+             Real Constant Set For Above Contact Is 132 & 131
+ *********** Create Contact "Contact Region 3" ***********
+             Real Constant Set For Above Contact Is 134 & 133
+ *********** Create Contact "Contact Region 4" ***********
+             Real Constant Set For Above Contact Is 136 & 135
+ *********** Create Contact "Contact Region 5" ***********
+             Real Constant Set For Above Contact Is 138 & 137
+ *********** Create Contact "Contact Region 6" ***********
+             Real Constant Set For Above Contact Is 140 & 139
+ *********** Create Contact "Contact Region 7" ***********
+             Real Constant Set For Above Contact Is 142 & 141
+ *********** Create Contact "Contact Region 8" ***********
+             Real Constant Set For Above Contact Is 144 & 143
+ *********** Create Contact "Contact Region 9" ***********
+             Real Constant Set For Above Contact Is 146 & 145
+ *********** Create Contact "Contact Region 10" ***********
+             Real Constant Set For Above Contact Is 148 & 147
+ *********** Create Contact "Contact Region 11" ***********
+             Real Constant Set For Above Contact Is 150 & 149
+ *********** Create Contact "Contact Region 12" ***********
+             Real Constant Set For Above Contact Is 152 & 151
+ *********** Create Contact "Contact Region 13" ***********
+             Real Constant Set For Above Contact Is 154 & 153
+ *********** Create Contact "Contact Region 14" ***********
+             Real Constant Set For Above Contact Is 156 & 155
+ *********** Create Contact "Contact Region 15" ***********
+             Real Constant Set For Above Contact Is 158 & 157
+ *********** Create Contact "Contact Region 16" ***********
+             Real Constant Set For Above Contact Is 160 & 159
+ *********** Create Contact "Contact Region 17" ***********
+             Real Constant Set For Above Contact Is 162 & 161
+ *********** Create Contact "Contact Region 18" ***********
+             Real Constant Set For Above Contact Is 164 & 163
+ *********** Create Contact "Contact Region 19" ***********
+             Real Constant Set For Above Contact Is 166 & 165
+ *********** Create Contact "Contact Region 20" ***********
+             Real Constant Set For Above Contact Is 168 & 167
+ *********** Create Contact "Contact Region 21" ***********
+             Real Constant Set For Above Contact Is 170 & 169
+ *********** Create Contact "Contact Region 22" ***********
+             Real Constant Set For Above Contact Is 172 & 171
+ *********** Create Contact "Contact Region 23" ***********
+             Real Constant Set For Above Contact Is 174 & 173
+ *********** Create Contact "Contact Region 24" ***********
+             Real Constant Set For Above Contact Is 176 & 175
+ *********** Create Contact "Contact Region 25" ***********
+             Real Constant Set For Above Contact Is 178 & 177
+ *********** Create Contact "Contact Region 30" ***********
+             Real Constant Set For Above Contact Is 180 & 179
+ *********** Create Contact "Contact Region 31" ***********
+             Real Constant Set For Above Contact Is 182 & 181
+ *********** Create Contact "Contact Region 32" ***********
+             Real Constant Set For Above Contact Is 184 & 183
+ *********** Create Contact "Contact Region 33" ***********
+             Real Constant Set For Above Contact Is 186 & 185
+ *********** Create Contact "Contact Region 34" ***********
+             Real Constant Set For Above Contact Is 188 & 187
+ *********** Create Contact "Contact Region 35" ***********
+             Real Constant Set For Above Contact Is 190 & 189
+ *********** Create Contact "Contact Region 49" ***********
+             Real Constant Set For Above Contact Is 192 & 191
+ *********** Create Contact "Contact Region 50" ***********
+             Real Constant Set For Above Contact Is 194 & 193
+ *********** Create Contact "Contact Region 51" ***********
+             Real Constant Set For Above Contact Is 196 & 195
+ *********** Create Contact "Contact Region 52" ***********
+             Real Constant Set For Above Contact Is 198 & 197
+ *********** Create Contact "Contact Region 53" ***********
+             Real Constant Set For Above Contact Is 200 & 199
+ *********** Create Contact "Contact Region 55" ***********
+             Real Constant Set For Above Contact Is 202 & 201
+ *********** Create Contact "Contact Region 56" ***********
+             Real Constant Set For Above Contact Is 204 & 203
+ *********** Create Contact "Contact Region 57" ***********
+             Real Constant Set For Above Contact Is 206 & 205
+ *********** Create Contact "Contact Region 58" ***********
+             Real Constant Set For Above Contact Is 208 & 207
+ *********** Create Contact "Contact Region 59" ***********
+             Real Constant Set For Above Contact Is 210 & 209
+ *********** Create Contact "Contact Region 60" ***********
+             Real Constant Set For Above Contact Is 212 & 211
+ *********** Create Contact "Contact Region 61" ***********
+             Real Constant Set For Above Contact Is 214 & 213
+ *********** Create Contact "Contact Region 62" ***********
+             Real Constant Set For Above Contact Is 216 & 215
+ *********** Create Contact "Contact Region 63" ***********
+             Real Constant Set For Above Contact Is 218 & 217
+ *********** Create Contact "Contact Region 64" ***********
+             Real Constant Set For Above Contact Is 220 & 219
+ *********** Create Contact "Contact Region 65" ***********
+             Real Constant Set For Above Contact Is 222 & 221
+ *********** Create Contact "Contact Region 66" ***********
+             Real Constant Set For Above Contact Is 224 & 223
+ *********** Create Contact "Contact Region 67" ***********
+             Real Constant Set For Above Contact Is 226 & 225
+ *********** Create Contact "Contact Region 68" ***********
+             Real Constant Set For Above Contact Is 228 & 227
+ *********** Create Contact "Contact Region 69" ***********
+             Real Constant Set For Above Contact Is 230 & 229
+ *********** Create Contact "Contact Region 70" ***********
+             Real Constant Set For Above Contact Is 232 & 231
+ *********** Create Contact "Contact Region 71" ***********
+             Real Constant Set For Above Contact Is 234 & 233
+ *********** Create Contact "Contact Region 72" ***********
+             Real Constant Set For Above Contact Is 236 & 235
+ *********** Create Contact "Contact Region 73" ***********
+             Real Constant Set For Above Contact Is 238 & 237
+ *********** Create Contact "Contact Region 74" ***********
+             Real Constant Set For Above Contact Is 240 & 239
+ *********** Create Contact "Contact Region 75" ***********
+             Real Constant Set For Above Contact Is 242 & 241
+ *********** Create Contact "Contact Region 76" ***********
+             Real Constant Set For Above Contact Is 244 & 243
+ *********** Create Contact "Contact Region 77" ***********
+             Real Constant Set For Above Contact Is 246 & 245
+ *********** Create Contact "Contact Region 78" ***********
+             Real Constant Set For Above Contact Is 248 & 247
+ *********** Create Contact "Contact Region 79" ***********
+             Real Constant Set For Above Contact Is 250 & 249
+ *********** Create Contact "Contact Region 80" ***********
+             Real Constant Set For Above Contact Is 252 & 251
+ *********** Create Contact "Contact Region 81" ***********
+             Real Constant Set For Above Contact Is 254 & 253
+ *********** Create Contact "Contact Region 82" ***********
+             Real Constant Set For Above Contact Is 256 & 255
+ *********** Create Contact "Contact Region 83" ***********
+             Real Constant Set For Above Contact Is 258 & 257
+ *********** Create Contact "Contact Region 84" ***********
+             Real Constant Set For Above Contact Is 260 & 259
+ *********** Create Contact "Contact Region 85" ***********
+             Real Constant Set For Above Contact Is 262 & 261
+ *********** Create Contact "Contact Region 86" ***********
+             Real Constant Set For Above Contact Is 264 & 263
+ *********** Create Contact "Contact Region 87" ***********
+             Real Constant Set For Above Contact Is 266 & 265
+ *********** Create Contact "Contact Region 88" ***********
+             Real Constant Set For Above Contact Is 268 & 267
+ *********** Create Contact "Contact Region 89" ***********
+             Real Constant Set For Above Contact Is 270 & 269
+ *********** Create Contact "Contact Region 90" ***********
+             Real Constant Set For Above Contact Is 272 & 271
+ *********** Create Contact "Contact Region 91" ***********
+             Real Constant Set For Above Contact Is 274 & 273
+ *********** Create Contact "Contact Region 92" ***********
+             Real Constant Set For Above Contact Is 276 & 275
+ *********** Create Contact "Contact Region 93" ***********
+             Real Constant Set For Above Contact Is 278 & 277
+ *********** Create Contact "Contact Region 94" ***********
+             Real Constant Set For Above Contact Is 280 & 279
+ *********** Create Contact "Contact Region 95" ***********
+             Real Constant Set For Above Contact Is 282 & 281
+ *********** Create Contact "Contact Region 96" ***********
+             Real Constant Set For Above Contact Is 284 & 283
+ *********** Create Contact "Contact Region 97" ***********
+             Real Constant Set For Above Contact Is 286 & 285
+ *********** Create Contact "Contact Region 98" ***********
+             Real Constant Set For Above Contact Is 288 & 287
+ *********** Create Contact "Contact Region 99" ***********
+             Real Constant Set For Above Contact Is 290 & 289
+ *********** Create Contact "Contact Region 100" ***********
+             Real Constant Set For Above Contact Is 292 & 291
+ *********** Create Contact "Contact Region 101" ***********
+             Real Constant Set For Above Contact Is 294 & 293
+ *********** Create Contact "Contact Region 102" ***********
+             Real Constant Set For Above Contact Is 296 & 295
+ *********** Create Contact "Contact Region 103" ***********
+             Real Constant Set For Above Contact Is 298 & 297
+ *********** Create Contact "Contact Region 104" ***********
+             Real Constant Set For Above Contact Is 300 & 299
+ *********** Create Contact "Contact Region 105" ***********
+             Real Constant Set For Above Contact Is 302 & 301
+ *********** Create Contact "Contact Region 106" ***********
+             Real Constant Set For Above Contact Is 304 & 303
+ *********** Create Contact "Contact Region 107" ***********
+             Real Constant Set For Above Contact Is 306 & 305
+ *********** Create Contact "Contact Region 108" ***********
+             Real Constant Set For Above Contact Is 308 & 307
+ *********** Create Contact "Contact Region 110" ***********
+             Real Constant Set For Above Contact Is 310 & 309
+ *********** Create Contact "Contact Region 111" ***********
+             Real Constant Set For Above Contact Is 312 & 311
+ *********** Create Contact "Contact Region 112" ***********
+             Real Constant Set For Above Contact Is 314 & 313
+ *********** Create Contact "Contact Region 113" ***********
+             Real Constant Set For Above Contact Is 316 & 315
+ *********** Create Contact "Contact Region 114" ***********
+             Real Constant Set For Above Contact Is 318 & 317
+ *********** Create Contact "Contact Region 115" ***********
+             Real Constant Set For Above Contact Is 320 & 319
+ *********** Create Contact "Contact Region 116" ***********
+             Real Constant Set For Above Contact Is 322 & 321
+ *********** Create Contact "Contact Region 117" ***********
+             Real Constant Set For Above Contact Is 324 & 323
+ *********** Create Contact "Contact Region 118" ***********
+             Real Constant Set For Above Contact Is 326 & 325
+ *********** Create Contact "Contact Region 119" ***********
+             Real Constant Set For Above Contact Is 328 & 327
+ *********** Create Contact "Contact Region 120" ***********
+             Real Constant Set For Above Contact Is 330 & 329
+ *********** Create Contact "Contact Region 121" ***********
+             Real Constant Set For Above Contact Is 332 & 331
+ *********** Create Contact "Contact Region 122" ***********
+             Real Constant Set For Above Contact Is 334 & 333
+ *********** Create Contact "Contact Region 123" ***********
+             Real Constant Set For Above Contact Is 336 & 335
+ *********** Create Contact "Contact Region 124" ***********
+             Real Constant Set For Above Contact Is 338 & 337
+ *********** Create Contact "Contact Region 125" ***********
+             Real Constant Set For Above Contact Is 340 & 339
+ *********** Create Contact "Contact Region 126" ***********
+             Real Constant Set For Above Contact Is 342 & 341
+ *********** Create Contact "Contact Region 127" ***********
+             Real Constant Set For Above Contact Is 344 & 343
+ *********** Create Contact "Contact Region 128" ***********
+             Real Constant Set For Above Contact Is 346 & 345
+ *********** Create Contact "Contact Region 131" ***********
+             Real Constant Set For Above Contact Is 348 & 347
+ *********** Create Contact "Contact Region 132" ***********
+             Real Constant Set For Above Contact Is 350 & 349
+ *********** Create Contact "Contact Region 133" ***********
+             Real Constant Set For Above Contact Is 352 & 351
+ *********** Create Contact "Contact Region 135" ***********
+             Real Constant Set For Above Contact Is 354 & 353
+ *********** Create Contact "Contact Region 136" ***********
+             Real Constant Set For Above Contact Is 356 & 355
+ *********** Create Contact "Contact Region 137" ***********
+             Real Constant Set For Above Contact Is 358 & 357
+ *********** Create Contact "Contact Region 138" ***********
+             Real Constant Set For Above Contact Is 360 & 359
+ *********** Create Contact "Contact Region 147" ***********
+             Real Constant Set For Above Contact Is 362 & 361
+ *********** Create Contact "Contact Region 148" ***********
+             Real Constant Set For Above Contact Is 364 & 363
+ *********** Create Contact "Contact Region 149" ***********
+             Real Constant Set For Above Contact Is 366 & 365
+ *********** Create Contact "Contact Region 150" ***********
+             Real Constant Set For Above Contact Is 368 & 367
+ *********** Create Contact "Contact Region 151" ***********
+             Real Constant Set For Above Contact Is 370 & 369
+ *********** Create Contact "Contact Region 152" ***********
+             Real Constant Set For Above Contact Is 372 & 371
+ *********** Create Contact "Contact Region 153" ***********
+             Real Constant Set For Above Contact Is 374 & 373
+ *********** Create Contact "Contact Region 154" ***********
+             Real Constant Set For Above Contact Is 376 & 375
+ *********** Create Contact "Contact Region 155" ***********
+             Real Constant Set For Above Contact Is 378 & 377
+ *********** Create Contact "Contact Region 156" ***********
+             Real Constant Set For Above Contact Is 380 & 379
+ *********** Create Contact "Contact Region 157" ***********
+             Real Constant Set For Above Contact Is 382 & 381
+ *********** Create Contact "Contact Region 165" ***********
+             Real Constant Set For Above Contact Is 384 & 383
+ *********** Create Contact "Contact Region 166" ***********
+             Real Constant Set For Above Contact Is 386 & 385
+ *********** Create Contact "Contact Region 167" ***********
+             Real Constant Set For Above Contact Is 388 & 387
+ *********** Create Contact "Contact Region 168" ***********
+             Real Constant Set For Above Contact Is 390 & 389
+ *********** Create Contact "Contact Region 169" ***********
+             Real Constant Set For Above Contact Is 392 & 391
+ *********** Create Contact "Contact Region 170" ***********
+             Real Constant Set For Above Contact Is 394 & 393
+ *********** Create Contact "Contact Region 171" ***********
+             Real Constant Set For Above Contact Is 396 & 395
+ *********** Create Contact "Contact Region 172" ***********
+             Real Constant Set For Above Contact Is 398 & 397
+ *********** Create Contact "Contact Region 176" ***********
+             Real Constant Set For Above Contact Is 400 & 399
+ *********** Create Contact "Contact Region 177" ***********
+             Real Constant Set For Above Contact Is 402 & 401
+ *********** Create Contact "Contact Region 178" ***********
+             Real Constant Set For Above Contact Is 404 & 403
+ *********** Create Contact "Contact Region 179" ***********
+             Real Constant Set For Above Contact Is 406 & 405
+ *********** Create Contact "Contact Region 180" ***********
+             Real Constant Set For Above Contact Is 408 & 407
+ *********** Create Contact "Contact Region 181" ***********
+             Real Constant Set For Above Contact Is 410 & 409
+ *********** Create Contact "Contact Region 182" ***********
+             Real Constant Set For Above Contact Is 412 & 411
+ *********** Create Contact "Contact Region 188" ***********
+             Real Constant Set For Above Contact Is 414 & 413
+ *********** Create Contact "Contact Region 189" ***********
+             Real Constant Set For Above Contact Is 416 & 415
+ *********** Create Contact "Contact Region 190" ***********
+             Real Constant Set For Above Contact Is 418 & 417
+ *********** Create Contact "Contact Region 191" ***********
+             Real Constant Set For Above Contact Is 420 & 419
+ *********** Create Contact "Contact Region 192" ***********
+             Real Constant Set For Above Contact Is 422 & 421
+ *********** Create Contact "Contact Region 193" ***********
+             Real Constant Set For Above Contact Is 424 & 423
+ *********** Create Contact "Contact Region 194" ***********
+             Real Constant Set For Above Contact Is 426 & 425
+ *********** Create Contact "Contact Region 195" ***********
+             Real Constant Set For Above Contact Is 428 & 427
+ *********** Create Contact "Contact Region 196" ***********
+             Real Constant Set For Above Contact Is 430 & 429
+ *********** Create Contact "Contact Region 198" ***********
+             Real Constant Set For Above Contact Is 432 & 431
+ *********** Create Contact "Contact Region 199" ***********
+             Real Constant Set For Above Contact Is 434 & 433
+ *********** Create Contact "Contact Region 200" ***********
+             Real Constant Set For Above Contact Is 436 & 435
+ *********** Create Contact "Contact Region 201" ***********
+             Real Constant Set For Above Contact Is 438 & 437
+ *********** Create Contact "Contact Region 202" ***********
+             Real Constant Set For Above Contact Is 440 & 439
+ *********** Create Contact "Contact Region 203" ***********
+             Real Constant Set For Above Contact Is 442 & 441
+ *********** Create Contact "Contact Region 204" ***********
+             Real Constant Set For Above Contact Is 444 & 443
+ *********** Create Contact "Contact Region 205" ***********
+             Real Constant Set For Above Contact Is 446 & 445
+ *********** Create Contact "Contact Region 206" ***********
+             Real Constant Set For Above Contact Is 448 & 447
+ *********** Create Contact "Contact Region 207" ***********
+             Real Constant Set For Above Contact Is 450 & 449
+ *********** Create Contact "Contact Region 208" ***********
+             Real Constant Set For Above Contact Is 452 & 451
+ *********** Create Contact "Contact Region 209" ***********
+             Real Constant Set For Above Contact Is 454 & 453
+ *********** Create Contact "Contact Region 210" ***********
+             Real Constant Set For Above Contact Is 456 & 455
+ *********** Create Contact "Contact Region 211" ***********
+             Real Constant Set For Above Contact Is 458 & 457
+ *********** Create Contact "Contact Region 212" ***********
+             Real Constant Set For Above Contact Is 460 & 459
+ *********** Create Contact "Contact Region 213" ***********
+             Real Constant Set For Above Contact Is 462 & 461
+ *********** Create Contact "Contact Region 214" ***********
+             Real Constant Set For Above Contact Is 464 & 463
+ *********** Create Contact "Contact Region 215" ***********
+             Real Constant Set For Above Contact Is 466 & 465
+ *********** Create Contact "Contact Region 216" ***********
+             Real Constant Set For Above Contact Is 468 & 467
+ *********** Create Contact "Contact Region 217" ***********
+             Real Constant Set For Above Contact Is 470 & 469
+ *********** Create Contact "Contact Region 218" ***********
+             Real Constant Set For Above Contact Is 472 & 471
+ *********** Create Contact "Contact Region 219" ***********
+             Real Constant Set For Above Contact Is 474 & 473
+ *********** Create Contact "Contact Region 220" ***********
+             Real Constant Set For Above Contact Is 476 & 475
+ *********** Create Contact "Contact Region 221" ***********
+             Real Constant Set For Above Contact Is 478 & 477
+ *********** Create Contact "Contact Region 222" ***********
+             Real Constant Set For Above Contact Is 480 & 479
+ *********** Create Contact "Contact Region 223" ***********
+             Real Constant Set For Above Contact Is 482 & 481
+ *********** Create Contact "Contact Region 224" ***********
+             Real Constant Set For Above Contact Is 484 & 483
+ *********** Create Contact "Contact Region 225" ***********
+             Real Constant Set For Above Contact Is 486 & 485
+ *********** Create Contact "Contact Region 226" ***********
+             Real Constant Set For Above Contact Is 488 & 487
+ *********** Create Contact "Contact Region 227" ***********
+             Real Constant Set For Above Contact Is 490 & 489
+ *********** Create Contact "Contact Region 228" ***********
+             Real Constant Set For Above Contact Is 492 & 491
+ *********** Create Contact "Contact Region 229" ***********
+             Real Constant Set For Above Contact Is 494 & 493
+ *********** Create Contact "Contact Region 230" ***********
+             Real Constant Set For Above Contact Is 496 & 495
+ *********** Create Contact "Contact Region 231" ***********
+             Real Constant Set For Above Contact Is 498 & 497
+ *********** Create Contact "Contact Region 232" ***********
+             Real Constant Set For Above Contact Is 500 & 499
+ *********** Create Contact "Contact Region 233" ***********
+             Real Constant Set For Above Contact Is 502 & 501
+ *********** Create Contact "Contact Region 234" ***********
+             Real Constant Set For Above Contact Is 504 & 503
+ *********** Create Contact "Contact Region 235" ***********
+             Real Constant Set For Above Contact Is 506 & 505
+ *********** Create Contact "Contact Region 236" ***********
+             Real Constant Set For Above Contact Is 508 & 507
+ *********** Create Contact "Contact Region 237" ***********
+             Real Constant Set For Above Contact Is 510 & 509
+ *********** Create Contact "Contact Region 238" ***********
+             Real Constant Set For Above Contact Is 512 & 511
+ *********** Create Contact "Contact Region 239" ***********
+             Real Constant Set For Above Contact Is 514 & 513
+ *********** Create Contact "Contact Region 240" ***********
+             Real Constant Set For Above Contact Is 516 & 515
+ *********** Create Contact "Contact Region 241" ***********
+             Real Constant Set For Above Contact Is 518 & 517
+ *********** Create Contact "Contact Region 242" ***********
+             Real Constant Set For Above Contact Is 520 & 519
+ *********** Create Contact "Contact Region 243" ***********
+             Real Constant Set For Above Contact Is 522 & 521
+ *********** Create Contact "Contact Region 244" ***********
+             Real Constant Set For Above Contact Is 524 & 523
+ *********** Create Contact "Contact Region 245" ***********
+             Real Constant Set For Above Contact Is 526 & 525
+ *********** Create Contact "Contact Region 246" ***********
+             Real Constant Set For Above Contact Is 528 & 527
+ *********** Create Contact "Contact Region 247" ***********
+             Real Constant Set For Above Contact Is 530 & 529
+ *********** Create Contact "Contact Region 248" ***********
+             Real Constant Set For Above Contact Is 532 & 531
+ *********** Create Contact "Contact Region 249" ***********
+             Real Constant Set For Above Contact Is 534 & 533
+ *********** Create Contact "Contact Region 250" ***********
+             Real Constant Set For Above Contact Is 536 & 535
+ *********** Create Contact "Contact Region 251" ***********
+             Real Constant Set For Above Contact Is 538 & 537
+ *********** Create Contact "Contact Region 252" ***********
+             Real Constant Set For Above Contact Is 540 & 539
+ *********** Create Contact "Contact Region 253" ***********
+             Real Constant Set For Above Contact Is 542 & 541
+ *********** Create Contact "Contact Region 254" ***********
+             Real Constant Set For Above Contact Is 544 & 543
+ *********** Create Contact "Contact Region 255" ***********
+             Real Constant Set For Above Contact Is 546 & 545
+ *********** Create Contact "Contact Region 256" ***********
+             Real Constant Set For Above Contact Is 548 & 547
+ *********** Create Contact "Contact Region 257" ***********
+             Real Constant Set For Above Contact Is 550 & 549
+ *********** Create Contact "Contact Region 258" ***********
+             Real Constant Set For Above Contact Is 552 & 551
+ *********** Create Contact "Contact Region 259" ***********
+             Real Constant Set For Above Contact Is 554 & 553
+ *********** Create Contact "Contact Region 260" ***********
+             Real Constant Set For Above Contact Is 556 & 555
+ *********** Create Contact "Contact Region 261" ***********
+             Real Constant Set For Above Contact Is 558 & 557
+ *********** Create Contact "Contact Region 262" ***********
+             Real Constant Set For Above Contact Is 560 & 559
+ *********** Create Contact "Contact Region 263" ***********
+             Real Constant Set For Above Contact Is 562 & 561
+ *********** Create Contact "Contact Region 264" ***********
+             Real Constant Set For Above Contact Is 564 & 563
+ *********** Create Contact "Contact Region 265" ***********
+             Real Constant Set For Above Contact Is 566 & 565
+ *********** Create Contact "Contact Region 266" ***********
+             Real Constant Set For Above Contact Is 568 & 567
+ *********** Create Contact "Contact Region 267" ***********
+             Real Constant Set For Above Contact Is 570 & 569
+ *********** Create Contact "Contact Region 268" ***********
+             Real Constant Set For Above Contact Is 572 & 571
+ *********** Create Contact "Contact Region 269" ***********
+             Real Constant Set For Above Contact Is 574 & 573
+ *********** Create Contact "Contact Region 270" ***********
+             Real Constant Set For Above Contact Is 576 & 575
+ *********** Create Contact "Contact Region 271" ***********
+             Real Constant Set For Above Contact Is 578 & 577
+ *********** Create Contact "Contact Region 272" ***********
+             Real Constant Set For Above Contact Is 580 & 579
+ *********** Create Contact "Contact Region 273" ***********
+             Real Constant Set For Above Contact Is 582 & 581
+ *********** Create Contact "Contact Region 274" ***********
+             Real Constant Set For Above Contact Is 584 & 583
+ *********** Create Contact "Contact Region 275" ***********
+             Real Constant Set For Above Contact Is 586 & 585
+ *********** Create Contact "Contact Region 276" ***********
+             Real Constant Set For Above Contact Is 588 & 587
+ *********** Create Contact "Contact Region 277" ***********
+             Real Constant Set For Above Contact Is 590 & 589
+ *********** Create Contact "Contact Region 278" ***********
+             Real Constant Set For Above Contact Is 592 & 591
+ *********** Create Contact "Contact Region 279" ***********
+             Real Constant Set For Above Contact Is 594 & 593
+ *********** Create Contact "Contact Region 280" ***********
+             Real Constant Set For Above Contact Is 596 & 595
+ *********** Create Contact "Contact Region 281" ***********
+             Real Constant Set For Above Contact Is 598 & 597
+ *********** Create Contact "Contact Region 282" ***********
+             Real Constant Set For Above Contact Is 600 & 599
+ *********** Create Contact "Contact Region 283" ***********
+             Real Constant Set For Above Contact Is 602 & 601
+ *********** Create Contact "Contact Region 284" ***********
+             Real Constant Set For Above Contact Is 604 & 603
+ *********** Create Contact "Contact Region 285" ***********
+             Real Constant Set For Above Contact Is 606 & 605
+ *********** Create Contact "Contact Region 286" ***********
+             Real Constant Set For Above Contact Is 608 & 607
+ *********** Create Contact "Contact Region 287" ***********
+             Real Constant Set For Above Contact Is 610 & 609
+ *********** Create Contact "Contact Region 288" ***********
+             Real Constant Set For Above Contact Is 612 & 611
+ *********** Create Contact "Contact Region 289" ***********
+             Real Constant Set For Above Contact Is 614 & 613
+ *********** Create Contact "Contact Region 290" ***********
+             Real Constant Set For Above Contact Is 616 & 615
+ *********** Create Contact "Contact Region 291" ***********
+             Real Constant Set For Above Contact Is 618 & 617
+ *********** Create Contact "Contact Region 292" ***********
+             Real Constant Set For Above Contact Is 620 & 619
+ *********** Create Contact "Contact Region 293" ***********
+             Real Constant Set For Above Contact Is 622 & 621
+ *********** Create Contact "Contact Region 294" ***********
+             Real Constant Set For Above Contact Is 624 & 623
+ *********** Create Contact "Contact Region 295" ***********
+             Real Constant Set For Above Contact Is 626 & 625
+ *********** Create Contact "Contact Region 296" ***********
+             Real Constant Set For Above Contact Is 628 & 627
+ *********** Create Contact "Contact Region 297" ***********
+             Real Constant Set For Above Contact Is 630 & 629
+ *********** Create Contact "Contact Region 298" ***********
+             Real Constant Set For Above Contact Is 632 & 631
+ *********** Create Contact "Contact Region 299" ***********
+             Real Constant Set For Above Contact Is 634 & 633
+ *********** Create Contact "Contact Region 300" ***********
+             Real Constant Set For Above Contact Is 636 & 635
+ *********** Create Contact "Contact Region 301" ***********
+             Real Constant Set For Above Contact Is 638 & 637
+ *********** Create Contact "Contact Region 302" ***********
+             Real Constant Set For Above Contact Is 640 & 639
+ *********** Create Contact "Contact Region 303" ***********
+             Real Constant Set For Above Contact Is 642 & 641
+ *********** Create Contact "Contact Region 304" ***********
+             Real Constant Set For Above Contact Is 644 & 643
+ *********** Create Contact "Contact Region 308" ***********
+             Real Constant Set For Above Contact Is 646 & 645
+ *********** Create Contact "Contact Region 309" ***********
+             Real Constant Set For Above Contact Is 648 & 647
+ *********** Create Contact "Contact Region 305" ***********
+             Real Constant Set For Above Contact Is 650 & 649
+ *********** Create Contact "Contact Region 306" ***********
+             Real Constant Set For Above Contact Is 652 & 651
+ *********** Create Contact "Contact Region 307" ***********
+             Real Constant Set For Above Contact Is 654 & 653
+ *********** Create Contact "Contact Region 310" ***********
+             Real Constant Set For Above Contact Is 656 & 655
+ *********** Create Contact "Contact Region 311" ***********
+             Real Constant Set For Above Contact Is 658 & 657
+ *********** Create Contact "Contact Region 312" ***********
+             Real Constant Set For Above Contact Is 660 & 659
+ *********** Create Contact "Contact Region 313" ***********
+             Real Constant Set For Above Contact Is 662 & 661
+ *********** Create Contact "Contact Region 314" ***********
+             Real Constant Set For Above Contact Is 664 & 663
+ *********** Create Contact "Contact Region 315" ***********
+             Real Constant Set For Above Contact Is 666 & 665
+ *********** Create Contact "Contact Region 316" ***********
+             Real Constant Set For Above Contact Is 668 & 667
+ *********** Create Contact "Contact Region 317" ***********
+             Real Constant Set For Above Contact Is 670 & 669
+ *********** Create Contact "Contact Region 318" ***********
+             Real Constant Set For Above Contact Is 672 & 671
+ *********** Create Contact "Contact Region 319" ***********
+             Real Constant Set For Above Contact Is 674 & 673
+ *********** Create Contact "Contact Region 320" ***********
+             Real Constant Set For Above Contact Is 676 & 675
+ *********** Create Contact "Contact Region 321" ***********
+             Real Constant Set For Above Contact Is 678 & 677
+ *********** Create Contact "Contact Region 322" ***********
+             Real Constant Set For Above Contact Is 680 & 679
+ *********** Create Contact "Contact Region 323" ***********
+             Real Constant Set For Above Contact Is 682 & 681
+ *********** Create Contact "Contact Region 324" ***********
+             Real Constant Set For Above Contact Is 684 & 683
+ *********** Create Contact "Contact Region 325" ***********
+             Real Constant Set For Above Contact Is 686 & 685
+ *********** Create Contact "Contact Region 326" ***********
+             Real Constant Set For Above Contact Is 688 & 687
+ *********** Create Contact "Contact Region 327" ***********
+             Real Constant Set For Above Contact Is 690 & 689
+ *********** Create Contact "Contact Region 328" ***********
+             Real Constant Set For Above Contact Is 692 & 691
+ *********** Create Contact "Contact Region 329" ***********
+             Real Constant Set For Above Contact Is 694 & 693
+ *********** Create Contact "Contact Region 330" ***********
+             Real Constant Set For Above Contact Is 696 & 695
+ *********** Create Contact "Contact Region 331" ***********
+             Real Constant Set For Above Contact Is 698 & 697
+ *********** Create Contact "Contact Region 332" ***********
+             Real Constant Set For Above Contact Is 700 & 699
+ *********** Create Contact "Contact Region 333" ***********
+             Real Constant Set For Above Contact Is 702 & 701
+ *********** Create Contact "Contact Region 334" ***********
+             Real Constant Set For Above Contact Is 704 & 703
+ *********** Create Contact "Contact Region 335" ***********
+             Real Constant Set For Above Contact Is 706 & 705
+ *********** Create Contact "Contact Region 336" ***********
+             Real Constant Set For Above Contact Is 708 & 707
+ *********** Create Contact "Contact Region 337" ***********
+             Real Constant Set For Above Contact Is 710 & 709
+ *********** Create Contact "Contact Region 338" ***********
+             Real Constant Set For Above Contact Is 712 & 711
+ *********** Create Contact "Contact Region 339" ***********
+             Real Constant Set For Above Contact Is 714 & 713
+ *********** Create "Convection" ***********
+ *********** Create "Internal Heat Generation" ***********
+ ***************** Define Uniform Initial temperature ***************
+
+
+ ***** ROUTINE COMPLETED *****  CP =         0.547
+
+
+ --- Number of total nodes = 74270
+ --- Number of contact elements = 40038
+ --- Number of spring elements = 0
+ --- Number of bearing elements = 0
+ --- Number of solid elements = 24882
+ --- Number of condensed parts = 0
+ --- Number of total elements = 64920
+
+ *GET  _WALLBSOL  FROM  ACTI  ITEM=TIME WALL  VALUE=  16.6886111    
+ ****************************************************************************
+ *************************    SOLUTION       ********************************
+ ****************************************************************************
+
+ *****  MAPDL SOLUTION ROUTINE  *****
+
+
+ PERFORM A STATIC ANALYSIS
+  THIS WILL BE A NEW ANALYSIS
+
+ CONTACT INFORMATION PRINTOUT LEVEL       1
+
+ CONTACT PAIR INFO IS WRITTEN TO FILE= file.cnm                                                                                                                                                                                                                                                            
+
+ DO NOT SAVE ANY RESTART FILES AT ALL
+
+ DO NOT COMBINE ELEMENT MATRIX FILES (.emat) AFTER DISTRIBUTED PARALLEL SOLUTION
+
+ DO NOT COMBINE ELEMENT SAVE DATA FILES (.esav) AFTER DISTRIBUTED PARALLEL SOLUTION
+ ****************************************************
+ ******************* SOLVE FOR LS 1 OF 1 ****************
+
+ SELECT       FOR ITEM=TYPE COMPONENT=    
+  IN RANGE       715 TO        715 STEP          1
+
+       1774  ELEMENTS (OF      64920  DEFINED) SELECTED BY  ESEL  COMMAND.
+
+ SELECT      ALL NODES HAVING ANY ELEMENT IN ELEMENT SET.
+
+       5034 NODES (OF      74270  DEFINED) SELECTED FROM
+     1774 SELECTED ELEMENTS BY NSLE COMMAND.
+
+ GENERATE SURFACE LOAD CONV ON SURFACE DEFINED BY ALL SELECTED NODES
+ VALUES=  5.00000000      22.0000000    
+
+ NUMBER OF CONV ELEMENT FACE LOADS STORED =       1774
+
+ ALL SELECT   FOR ITEM=NODE COMPONENT=    
+  IN RANGE         1 TO      76477 STEP          1
+
+      74270  NODES (OF      74270  DEFINED) SELECTED BY NSEL  COMMAND.
+
+ ALL SELECT   FOR ITEM=ELEM COMPONENT=    
+  IN RANGE         1 TO      91976 STEP          1
+
+      64920  ELEMENTS (OF      64920  DEFINED) SELECTED BY  ESEL  COMMAND.
+
+ SPECIFIED BODY FORCE HGEN FOR ALL PICKED ELEMENTS AT STARTING LOCATION      1
+    55000000.0      0.00000000      0.00000000      0.00000000    
+
+ PRINTOUT RESUMED BY /GOP
+
+ USE AUTOMATIC TIME STEPPING THIS LOAD STEP
+
+ USE       1 SUBSTEPS INITIALLY THIS LOAD STEP FOR ALL  DEGREES OF FREEDOM
+ FOR AUTOMATIC TIME STEPPING:
+   USE     10 SUBSTEPS AS A MAXIMUM
+   USE      1 SUBSTEPS AS A MINIMUM
+
+ TIME=  1.0000    
+
+ ERASE THE CURRENT DATABASE OUTPUT CONTROL TABLE.
+
+
+ WRITE ALL  ITEMS TO THE DATABASE WITH A FREQUENCY OF NONE
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE NSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE RSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EANG ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE VENG ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE FFLU ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE CONT ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ PRINTOUT RESUMED BY /GOP
+
+ WRITE MISC ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR THE ENTITIES DEFINED BY COMPONENT _ELMISC 
+
+ CONVERGENCE ON HEAT BASED ON THE NORM OF THE N-R LOAD
+   WITH A TOLERANCE OF 0.1000E-02 AND A MINIMUM REFERENCE VALUE OF 0.1000E-05
+   USING THE L2 NORM (CHECK THE SRSS VALUE)
+
+ *GET  ANSINTER_  FROM  ACTI  ITEM=INT        VALUE=  0.00000000    
+
+ *IF  ANSINTER_  ( =   0.00000     )  NE  
+      0  ( =   0.00000     )  THEN    
+
+ *ENDIF
+
+ *** NOTE ***                            CP =       0.672   TIME= 16:41:19
+ The automatic domain decomposition logic has selected the MESH domain   
+ decomposition method with 4 processes per solution.                     
+
+ *****  MAPDL SOLVE    COMMAND  *****
+
+ *** WARNING ***                         CP =       0.766   TIME= 16:41:19
+ Element shape checking is currently inactive.  Issue SHPP,ON or         
+ SHPP,WARN to reactivate, if desired.                                    
+
+ *** NOTE ***                            CP =       0.812   TIME= 16:41:19
+ The model data was checked and warning messages were found.             
+  Please review output or errors file (                                  
+ C:\Users\andre\Desktop\PBLE00\Projeto-Ansys\_ProjectScratch\Scr9207\fil 
+ le0.err ) for these warning messages.                                   
+
+ *** MAPDL - ENGINEERING ANALYSIS SYSTEM  RELEASE 2025 R2          25.2     ***
+ Ansys Mechanical Enterprise Academic Student      
+ 01055371  VERSION=WINDOWS x64   16:41:19  OCT 02, 2025 CP=      0.812
+
+ Projeto--Steady-State Thermal (B5)                                            
+
+
+
+                       S O L U T I O N   O P T I O N S
+
+   PROBLEM DIMENSIONALITY. . . . . . . . . . . . .3-D                  
+   DEGREES OF FREEDOM. . . . . . TEMP
+   ANALYSIS TYPE . . . . . . . . . . . . . . . . .STATIC (STEADY-STATE)
+   OFFSET TEMPERATURE FROM ABSOLUTE ZERO . . . . .  273.15    
+   GLOBALLY ASSEMBLED MATRIX . . . . . . . . . . .SYMMETRIC  
+
+ *** WARNING ***                         CP =       0.844   TIME= 16:41:19
+ Material number 715 (used by element 90203) should normally have at     
+ least one MP or one TB type command associated with it.  Output of      
+ energy by material may not be available.                                
+
+ *** NOTE ***                            CP =       0.875   TIME= 16:41:19
+ The step data was checked and warning messages were found.              
+  Please review output or errors file (                                  
+ C:\Users\andre\Desktop\PBLE00\Projeto-Ansys\_ProjectScratch\Scr9207\fil 
+ le0.err ) for these warning messages.                                   
+
+ *** NOTE ***                            CP =       0.875   TIME= 16:41:19
+ The conditions for direct assembly have been met.  No .emat or .erot    
+ files will be produced.                                                 
+
+  
+  
+     D I S T R I B U T E D   D O M A I N   D E C O M P O S E R
+  
+  ...Number of elements: 64920
+  ...Number of nodes:    74270
+  ...Decompose to 4 CPU domains
+  ...Element load balance ratio =     1.046
+
+
+                      L O A D   S T E P   O P T I O N S
+
+   LOAD STEP NUMBER. . . . . . . . . . . . . . . .     1
+   TIME AT END OF THE LOAD STEP. . . . . . . . . .  1.0000    
+   AUTOMATIC TIME STEPPING . . . . . . . . . . . .    ON
+      INITIAL NUMBER OF SUBSTEPS . . . . . . . . .     1
+      MAXIMUM NUMBER OF SUBSTEPS . . . . . . . . .    10
+      MINIMUM NUMBER OF SUBSTEPS . . . . . . . . .     1
+   STEP CHANGE BOUNDARY CONDITIONS . . . . . . . .    NO
+   PRINT OUTPUT CONTROLS . . . . . . . . . . . . .NO PRINTOUT
+   DATABASE OUTPUT CONTROLS
+      ITEM     FREQUENCY   COMPONENT
+       ALL       NONE               
+      NSOL        ALL               
+      RSOL        ALL               
+      EANG        ALL               
+      VENG        ALL               
+      FFLU        ALL               
+      CONT        ALL               
+      MISC        ALL       _ELMISC 
+
+
+ SOLUTION MONITORING INFO IS WRITTEN TO FILE= file.mntr                                                                                                                                                                                                                                                           
+
+
+
+
+            **** CENTER OF MASS, MASS, AND MASS MOMENTS OF INERTIA ****
+
+  CALCULATIONS ASSUME ELEMENT MASS AT ELEMENT CENTROID
+
+  TOTAL MASS =  0.87539E-02
+
+                           MOM. OF INERTIA         MOM. OF INERTIA
+  CENTER OF MASS            ABOUT ORIGIN        ABOUT CENTER OF MASS
+
+  XC =  0.12868          IXX =   0.9192E-04      IXX =   0.1205E-05
+  YC = -0.10175          IYY =   0.1459E-03      IYY =   0.8736E-06
+  ZC =  0.31872E-02      IZZ =   0.2375E-03      IZZ =   0.1915E-05
+                         IXY =   0.1146E-03      IXY =  -0.5891E-07
+                         IYZ =   0.2861E-05      IYZ =   0.2207E-07
+                         IZX =  -0.3504E-05      IZX =   0.8659E-07
+
+
+  *** MASS SUMMARY BY ELEMENT TYPE ***
+
+  TYPE      MASS
+     1  0.170267E-04
+     2  0.303361E-04
+     3  0.397326E-03
+     4  0.704899E-04
+     5  0.184868E-04
+     6  0.404358E-05
+     7  0.184889E-02
+     8  0.267490E-03
+     9  0.169464E-02
+    10  0.117555E-04
+    11  0.142873E-06
+    12  0.143597E-06
+    13  0.176653E-04
+    14  0.435076E-05
+    15  0.246392E-05
+    16  0.447682E-07
+    17  0.162115E-06
+    18  0.165496E-06
+    19  0.435076E-05
+    20  0.246392E-05
+    21  0.447682E-07
+    22  0.162115E-06
+    23  0.165496E-06
+    24  0.435076E-05
+    25  0.246392E-05
+    26  0.447682E-07
+    27  0.162115E-06
+    28  0.165496E-06
+    29  0.225762E-05
+    30  0.225762E-05
+    31  0.225762E-05
+    32  0.225762E-05
+    33  0.673046E-05
+    34  0.673046E-05
+    35  0.285782E-04
+    36  0.888551E-08
+    37  0.314773E-05
+    38  0.311232E-06
+    39  0.145468E-05
+    40  0.141319E-05
+    41  0.788142E-06
+    42  0.412456E-06
+    43  0.212386E-05
+    44  0.137927E-05
+    45  0.186253E-06
+    46  0.208528E-06
+    47  0.211045E-05
+    48  0.100142E-05
+    49  0.186091E-06
+    50  0.942551E-05
+    51  0.111625E-05
+    52  0.736386E-06
+    53  0.272660E-05
+    54  0.449600E-06
+    55  0.619406E-06
+    56  0.667462E-06
+    57  0.229911E-05
+    58  0.229911E-05
+    59  0.255098E-05
+    60  0.491752E-06
+    61  0.491752E-06
+    62  0.103286E-05
+    63  0.315939E-06
+    64  0.201073E-06
+    65  0.493170E-06
+    66  0.499443E-06
+    67  0.499443E-06
+    68  0.288725E-05
+    69  0.288725E-05
+    70  0.288508E-05
+    71  0.201073E-06
+    72  0.201073E-06
+    73  0.447214E-06
+    74  0.447214E-06
+    75  0.447214E-06
+    76  0.499443E-06
+    77  0.631063E-06
+    78  0.631063E-06
+    79  0.103286E-05
+    80  0.201073E-06
+    81  0.201073E-06
+    82  0.498845E-06
+    83  0.447214E-06
+    84  0.494078E-06
+    85  0.494078E-06
+    86  0.447214E-06
+    87  0.447214E-06
+    88  0.493170E-06
+    89  0.201073E-06
+    90  0.494078E-06
+    91  0.201073E-06
+    92  0.494078E-06
+    93  0.201073E-06
+    94  0.493169E-06
+    95  0.315939E-06
+    96  0.201073E-06
+    97  0.201073E-06
+    98  0.494078E-06
+    99  0.229911E-05
+   100  0.229911E-05
+   101  0.254270E-05
+   102  0.491752E-06
+   103  0.491752E-06
+   104  0.103286E-05
+   105  0.491752E-06
+   106  0.491752E-06
+   107  0.103286E-05
+   108  0.110607E-05
+   109  0.110607E-05
+   110  0.254028E-05
+   111  0.110607E-05
+   112  0.110607E-05
+   113  0.254028E-05
+   114  0.980316E-06
+   115  0.980314E-06
+   116  0.991874E-06
+   117  0.955117E-06
+   118  0.955117E-06
+   119  0.955117E-06
+   120  0.955117E-06
+   121  0.955117E-06
+   122  0.955117E-06
+   123  0.955117E-06
+   124  0.980314E-06
+   125  0.417323E-02
+   126  0.343791E-04
+   127  0.141296E-07
+   128  0.205596E-05
+
+ Range of element maximum matrix coefficients in global coordinates
+ Maximum = 207.989784 at element 55460.                                  
+ Minimum = 8.648198885E-11 at element 90795.                             
+
+ *** WARNING ***                         CP =       4.000   TIME= 16:41:22
+ Coefficient ratio exceeds 1.0e8 - Check results.                        
+
+   *** ELEMENT MATRIX FORMULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1        55  SOLID291      0.000   0.000000
+        2       526  SOLID291      0.000   0.000000
+        3       512  SOLID291      0.000   0.000000
+        4       151  SOLID291      0.016   0.000103
+        5       177  SOLID291      0.016   0.000088
+        6        15  SOLID279      0.000   0.000000
+        7       641  SOLID291      0.016   0.000024
+        8      4039  SOLID291      0.047   0.000012
+        9      1153  SOLID291      0.000   0.000000
+       10       532  SOLID291      0.000   0.000000
+       11        65  SOLID291      0.000   0.000000
+       12        63  SOLID291      0.000   0.000000
+       13       768  SOLID291      0.000   0.000000
+       14       164  SOLID291      0.000   0.000000
+       15       441  SOLID291      0.031   0.000071
+       16        46  SOLID291      0.000   0.000000
+       17       193  SOLID291      0.000   0.000000
+       18       261  SOLID291      0.000   0.000000
+       19       164  SOLID291      0.000   0.000000
+       20       441  SOLID291      0.000   0.000000
+       21        46  SOLID291      0.000   0.000000
+       22       193  SOLID291      0.000   0.000000
+       23       261  SOLID291      0.000   0.000000
+       24       164  SOLID291      0.000   0.000000
+       25       441  SOLID291      0.000   0.000000
+       26        46  SOLID291      0.000   0.000000
+       27       193  SOLID291      0.000   0.000000
+       28       261  SOLID291      0.000   0.000000
+       29        98  SOLID291      0.000   0.000000
+       30        98  SOLID291      0.000   0.000000
+       31        98  SOLID291      0.000   0.000000
+       32        98  SOLID291      0.000   0.000000
+       33       771  SOLID291      0.000   0.000000
+       34       771  SOLID291      0.000   0.000000
+       35       217  SOLID279      0.000   0.000000
+       36         3  SOLID279      0.000   0.000000
+       37        35  SOLID279      0.016   0.000446
+       38        34  SOLID279      0.000   0.000000
+       39        34  SOLID279      0.000   0.000000
+       40        78  SOLID279      0.000   0.000000
+       41        34  SOLID279      0.000   0.000000
+       42        35  SOLID279      0.000   0.000000
+       43        48  SOLID279      0.000   0.000000
+       44        21  SOLID279      0.000   0.000000
+       45        18  SOLID279      0.000   0.000000
+       46        15  SOLID279      0.000   0.000000
+       47        19  SOLID279      0.000   0.000000
+       48        28  SOLID279      0.000   0.000000
+       49        45  SOLID279      0.000   0.000000
+       50        53  SOLID279      0.000   0.000000
+       51        53  SOLID279      0.000   0.000000
+       52        35  SOLID279      0.000   0.000000
+       53        54  SOLID279      0.000   0.000000
+       54        20  SOLID279      0.000   0.000000
+       55        37  SOLID279      0.000   0.000000
+       56        28  SOLID279      0.016   0.000558
+       57        14  SOLID279      0.000   0.000000
+       58        14  SOLID279      0.000   0.000000
+       59      1323  SOLID291      0.000   0.000000
+       60        16  SOLID279      0.000   0.000000
+       61        16  SOLID279      0.000   0.000000
+       62       144  SOLID279      0.000   0.000000
+       63         1  SOLID279      0.000   0.000000
+       64        72  SOLID291      0.000   0.000000
+       65        39  SOLID291      0.000   0.000000
+       66       228  SOLID291      0.016   0.000069
+       67       228  SOLID291      0.016   0.000069
+       68        15  SOLID279      0.000   0.000000
+       69        15  SOLID279      0.000   0.000000
+       70      1471  SOLID291      0.000   0.000000
+       71       186  SOLID291      0.000   0.000000
+       72        72  SOLID291      0.000   0.000000
+       73         1  SOLID279      0.000   0.000000
+       74         1  SOLID279      0.000   0.000000
+       75         1  SOLID279      0.000   0.000000
+       76       231  SOLID291      0.000   0.000000
+       77         8  SOLID279      0.000   0.000000
+       78         8  SOLID279      0.000   0.000000
+       79       144  SOLID279      0.000   0.000000
+       80       186  SOLID291      0.000   0.000000
+       81       186  SOLID291      0.000   0.000000
+       82        41  SOLID291      0.000   0.000000
+       83         1  SOLID279      0.000   0.000000
+       84       246  SOLID291      0.000   0.000000
+       85       246  SOLID291      0.000   0.000000
+       86         1  SOLID279      0.000   0.000000
+       87         1  SOLID279      0.000   0.000000
+       88        36  SOLID291      0.000   0.000000
+       89       186  SOLID291      0.000   0.000000
+       90       258  SOLID291      0.000   0.000000
+       91        72  SOLID291      0.000   0.000000
+       92       258  SOLID291      0.016   0.000061
+       93        72  SOLID291      0.000   0.000000
+       94        40  SOLID291      0.000   0.000000
+       95         1  SOLID279      0.000   0.000000
+       96       186  SOLID291      0.000   0.000000
+       97       186  SOLID291      0.000   0.000000
+       98       258  SOLID291      0.000   0.000000
+       99        14  SOLID279      0.000   0.000000
+      100        14  SOLID279      0.000   0.000000
+      101      1325  SOLID291      0.016   0.000012
+      102        16  SOLID279      0.000   0.000000
+      103        16  SOLID279      0.000   0.000000
+      104       144  SOLID279      0.000   0.000000
+      105        16  SOLID279      0.000   0.000000
+      106        16  SOLID279      0.000   0.000000
+      107       144  SOLID279      0.000   0.000000
+      108        16  SOLID279      0.000   0.000000
+      109        16  SOLID279      0.000   0.000000
+      110        64  SOLID279      0.000   0.000000
+      111        16  SOLID279      0.000   0.000000
+      112        16  SOLID279      0.000   0.000000
+      113        64  SOLID279      0.000   0.000000
+      114        61  SOLID291      0.000   0.000000
+      115        61  SOLID291      0.000   0.000000
+      116        62  SOLID291      0.000   0.000000
+      117        46  SOLID291      0.000   0.000000
+      118        46  SOLID291      0.000   0.000000
+      119        46  SOLID291      0.000   0.000000
+      120        46  SOLID291      0.000   0.000000
+      121        46  SOLID291      0.000   0.000000
+      122        46  SOLID291      0.000   0.000000
+      123        46  SOLID291      0.000   0.000000
+      124        61  SOLID291      0.000   0.000000
+      125       576  SOLID279      0.016   0.000027
+      126       173  SOLID279      0.000   0.000000
+      127         3  SOLID279      0.000   0.000000
+      128        67  SOLID279      0.000   0.000000
+      129        57  CONTA174      0.000   0.000000
+      130        57  TARGE170      0.000   0.000000
+      131       272  CONTA174      0.047   0.000172
+      132       272  TARGE170      0.000   0.000000
+      133       209  CONTA174      0.000   0.000000
+      134       209  TARGE170      0.000   0.000000
+      135         4  CONTA174      0.000   0.000000
+      136         4  TARGE170      0.000   0.000000
+      137        99  CONTA174      0.000   0.000000
+      138        99  TARGE170      0.000   0.000000
+      139        26  CONTA174      0.000   0.000000
+      140        26  TARGE170      0.000   0.000000
+      141       254  CONTA174      0.016   0.000062
+      142       254  TARGE170      0.000   0.000000
+      143        22  CONTA174      0.000   0.000000
+      144        22  TARGE170      0.000   0.000000
+      145        72  CONTA174      0.000   0.000000
+      146        72  TARGE170      0.000   0.000000
+      147        10  CONTA174      0.000   0.000000
+      148        10  TARGE170      0.000   0.000000
+      149        67  CONTA174      0.000   0.000000
+      150        67  TARGE170      0.000   0.000000
+      151        53  CONTA174      0.000   0.000000
+      152        53  TARGE170      0.000   0.000000
+      153        14  CONTA174      0.000   0.000000
+      154        14  TARGE170      0.000   0.000000
+      155       137  CONTA174      0.016   0.000114
+      156       137  TARGE170      0.000   0.000000
+      157        13  CONTA174      0.000   0.000000
+      158        13  TARGE170      0.000   0.000000
+      159         6  CONTA174      0.000   0.000000
+      160         6  TARGE170      0.000   0.000000
+      161        10  CONTA174      0.000   0.000000
+      162        10  TARGE170      0.000   0.000000
+      163         8  CONTA174      0.000   0.000000
+      164         8  TARGE170      0.000   0.000000
+      165       176  CONTA174      0.000   0.000000
+      166       176  TARGE170      0.000   0.000000
+      167        23  CONTA174      0.000   0.000000
+      168        23  TARGE170      0.000   0.000000
+      169        95  CONTA174      0.000   0.000000
+      170        95  TARGE170      0.000   0.000000
+      171        14  CONTA174      0.000   0.000000
+      172        14  TARGE170      0.000   0.000000
+      173        94  CONTA174      0.016   0.000166
+      174        94  TARGE170      0.000   0.000000
+      175        56  CONTA174      0.031   0.000558
+      176        56  TARGE170      0.000   0.000000
+      177       698  CONTA174      0.016   0.000022
+      178       698  TARGE170      0.000   0.000000
+      179        28  CONTA174      0.000   0.000000
+      180        28  TARGE170      0.000   0.000000
+      181        12  CONTA174      0.000   0.000000
+      182        12  TARGE170      0.000   0.000000
+      183        24  CONTA174      0.000   0.000000
+      184        24  TARGE170      0.000   0.000000
+      185        12  CONTA174      0.000   0.000000
+      186        12  TARGE170      0.000   0.000000
+      187        24  CONTA174      0.000   0.000000
+      188        24  TARGE170      0.000   0.000000
+      189        76  CONTA174      0.016   0.000206
+      190        76  TARGE170      0.000   0.000000
+      191        14  CONTA174      0.000   0.000000
+      192        14  TARGE170      0.000   0.000000
+      193        14  CONTA174      0.000   0.000000
+      194        14  TARGE170      0.000   0.000000
+      195        15  CONTA174      0.000   0.000000
+      196        15  TARGE170      0.000   0.000000
+      197        12  CONTA174      0.000   0.000000
+      198        12  TARGE170      0.000   0.000000
+      199        12  CONTA174      0.000   0.000000
+      200        12  TARGE170      0.000   0.000000
+      201        28  CONTA174      0.000   0.000000
+      202        28  TARGE170      0.000   0.000000
+      203        32  CONTA174      0.000   0.000000
+      204        32  TARGE170      0.000   0.000000
+      205         9  CONTA174      0.000   0.000000
+      206         9  TARGE170      0.000   0.000000
+      207        10  CONTA174      0.000   0.000000
+      208        10  TARGE170      0.000   0.000000
+      209        10  CONTA174      0.000   0.000000
+      210        10  TARGE170      0.000   0.000000
+      211         9  CONTA174      0.000   0.000000
+      212         9  TARGE170      0.000   0.000000
+      213        12  CONTA174      0.000   0.000000
+      214        12  TARGE170      0.000   0.000000
+      215        29  CONTA174      0.000   0.000000
+      216        29  TARGE170      0.000   0.000000
+      217        65  CONTA174      0.000   0.000000
+      218        65  TARGE170      0.000   0.000000
+      219        28  CONTA174      0.000   0.000000
+      220        28  TARGE170      0.000   0.000000
+      221        66  CONTA174      0.000   0.000000
+      222        66  TARGE170      0.000   0.000000
+      223        66  CONTA174      0.000   0.000000
+      224        66  TARGE170      0.000   0.000000
+      225        66  CONTA174      0.000   0.000000
+      226        66  TARGE170      0.000   0.000000
+      227        29  CONTA174      0.000   0.000000
+      228        29  TARGE170      0.000   0.000000
+      229        28  CONTA174      0.000   0.000000
+      230        28  TARGE170      0.000   0.000000
+      231        66  CONTA174      0.000   0.000000
+      232        66  TARGE170      0.000   0.000000
+      233        65  CONTA174      0.000   0.000000
+      234        65  TARGE170      0.000   0.000000
+      235        88  CONTA174      0.016   0.000178
+      236        88  TARGE170      0.000   0.000000
+      237        10  CONTA174      0.000   0.000000
+      238        10  TARGE170      0.000   0.000000
+      239        63  CONTA174      0.000   0.000000
+      240        63  TARGE170      0.000   0.000000
+      241       167  CONTA174      0.000   0.000000
+      242       167  TARGE170      0.000   0.000000
+      243       233  CONTA174      0.016   0.000067
+      244       233  TARGE170      0.016   0.000067
+      245        32  CONTA174      0.000   0.000000
+      246        32  TARGE170      0.000   0.000000
+      247        26  CONTA174      0.000   0.000000
+      248        26  TARGE170      0.000   0.000000
+      249        74  CONTA174      0.000   0.000000
+      250        74  TARGE170      0.000   0.000000
+      251        25  CONTA174      0.000   0.000000
+      252        25  TARGE170      0.000   0.000000
+      253        35  CONTA174      0.000   0.000000
+      254        35  TARGE170      0.000   0.000000
+      255        19  CONTA174      0.000   0.000000
+      256        19  TARGE170      0.000   0.000000
+      257        35  CONTA174      0.000   0.000000
+      258        35  TARGE170      0.000   0.000000
+      259        20  CONTA174      0.000   0.000000
+      260        20  TARGE170      0.000   0.000000
+      261        10  CONTA174      0.000   0.000000
+      262        10  TARGE170      0.000   0.000000
+      263        63  CONTA174      0.016   0.000248
+      264        63  TARGE170      0.000   0.000000
+      265       167  CONTA174      0.016   0.000094
+      266       167  TARGE170      0.000   0.000000
+      267       233  CONTA174      0.031   0.000134
+      268       233  TARGE170      0.000   0.000000
+      269        32  CONTA174      0.000   0.000000
+      270        32  TARGE170      0.000   0.000000
+      271        26  CONTA174      0.016   0.000601
+      272        26  TARGE170      0.000   0.000000
+      273        77  CONTA174      0.000   0.000000
+      274        77  TARGE170      0.000   0.000000
+      275        26  CONTA174      0.000   0.000000
+      276        26  TARGE170      0.000   0.000000
+      277        35  CONTA174      0.000   0.000000
+      278        35  TARGE170      0.000   0.000000
+      279        21  CONTA174      0.000   0.000000
+      280        21  TARGE170      0.000   0.000000
+      281        35  CONTA174      0.000   0.000000
+      282        35  TARGE170      0.000   0.000000
+      283        20  CONTA174      0.000   0.000000
+      284        20  TARGE170      0.000   0.000000
+      285        10  CONTA174      0.000   0.000000
+      286        10  TARGE170      0.000   0.000000
+      287        63  CONTA174      0.000   0.000000
+      288        63  TARGE170      0.000   0.000000
+      289       167  CONTA174      0.000   0.000000
+      290       167  TARGE170      0.000   0.000000
+      291       233  CONTA174      0.000   0.000000
+      292       233  TARGE170      0.000   0.000000
+      293        32  CONTA174      0.000   0.000000
+      294        32  TARGE170      0.000   0.000000
+      295        26  CONTA174      0.000   0.000000
+      296        26  TARGE170      0.000   0.000000
+      297        75  CONTA174      0.000   0.000000
+      298        75  TARGE170      0.000   0.000000
+      299        25  CONTA174      0.000   0.000000
+      300        25  TARGE170      0.000   0.000000
+      301        35  CONTA174      0.000   0.000000
+      302        35  TARGE170      0.000   0.000000
+      303        20  CONTA174      0.000   0.000000
+      304        20  TARGE170      0.000   0.000000
+      305        35  CONTA174      0.000   0.000000
+      306        35  TARGE170      0.000   0.000000
+      307        20  CONTA174      0.000   0.000000
+      308        20  TARGE170      0.000   0.000000
+      309         7  CONTA174      0.000   0.000000
+      310         7  TARGE170      0.000   0.000000
+      311        22  CONTA174      0.000   0.000000
+      312        22  TARGE170      0.000   0.000000
+      313        94  CONTA174      0.000   0.000000
+      314        94  TARGE170      0.000   0.000000
+      315        16  CONTA174      0.000   0.000000
+      316        16  TARGE170      0.000   0.000000
+      317         7  CONTA174      0.000   0.000000
+      318         7  TARGE170      0.000   0.000000
+      319        10  CONTA174      0.000   0.000000
+      320        10  TARGE170      0.000   0.000000
+      321        88  CONTA174      0.000   0.000000
+      322        88  TARGE170      0.000   0.000000
+      323        20  CONTA174      0.000   0.000000
+      324        20  TARGE170      0.000   0.000000
+      325        15  CONTA174      0.000   0.000000
+      326        15  TARGE170      0.000   0.000000
+      327         8  CONTA174      0.000   0.000000
+      328         8  TARGE170      0.000   0.000000
+      329        10  CONTA174      0.000   0.000000
+      330        10  TARGE170      0.000   0.000000
+      331        20  CONTA174      0.000   0.000000
+      332        20  TARGE170      0.000   0.000000
+      333        94  CONTA174      0.000   0.000000
+      334        94  TARGE170      0.000   0.000000
+      335        17  CONTA174      0.000   0.000000
+      336        17  TARGE170      0.000   0.000000
+      337        14  CONTA174      0.000   0.000000
+      338        14  TARGE170      0.000   0.000000
+      339         8  CONTA174      0.000   0.000000
+      340         8  TARGE170      0.000   0.000000
+      341        88  CONTA174      0.016   0.000178
+      342        88  TARGE170      0.000   0.000000
+      343        94  CONTA174      0.000   0.000000
+      344        94  TARGE170      0.000   0.000000
+      345        16  CONTA174      0.000   0.000000
+      346        16  TARGE170      0.000   0.000000
+      347       139  CONTA174      0.000   0.000000
+      348       139  TARGE170      0.000   0.000000
+      349       137  CONTA174      0.000   0.000000
+      350       137  TARGE170      0.000   0.000000
+      351        96  CONTA174      0.016   0.000163
+      352        96  TARGE170      0.000   0.000000
+      353        18  CONTA174      0.000   0.000000
+      354        18  TARGE170      0.000   0.000000
+      355       139  CONTA174      0.016   0.000112
+      356       139  TARGE170      0.000   0.000000
+      357        73  CONTA174      0.016   0.000214
+      358        73  TARGE170      0.000   0.000000
+      359        95  CONTA174      0.000   0.000000
+      360        95  TARGE170      0.000   0.000000
+      361        10  CONTA174      0.000   0.000000
+      362        10  TARGE170      0.000   0.000000
+      363        23  CONTA174      0.000   0.000000
+      364        23  TARGE170      0.000   0.000000
+      365         6  CONTA174      0.000   0.000000
+      366         6  TARGE170      0.000   0.000000
+      367        22  CONTA174      0.000   0.000000
+      368        22  TARGE170      0.000   0.000000
+      369        31  CONTA174      0.000   0.000000
+      370        31  TARGE170      0.000   0.000000
+      371        57  CONTA174      0.000   0.000000
+      372        57  TARGE170      0.000   0.000000
+      373        53  CONTA174      0.000   0.000000
+      374        53  TARGE170      0.000   0.000000
+      375        28  CONTA174      0.000   0.000000
+      376        28  TARGE170      0.000   0.000000
+      377        30  CONTA174      0.000   0.000000
+      378        30  TARGE170      0.000   0.000000
+      379        56  CONTA174      0.000   0.000000
+      380        56  TARGE170      0.000   0.000000
+      381        45  CONTA174      0.000   0.000000
+      382        45  TARGE170      0.000   0.000000
+      383       146  CONTA174      0.016   0.000107
+      384       146  TARGE170      0.000   0.000000
+      385        56  CONTA174      0.000   0.000000
+      386        56  TARGE170      0.000   0.000000
+      387        51  CONTA174      0.000   0.000000
+      388        51  TARGE170      0.000   0.000000
+      389        38  CONTA174      0.000   0.000000
+      390        38  TARGE170      0.000   0.000000
+      391        14  CONTA174      0.000   0.000000
+      392        14  TARGE170      0.000   0.000000
+      393        40  CONTA174      0.000   0.000000
+      394        40  TARGE170      0.000   0.000000
+      395        64  CONTA174      0.016   0.000244
+      396        64  TARGE170      0.000   0.000000
+      397        97  CONTA174      0.000   0.000000
+      398        97  TARGE170      0.000   0.000000
+      399        76  CONTA174      0.000   0.000000
+      400        76  TARGE170      0.000   0.000000
+      401       152  CONTA174      0.000   0.000000
+      402       152  TARGE170      0.000   0.000000
+      403        56  CONTA174      0.000   0.000000
+      404        56  TARGE170      0.000   0.000000
+      405        39  CONTA174      0.000   0.000000
+      406        39  TARGE170      0.000   0.000000
+      407        36  CONTA174      0.000   0.000000
+      408        36  TARGE170      0.000   0.000000
+      409        56  CONTA174      0.000   0.000000
+      410        56  TARGE170      0.000   0.000000
+      411        39  CONTA174      0.000   0.000000
+      412        39  TARGE170      0.000   0.000000
+      413        16  CONTA174      0.000   0.000000
+      414        16  TARGE170      0.000   0.000000
+      415       176  CONTA174      0.000   0.000000
+      416       176  TARGE170      0.000   0.000000
+      417        25  CONTA174      0.000   0.000000
+      418        25  TARGE170      0.000   0.000000
+      419       112  CONTA174      0.000   0.000000
+      420       112  TARGE170      0.000   0.000000
+      421        26  CONTA174      0.000   0.000000
+      422        26  TARGE170      0.000   0.000000
+      423        20  CONTA174      0.000   0.000000
+      424        20  TARGE170      0.000   0.000000
+      425        12  CONTA174      0.000   0.000000
+      426        12  TARGE170      0.000   0.000000
+      427        32  CONTA174      0.000   0.000000
+      428        32  TARGE170      0.000   0.000000
+      429        17  CONTA174      0.000   0.000000
+      430        17  TARGE170      0.000   0.000000
+      431        94  CONTA174      0.000   0.000000
+      432        94  TARGE170      0.000   0.000000
+      433       120  CONTA174      0.000   0.000000
+      434       120  TARGE170      0.000   0.000000
+      435        34  CONTA174      0.016   0.000460
+      436        34  TARGE170      0.000   0.000000
+      437       148  CONTA174      0.000   0.000000
+      438       148  TARGE170      0.000   0.000000
+      439        56  CONTA174      0.016   0.000279
+      440        56  TARGE170      0.000   0.000000
+      441        31  CONTA174      0.000   0.000000
+      442        31  TARGE170      0.000   0.000000
+      443        46  CONTA174      0.000   0.000000
+      444        46  TARGE170      0.000   0.000000
+      445        73  CONTA174      0.000   0.000000
+      446        73  TARGE170      0.000   0.000000
+      447        50  CONTA174      0.000   0.000000
+      448        50  TARGE170      0.000   0.000000
+      449        54  CONTA174      0.000   0.000000
+      450        54  TARGE170      0.000   0.000000
+      451        63  CONTA174      0.000   0.000000
+      452        63  TARGE170      0.000   0.000000
+      453        68  CONTA174      0.016   0.000230
+      454        68  TARGE170      0.000   0.000000
+      455        39  CONTA174      0.000   0.000000
+      456        39  TARGE170      0.000   0.000000
+      457        69  CONTA174      0.016   0.000226
+      458        69  TARGE170      0.000   0.000000
+      459        58  CONTA174      0.000   0.000000
+      460        58  TARGE170      0.000   0.000000
+      461        42  CONTA174      0.000   0.000000
+      462        42  TARGE170      0.000   0.000000
+      463        57  CONTA174      0.000   0.000000
+      464        57  TARGE170      0.000   0.000000
+      465        41  CONTA174      0.016   0.000381
+      466        41  TARGE170      0.000   0.000000
+      467        65  CONTA174      0.000   0.000000
+      468        65  TARGE170      0.000   0.000000
+      469        50  CONTA174      0.000   0.000000
+      470        50  TARGE170      0.000   0.000000
+      471        70  CONTA174      0.000   0.000000
+      472        70  TARGE170      0.000   0.000000
+      473        12  CONTA174      0.000   0.000000
+      474        12  TARGE170      0.000   0.000000
+      475        96  CONTA174      0.000   0.000000
+      476        96  TARGE170      0.000   0.000000
+      477        28  CONTA174      0.000   0.000000
+      478        28  TARGE170      0.000   0.000000
+      479       108  CONTA174      0.000   0.000000
+      480       108  TARGE170      0.000   0.000000
+      481       120  CONTA174      0.000   0.000000
+      482       120  TARGE170      0.000   0.000000
+      483        51  CONTA174      0.016   0.000306
+      484        51  TARGE170      0.000   0.000000
+      485        24  CONTA174      0.000   0.000000
+      486        24  TARGE170      0.000   0.000000
+      487        19  CONTA174      0.000   0.000000
+      488        19  TARGE170      0.000   0.000000
+      489        28  CONTA174      0.000   0.000000
+      490        28  TARGE170      0.000   0.000000
+      491        22  CONTA174      0.000   0.000000
+      492        22  TARGE170      0.000   0.000000
+      493        35  CONTA174      0.000   0.000000
+      494        35  TARGE170      0.000   0.000000
+      495       304  CONTA174      0.016   0.000051
+      496       304  TARGE170      0.000   0.000000
+      497        35  CONTA174      0.000   0.000000
+      498        35  TARGE170      0.000   0.000000
+      499       305  CONTA174      0.000   0.000000
+      500       305  TARGE170      0.016   0.000051
+      501        35  CONTA174      0.000   0.000000
+      502        35  TARGE170      0.000   0.000000
+      503       418  CONTA174      0.016   0.000037
+      504       418  TARGE170      0.016   0.000037
+      505        72  CONTA174      0.000   0.000000
+      506        72  TARGE170      0.000   0.000000
+      507        41  CONTA174      0.000   0.000000
+      508        41  TARGE170      0.000   0.000000
+      509        72  CONTA174      0.000   0.000000
+      510        72  TARGE170      0.000   0.000000
+      511        41  CONTA174      0.000   0.000000
+      512        41  TARGE170      0.000   0.000000
+      513       160  CONTA174      0.000   0.000000
+      514       160  TARGE170      0.000   0.000000
+      515         6  CONTA174      0.000   0.000000
+      516         6  TARGE170      0.000   0.000000
+      517        28  CONTA174      0.000   0.000000
+      518        28  TARGE170      0.000   0.000000
+      519        14  CONTA174      0.000   0.000000
+      520        14  TARGE170      0.000   0.000000
+      521        78  CONTA174      0.000   0.000000
+      522        78  TARGE170      0.000   0.000000
+      523        77  CONTA174      0.016   0.000203
+      524        77  TARGE170      0.000   0.000000
+      525       305  CONTA174      0.047   0.000154
+      526       305  TARGE170      0.000   0.000000
+      527        35  CONTA174      0.000   0.000000
+      528        35  TARGE170      0.000   0.000000
+      529       312  CONTA174      0.031   0.000100
+      530       312  TARGE170      0.000   0.000000
+      531        35  CONTA174      0.000   0.000000
+      532        35  TARGE170      0.000   0.000000
+      533       448  CONTA174      0.016   0.000035
+      534       448  TARGE170      0.000   0.000000
+      535        65  CONTA174      0.000   0.000000
+      536        65  TARGE170      0.000   0.000000
+      537        29  CONTA174      0.016   0.000539
+      538        29  TARGE170      0.000   0.000000
+      539         3  CONTA174      0.000   0.000000
+      540         3  TARGE170      0.000   0.000000
+      541         5  CONTA174      0.000   0.000000
+      542         5  TARGE170      0.000   0.000000
+      543         3  CONTA174      0.000   0.000000
+      544         3  TARGE170      0.000   0.000000
+      545        80  CONTA174      0.000   0.000000
+      546        80  TARGE170      0.000   0.000000
+      547        64  CONTA174      0.000   0.000000
+      548        64  TARGE170      0.000   0.000000
+      549        26  CONTA174      0.000   0.000000
+      550        26  TARGE170      0.000   0.000000
+      551        64  CONTA174      0.000   0.000000
+      552        64  TARGE170      0.000   0.000000
+      553        26  CONTA174      0.000   0.000000
+      554        26  TARGE170      0.000   0.000000
+      555       160  CONTA174      0.000   0.000000
+      556       160  TARGE170      0.000   0.000000
+      557        65  CONTA174      0.000   0.000000
+      558        65  TARGE170      0.000   0.000000
+      559        66  CONTA174      0.000   0.000000
+      560        66  TARGE170      0.000   0.000000
+      561        14  CONTA174      0.000   0.000000
+      562        14  TARGE170      0.000   0.000000
+      563         5  CONTA174      0.000   0.000000
+      564         5  TARGE170      0.000   0.000000
+      565        84  CONTA174      0.000   0.000000
+      566        84  TARGE170      0.000   0.000000
+      567        83  CONTA174      0.000   0.000000
+      568        83  TARGE170      0.000   0.000000
+      569         3  CONTA174      0.000   0.000000
+      570         3  TARGE170      0.000   0.000000
+      571         3  CONTA174      0.000   0.000000
+      572         3  TARGE170      0.000   0.000000
+      573        14  CONTA174      0.000   0.000000
+      574        14  TARGE170      0.000   0.000000
+      575        66  CONTA174      0.016   0.000237
+      576        66  TARGE170      0.000   0.000000
+      577        90  CONTA174      0.000   0.000000
+      578        90  TARGE170      0.000   0.000000
+      579        29  CONTA174      0.016   0.000539
+      580        29  TARGE170      0.000   0.000000
+      581        91  CONTA174      0.031   0.000343
+      582        91  TARGE170      0.000   0.000000
+      583        28  CONTA174      0.000   0.000000
+      584        28  TARGE170      0.000   0.000000
+      585        17  CONTA174      0.000   0.000000
+      586        17  TARGE170      0.000   0.000000
+      587         3  CONTA174      0.000   0.000000
+      588         3  TARGE170      0.000   0.000000
+      589        66  CONTA174      0.016   0.000237
+      590        66  TARGE170      0.000   0.000000
+      591        67  CONTA174      0.016   0.000233
+      592        67  TARGE170      0.000   0.000000
+      593        90  CONTA174      0.016   0.000174
+      594        90  TARGE170      0.000   0.000000
+      595       304  CONTA174      0.016   0.000051
+      596       304  TARGE170      0.000   0.000000
+      597        32  CONTA174      0.000   0.000000
+      598        32  TARGE170      0.000   0.000000
+      599       305  CONTA174      0.000   0.000000
+      600       305  TARGE170      0.000   0.000000
+      601        32  CONTA174      0.000   0.000000
+      602        32  TARGE170      0.000   0.000000
+      603       419  CONTA174      0.016   0.000037
+      604       419  TARGE170      0.000   0.000000
+      605        72  CONTA174      0.016   0.000217
+      606        72  TARGE170      0.000   0.000000
+      607        39  CONTA174      0.000   0.000000
+      608        39  TARGE170      0.000   0.000000
+      609        72  CONTA174      0.016   0.000217
+      610        72  TARGE170      0.000   0.000000
+      611        39  CONTA174      0.000   0.000000
+      612        39  TARGE170      0.000   0.000000
+      613       160  CONTA174      0.000   0.000000
+      614       160  TARGE170      0.000   0.000000
+      615        72  CONTA174      0.000   0.000000
+      616        72  TARGE170      0.000   0.000000
+      617        35  CONTA174      0.000   0.000000
+      618        35  TARGE170      0.000   0.000000
+      619        72  CONTA174      0.000   0.000000
+      620        72  TARGE170      0.000   0.000000
+      621        35  CONTA174      0.000   0.000000
+      622        35  TARGE170      0.000   0.000000
+      623       160  CONTA174      0.000   0.000000
+      624       160  TARGE170      0.000   0.000000
+      625        64  CONTA174      0.016   0.000244
+      626        64  TARGE170      0.000   0.000000
+      627        32  CONTA174      0.000   0.000000
+      628        32  TARGE170      0.000   0.000000
+      629        64  CONTA174      0.000   0.000000
+      630        64  TARGE170      0.000   0.000000
+      631        32  CONTA174      0.000   0.000000
+      632        32  TARGE170      0.000   0.000000
+      633        80  CONTA174      0.000   0.000000
+      634        80  TARGE170      0.000   0.000000
+      635        64  CONTA174      0.016   0.000244
+      636        64  TARGE170      0.000   0.000000
+      637        35  CONTA174      0.000   0.000000
+      638        35  TARGE170      0.000   0.000000
+      639        64  CONTA174      0.000   0.000000
+      640        64  TARGE170      0.000   0.000000
+      641        35  CONTA174      0.000   0.000000
+      642        35  TARGE170      0.000   0.000000
+      643        80  CONTA174      0.000   0.000000
+      644        80  TARGE170      0.000   0.000000
+      645        26  CONTA174      0.000   0.000000
+      646        26  TARGE170      0.000   0.000000
+      647        45  CONTA174      0.000   0.000000
+      648        45  TARGE170      0.000   0.000000
+      649         6  CONTA174      0.000   0.000000
+      650         6  TARGE170      0.000   0.000000
+      651        23  CONTA174      0.000   0.000000
+      652        23  TARGE170      0.000   0.000000
+      653         8  CONTA174      0.000   0.000000
+      654         8  TARGE170      0.000   0.000000
+      655        19  CONTA174      0.000   0.000000
+      656        19  TARGE170      0.000   0.000000
+      657        17  CONTA174      0.016   0.000919
+      658        17  TARGE170      0.000   0.000000
+      659        47  CONTA174      0.000   0.000000
+      660        47  TARGE170      0.000   0.000000
+      661        18  CONTA174      0.000   0.000000
+      662        18  TARGE170      0.000   0.000000
+      663        72  CONTA174      0.000   0.000000
+      664        72  TARGE170      0.000   0.000000
+      665        32  CONTA174      0.000   0.000000
+      666        32  TARGE170      0.000   0.000000
+      667       156  CONTA174      0.000   0.000000
+      668       156  TARGE170      0.000   0.000000
+      669       136  CONTA174      0.000   0.000000
+      670       136  TARGE170      0.000   0.000000
+      671         4  CONTA174      0.000   0.000000
+      672         4  TARGE170      0.000   0.000000
+      673         5  CONTA174      0.000   0.000000
+      674         5  TARGE170      0.000   0.000000
+      675        59  CONTA174      0.000   0.000000
+      676        59  TARGE170      0.000   0.000000
+      677        51  CONTA174      0.000   0.000000
+      678        51  TARGE170      0.000   0.000000
+      679       275  CONTA174      0.047   0.000170
+      680       275  TARGE170      0.000   0.000000
+      681        22  CONTA174      0.000   0.000000
+      682        22  TARGE170      0.000   0.000000
+      683        10  CONTA174      0.000   0.000000
+      684        10  TARGE170      0.000   0.000000
+      685        14  CONTA174      0.000   0.000000
+      686        14  TARGE170      0.000   0.000000
+      687        96  CONTA174      0.000   0.000000
+      688        96  TARGE170      0.000   0.000000
+      689        51  CONTA174      0.000   0.000000
+      690        51  TARGE170      0.000   0.000000
+      691        52  CONTA174      0.000   0.000000
+      692        52  TARGE170      0.000   0.000000
+      693       210  CONTA174      0.000   0.000000
+      694       210  TARGE170      0.000   0.000000
+      695         4  CONTA174      0.000   0.000000
+      696         4  TARGE170      0.000   0.000000
+      697        53  CONTA174      0.000   0.000000
+      698        53  TARGE170      0.000   0.000000
+      699        56  CONTA174      0.000   0.000000
+      700        56  TARGE170      0.000   0.000000
+      701        62  CONTA174      0.000   0.000000
+      702        62  TARGE170      0.000   0.000000
+      703         7  CONTA174      0.000   0.000000
+      704         7  TARGE170      0.000   0.000000
+      705        10  CONTA174      0.000   0.000000
+      706        10  TARGE170      0.000   0.000000
+      707        20  CONTA174      0.000   0.000000
+      708        20  TARGE170      0.000   0.000000
+      709        59  CONTA174      0.000   0.000000
+      710        59  TARGE170      0.000   0.000000
+      711        56  CONTA174      0.000   0.000000
+      712        56  TARGE170      0.000   0.000000
+      713        87  CONTA174      0.016   0.000180
+      714        87  TARGE170      0.000   0.000000
+      715      1774  SURF152       0.031   0.000018
+ Time at end of element matrix formulation CP = 4.                       
+
+ DISTRIBUTED SPARSE MATRIX DIRECT SOLVER.
+  Number of equations =       74270,    Maximum wavefront =   1344
+
+
+  Memory allocated on only this MPI rank (rank     0)
+  -------------------------------------------------------------------
+  Equation solver memory allocated                     =    44.593 MB
+  Equation solver memory required for in-core mode     =    43.110 MB
+  Equation solver memory required for out-of-core mode =    31.683 MB
+  Total (solver and non-solver) memory allocated       =   909.953 MB
+
+
+  Total memory summed across all MPI ranks on this machines
+  -------------------------------------------------------------------
+  Equation solver memory allocated                     =   138.677 MB
+  Equation solver memory required for in-core mode     =   133.569 MB
+  Equation solver memory required for out-of-core mode =    89.416 MB
+  Total (solver and non-solver) memory allocated       =  1872.919 MB
+
+ *** NOTE ***                            CP =       4.469   TIME= 16:41:22
+ The Distributed Sparse Matrix Solver is currently running in the        
+ in-core memory mode.  This memory mode uses the most amount of memory   
+ in order to avoid using the hard drive as much as possible, which most  
+ often results in the fastest solution time.  This mode is recommended   
+ if enough physical memory is present to accommodate all of the solver   
+ data.                                                                   
+ Distributed sparse solver maximum pivot= 162.903201 at node 22908 TEMP. 
+ Distributed sparse solver minimum pivot= 3.276385764E-04 at node 71464  
+ TEMP.                                                                   
+ Distributed sparse solver minimum pivot in absolute value=              
+ 3.276385764E-04 at node 71464 TEMP.                                     
+
+   *** ELEMENT RESULT CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1        55  SOLID291      0.000   0.000000
+        2       526  SOLID291      0.000   0.000000
+        3       512  SOLID291      0.016   0.000031
+        4       151  SOLID291      0.016   0.000103
+        5       177  SOLID291      0.000   0.000000
+        6        15  SOLID279      0.000   0.000000
+        7       641  SOLID291      0.000   0.000000
+        8      4039  SOLID291      0.062   0.000015
+        9      1153  SOLID291      0.031   0.000027
+       10       532  SOLID291      0.000   0.000000
+       11        65  SOLID291      0.000   0.000000
+       12        63  SOLID291      0.000   0.000000
+       13       768  SOLID291      0.000   0.000000
+       14       164  SOLID291      0.000   0.000000
+       15       441  SOLID291      0.000   0.000000
+       16        46  SOLID291      0.000   0.000000
+       17       193  SOLID291      0.000   0.000000
+       18       261  SOLID291      0.016   0.000060
+       19       164  SOLID291      0.000   0.000000
+       20       441  SOLID291      0.000   0.000000
+       21        46  SOLID291      0.000   0.000000
+       22       193  SOLID291      0.000   0.000000
+       23       261  SOLID291      0.016   0.000060
+       24       164  SOLID291      0.000   0.000000
+       25       441  SOLID291      0.000   0.000000
+       26        46  SOLID291      0.000   0.000000
+       27       193  SOLID291      0.000   0.000000
+       28       261  SOLID291      0.000   0.000000
+       29        98  SOLID291      0.000   0.000000
+       30        98  SOLID291      0.000   0.000000
+       31        98  SOLID291      0.016   0.000159
+       32        98  SOLID291      0.000   0.000000
+       33       771  SOLID291      0.000   0.000000
+       34       771  SOLID291      0.000   0.000000
+       35       217  SOLID279      0.016   0.000072
+       36         3  SOLID279      0.000   0.000000
+       37        35  SOLID279      0.000   0.000000
+       38        34  SOLID279      0.000   0.000000
+       39        34  SOLID279      0.000   0.000000
+       40        78  SOLID279      0.000   0.000000
+       41        34  SOLID279      0.000   0.000000
+       42        35  SOLID279      0.000   0.000000
+       43        48  SOLID279      0.000   0.000000
+       44        21  SOLID279      0.000   0.000000
+       45        18  SOLID279      0.000   0.000000
+       46        15  SOLID279      0.000   0.000000
+       47        19  SOLID279      0.000   0.000000
+       48        28  SOLID279      0.000   0.000000
+       49        45  SOLID279      0.000   0.000000
+       50        53  SOLID279      0.000   0.000000
+       51        53  SOLID279      0.000   0.000000
+       52        35  SOLID279      0.000   0.000000
+       53        54  SOLID279      0.016   0.000289
+       54        20  SOLID279      0.000   0.000000
+       55        37  SOLID279      0.000   0.000000
+       56        28  SOLID279      0.000   0.000000
+       57        14  SOLID279      0.000   0.000000
+       58        14  SOLID279      0.000   0.000000
+       59      1323  SOLID291      0.000   0.000000
+       60        16  SOLID279      0.000   0.000000
+       61        16  SOLID279      0.000   0.000000
+       62       144  SOLID279      0.000   0.000000
+       63         1  SOLID279      0.000   0.000000
+       64        72  SOLID291      0.000   0.000000
+       65        39  SOLID291      0.000   0.000000
+       66       228  SOLID291      0.000   0.000000
+       67       228  SOLID291      0.000   0.000000
+       68        15  SOLID279      0.000   0.000000
+       69        15  SOLID279      0.000   0.000000
+       70      1471  SOLID291      0.000   0.000000
+       71       186  SOLID291      0.000   0.000000
+       72        72  SOLID291      0.000   0.000000
+       73         1  SOLID279      0.000   0.000000
+       74         1  SOLID279      0.000   0.000000
+       75         1  SOLID279      0.000   0.000000
+       76       231  SOLID291      0.000   0.000000
+       77         8  SOLID279      0.000   0.000000
+       78         8  SOLID279      0.000   0.000000
+       79       144  SOLID279      0.000   0.000000
+       80       186  SOLID291      0.000   0.000000
+       81       186  SOLID291      0.000   0.000000
+       82        41  SOLID291      0.000   0.000000
+       83         1  SOLID279      0.000   0.000000
+       84       246  SOLID291      0.000   0.000000
+       85       246  SOLID291      0.000   0.000000
+       86         1  SOLID279      0.000   0.000000
+       87         1  SOLID279      0.000   0.000000
+       88        36  SOLID291      0.000   0.000000
+       89       186  SOLID291      0.031   0.000168
+       90       258  SOLID291      0.016   0.000061
+       91        72  SOLID291      0.000   0.000000
+       92       258  SOLID291      0.000   0.000000
+       93        72  SOLID291      0.000   0.000000
+       94        40  SOLID291      0.000   0.000000
+       95         1  SOLID279      0.000   0.000000
+       96       186  SOLID291      0.000   0.000000
+       97       186  SOLID291      0.000   0.000000
+       98       258  SOLID291      0.016   0.000061
+       99        14  SOLID279      0.000   0.000000
+      100        14  SOLID279      0.000   0.000000
+      101      1325  SOLID291      0.031   0.000024
+      102        16  SOLID279      0.000   0.000000
+      103        16  SOLID279      0.000   0.000000
+      104       144  SOLID279      0.000   0.000000
+      105        16  SOLID279      0.000   0.000000
+      106        16  SOLID279      0.000   0.000000
+      107       144  SOLID279      0.000   0.000000
+      108        16  SOLID279      0.000   0.000000
+      109        16  SOLID279      0.000   0.000000
+      110        64  SOLID279      0.000   0.000000
+      111        16  SOLID279      0.000   0.000000
+      112        16  SOLID279      0.000   0.000000
+      113        64  SOLID279      0.016   0.000244
+      114        61  SOLID291      0.000   0.000000
+      115        61  SOLID291      0.000   0.000000
+      116        62  SOLID291      0.000   0.000000
+      117        46  SOLID291      0.000   0.000000
+      118        46  SOLID291      0.000   0.000000
+      119        46  SOLID291      0.000   0.000000
+      120        46  SOLID291      0.000   0.000000
+      121        46  SOLID291      0.000   0.000000
+      122        46  SOLID291      0.000   0.000000
+      123        46  SOLID291      0.000   0.000000
+      124        61  SOLID291      0.000   0.000000
+      125       576  SOLID279      0.000   0.000000
+      126       173  SOLID279      0.016   0.000090
+      127         3  SOLID279      0.000   0.000000
+      128        67  SOLID279      0.000   0.000000
+      129        57  CONTA174      0.000   0.000000
+      131       272  CONTA174      0.016   0.000057
+      133       209  CONTA174      0.000   0.000000
+      135         4  CONTA174      0.000   0.000000
+      137        99  CONTA174      0.000   0.000000
+      139        26  CONTA174      0.000   0.000000
+      141       254  CONTA174      0.000   0.000000
+      143        22  CONTA174      0.000   0.000000
+      145        72  CONTA174      0.000   0.000000
+      147        10  CONTA174      0.000   0.000000
+      149        67  CONTA174      0.000   0.000000
+      151        53  CONTA174      0.000   0.000000
+      153        14  CONTA174      0.000   0.000000
+      155       137  CONTA174      0.000   0.000000
+      157        13  CONTA174      0.000   0.000000
+      159         6  CONTA174      0.000   0.000000
+      161        10  CONTA174      0.000   0.000000
+      163         8  CONTA174      0.000   0.000000
+      165       176  CONTA174      0.016   0.000089
+      167        23  CONTA174      0.000   0.000000
+      169        95  CONTA174      0.000   0.000000
+      171        14  CONTA174      0.000   0.000000
+      173        94  CONTA174      0.000   0.000000
+      175        56  CONTA174      0.000   0.000000
+      177       698  CONTA174      0.031   0.000045
+      179        28  CONTA174      0.000   0.000000
+      181        12  CONTA174      0.000   0.000000
+      183        24  CONTA174      0.000   0.000000
+      185        12  CONTA174      0.000   0.000000
+      187        24  CONTA174      0.000   0.000000
+      189        76  CONTA174      0.000   0.000000
+      191        14  CONTA174      0.000   0.000000
+      193        14  CONTA174      0.000   0.000000
+      195        15  CONTA174      0.000   0.000000
+      197        12  CONTA174      0.000   0.000000
+      199        12  CONTA174      0.016   0.001302
+      201        28  CONTA174      0.000   0.000000
+      203        32  CONTA174      0.000   0.000000
+      205         9  CONTA174      0.000   0.000000
+      207        10  CONTA174      0.000   0.000000
+      209        10  CONTA174      0.000   0.000000
+      211         9  CONTA174      0.000   0.000000
+      213        12  CONTA174      0.000   0.000000
+      215        29  CONTA174      0.000   0.000000
+      217        65  CONTA174      0.000   0.000000
+      219        28  CONTA174      0.000   0.000000
+      221        66  CONTA174      0.000   0.000000
+      223        66  CONTA174      0.000   0.000000
+      225        66  CONTA174      0.000   0.000000
+      227        29  CONTA174      0.000   0.000000
+      229        28  CONTA174      0.000   0.000000
+      231        66  CONTA174      0.000   0.000000
+      233        65  CONTA174      0.000   0.000000
+      235        88  CONTA174      0.000   0.000000
+      237        10  CONTA174      0.000   0.000000
+      239        63  CONTA174      0.000   0.000000
+      241       167  CONTA174      0.000   0.000000
+      243       233  CONTA174      0.000   0.000000
+      245        32  CONTA174      0.000   0.000000
+      247        26  CONTA174      0.000   0.000000
+      249        74  CONTA174      0.016   0.000211
+      251        25  CONTA174      0.000   0.000000
+      253        35  CONTA174      0.000   0.000000
+      255        19  CONTA174      0.000   0.000000
+      257        35  CONTA174      0.000   0.000000
+      259        20  CONTA174      0.000   0.000000
+      261        10  CONTA174      0.000   0.000000
+      263        63  CONTA174      0.000   0.000000
+      265       167  CONTA174      0.000   0.000000
+      267       233  CONTA174      0.000   0.000000
+      269        32  CONTA174      0.000   0.000000
+      271        26  CONTA174      0.000   0.000000
+      273        77  CONTA174      0.000   0.000000
+      275        26  CONTA174      0.000   0.000000
+      277        35  CONTA174      0.000   0.000000
+      279        21  CONTA174      0.000   0.000000
+      281        35  CONTA174      0.000   0.000000
+      283        20  CONTA174      0.000   0.000000
+      285        10  CONTA174      0.000   0.000000
+      287        63  CONTA174      0.000   0.000000
+      289       167  CONTA174      0.000   0.000000
+      291       233  CONTA174      0.000   0.000000
+      293        32  CONTA174      0.000   0.000000
+      295        26  CONTA174      0.016   0.000601
+      297        75  CONTA174      0.000   0.000000
+      299        25  CONTA174      0.000   0.000000
+      301        35  CONTA174      0.000   0.000000
+      303        20  CONTA174      0.000   0.000000
+      305        35  CONTA174      0.000   0.000000
+      307        20  CONTA174      0.000   0.000000
+      309         7  CONTA174      0.000   0.000000
+      311        22  CONTA174      0.000   0.000000
+      313        94  CONTA174      0.000   0.000000
+      315        16  CONTA174      0.000   0.000000
+      317         7  CONTA174      0.000   0.000000
+      319        10  CONTA174      0.000   0.000000
+      321        88  CONTA174      0.016   0.000178
+      323        20  CONTA174      0.000   0.000000
+      325        15  CONTA174      0.000   0.000000
+      327         8  CONTA174      0.000   0.000000
+      329        10  CONTA174      0.000   0.000000
+      331        20  CONTA174      0.000   0.000000
+      333        94  CONTA174      0.000   0.000000
+      335        17  CONTA174      0.000   0.000000
+      337        14  CONTA174      0.000   0.000000
+      339         8  CONTA174      0.000   0.000000
+      341        88  CONTA174      0.000   0.000000
+      343        94  CONTA174      0.000   0.000000
+      345        16  CONTA174      0.000   0.000000
+      347       139  CONTA174      0.000   0.000000
+      349       137  CONTA174      0.000   0.000000
+      351        96  CONTA174      0.000   0.000000
+      353        18  CONTA174      0.000   0.000000
+      355       139  CONTA174      0.000   0.000000
+      357        73  CONTA174      0.000   0.000000
+      359        95  CONTA174      0.000   0.000000
+      361        10  CONTA174      0.000   0.000000
+      363        23  CONTA174      0.000   0.000000
+      365         6  CONTA174      0.000   0.000000
+      367        22  CONTA174      0.000   0.000000
+      369        31  CONTA174      0.000   0.000000
+      371        57  CONTA174      0.000   0.000000
+      373        53  CONTA174      0.000   0.000000
+      375        28  CONTA174      0.000   0.000000
+      377        30  CONTA174      0.000   0.000000
+      379        56  CONTA174      0.000   0.000000
+      381        45  CONTA174      0.000   0.000000
+      383       146  CONTA174      0.016   0.000107
+      385        56  CONTA174      0.000   0.000000
+      387        51  CONTA174      0.016   0.000306
+      389        38  CONTA174      0.000   0.000000
+      391        14  CONTA174      0.000   0.000000
+      393        40  CONTA174      0.000   0.000000
+      395        64  CONTA174      0.000   0.000000
+      397        97  CONTA174      0.000   0.000000
+      399        76  CONTA174      0.000   0.000000
+      401       152  CONTA174      0.000   0.000000
+      403        56  CONTA174      0.000   0.000000
+      405        39  CONTA174      0.000   0.000000
+      407        36  CONTA174      0.000   0.000000
+      409        56  CONTA174      0.000   0.000000
+      411        39  CONTA174      0.000   0.000000
+      413        16  CONTA174      0.000   0.000000
+      415       176  CONTA174      0.000   0.000000
+      417        25  CONTA174      0.000   0.000000
+      419       112  CONTA174      0.000   0.000000
+      421        26  CONTA174      0.000   0.000000
+      423        20  CONTA174      0.000   0.000000
+      425        12  CONTA174      0.000   0.000000
+      427        32  CONTA174      0.000   0.000000
+      429        17  CONTA174      0.000   0.000000
+      431        94  CONTA174      0.000   0.000000
+      433       120  CONTA174      0.000   0.000000
+      435        34  CONTA174      0.000   0.000000
+      437       148  CONTA174      0.000   0.000000
+      439        56  CONTA174      0.000   0.000000
+      441        31  CONTA174      0.000   0.000000
+      443        46  CONTA174      0.000   0.000000
+      445        73  CONTA174      0.000   0.000000
+      447        50  CONTA174      0.016   0.000313
+      449        54  CONTA174      0.000   0.000000
+      451        63  CONTA174      0.000   0.000000
+      453        68  CONTA174      0.000   0.000000
+      455        39  CONTA174      0.000   0.000000
+      457        69  CONTA174      0.000   0.000000
+      459        58  CONTA174      0.000   0.000000
+      461        42  CONTA174      0.000   0.000000
+      463        57  CONTA174      0.000   0.000000
+      465        41  CONTA174      0.000   0.000000
+      467        65  CONTA174      0.000   0.000000
+      469        50  CONTA174      0.000   0.000000
+      471        70  CONTA174      0.000   0.000000
+      473        12  CONTA174      0.000   0.000000
+      475        96  CONTA174      0.000   0.000000
+      477        28  CONTA174      0.000   0.000000
+      479       108  CONTA174      0.000   0.000000
+      481       120  CONTA174      0.000   0.000000
+      483        51  CONTA174      0.000   0.000000
+      485        24  CONTA174      0.000   0.000000
+      487        19  CONTA174      0.000   0.000000
+      489        28  CONTA174      0.000   0.000000
+      491        22  CONTA174      0.000   0.000000
+      493        35  CONTA174      0.000   0.000000
+      495       304  CONTA174      0.000   0.000000
+      497        35  CONTA174      0.000   0.000000
+      499       305  CONTA174      0.000   0.000000
+      501        35  CONTA174      0.000   0.000000
+      503       418  CONTA174      0.016   0.000037
+      505        72  CONTA174      0.000   0.000000
+      507        41  CONTA174      0.000   0.000000
+      509        72  CONTA174      0.000   0.000000
+      511        41  CONTA174      0.000   0.000000
+      513       160  CONTA174      0.000   0.000000
+      515         6  CONTA174      0.000   0.000000
+      517        28  CONTA174      0.000   0.000000
+      519        14  CONTA174      0.000   0.000000
+      521        78  CONTA174      0.000   0.000000
+      523        77  CONTA174      0.000   0.000000
+      525       305  CONTA174      0.000   0.000000
+      527        35  CONTA174      0.000   0.000000
+      529       312  CONTA174      0.016   0.000050
+      531        35  CONTA174      0.000   0.000000
+      533       448  CONTA174      0.016   0.000035
+      535        65  CONTA174      0.000   0.000000
+      537        29  CONTA174      0.000   0.000000
+      539         3  CONTA174      0.000   0.000000
+      541         5  CONTA174      0.000   0.000000
+      543         3  CONTA174      0.000   0.000000
+      545        80  CONTA174      0.000   0.000000
+      547        64  CONTA174      0.000   0.000000
+      549        26  CONTA174      0.000   0.000000
+      551        64  CONTA174      0.000   0.000000
+      553        26  CONTA174      0.000   0.000000
+      555       160  CONTA174      0.000   0.000000
+      557        65  CONTA174      0.000   0.000000
+      559        66  CONTA174      0.000   0.000000
+      561        14  CONTA174      0.000   0.000000
+      563         5  CONTA174      0.000   0.000000
+      565        84  CONTA174      0.000   0.000000
+      567        83  CONTA174      0.000   0.000000
+      569         3  CONTA174      0.000   0.000000
+      571         3  CONTA174      0.000   0.000000
+      573        14  CONTA174      0.000   0.000000
+      575        66  CONTA174      0.000   0.000000
+      577        90  CONTA174      0.016   0.000174
+      579        29  CONTA174      0.000   0.000000
+      581        91  CONTA174      0.000   0.000000
+      583        28  CONTA174      0.000   0.000000
+      585        17  CONTA174      0.000   0.000000
+      587         3  CONTA174      0.000   0.000000
+      589        66  CONTA174      0.000   0.000000
+      591        67  CONTA174      0.000   0.000000
+      593        90  CONTA174      0.000   0.000000
+      595       304  CONTA174      0.016   0.000051
+      597        32  CONTA174      0.000   0.000000
+      599       305  CONTA174      0.016   0.000051
+      601        32  CONTA174      0.000   0.000000
+      603       419  CONTA174      0.031   0.000075
+      605        72  CONTA174      0.016   0.000217
+      607        39  CONTA174      0.000   0.000000
+      609        72  CONTA174      0.000   0.000000
+      611        39  CONTA174      0.000   0.000000
+      613       160  CONTA174      0.000   0.000000
+      615        72  CONTA174      0.000   0.000000
+      617        35  CONTA174      0.000   0.000000
+      619        72  CONTA174      0.000   0.000000
+      621        35  CONTA174      0.000   0.000000
+      623       160  CONTA174      0.000   0.000000
+      625        64  CONTA174      0.000   0.000000
+      627        32  CONTA174      0.000   0.000000
+      629        64  CONTA174      0.016   0.000244
+      631        32  CONTA174      0.000   0.000000
+      633        80  CONTA174      0.000   0.000000
+      635        64  CONTA174      0.000   0.000000
+      637        35  CONTA174      0.000   0.000000
+      639        64  CONTA174      0.000   0.000000
+      641        35  CONTA174      0.000   0.000000
+      643        80  CONTA174      0.000   0.000000
+      645        26  CONTA174      0.000   0.000000
+      647        45  CONTA174      0.000   0.000000
+      649         6  CONTA174      0.000   0.000000
+      651        23  CONTA174      0.000   0.000000
+      653         8  CONTA174      0.000   0.000000
+      655        19  CONTA174      0.000   0.000000
+      657        17  CONTA174      0.000   0.000000
+      659        47  CONTA174      0.000   0.000000
+      661        18  CONTA174      0.000   0.000000
+      663        72  CONTA174      0.000   0.000000
+      665        32  CONTA174      0.000   0.000000
+      667       156  CONTA174      0.016   0.000100
+      669       136  CONTA174      0.016   0.000115
+      671         4  CONTA174      0.000   0.000000
+      673         5  CONTA174      0.000   0.000000
+      675        59  CONTA174      0.000   0.000000
+      677        51  CONTA174      0.000   0.000000
+      679       275  CONTA174      0.000   0.000000
+      681        22  CONTA174      0.000   0.000000
+      683        10  CONTA174      0.000   0.000000
+      685        14  CONTA174      0.000   0.000000
+      687        96  CONTA174      0.000   0.000000
+      689        51  CONTA174      0.000   0.000000
+      691        52  CONTA174      0.000   0.000000
+      693       210  CONTA174      0.000   0.000000
+      695         4  CONTA174      0.000   0.000000
+      697        53  CONTA174      0.000   0.000000
+      699        56  CONTA174      0.000   0.000000
+      701        62  CONTA174      0.000   0.000000
+      703         7  CONTA174      0.000   0.000000
+      705        10  CONTA174      0.000   0.000000
+      707        20  CONTA174      0.000   0.000000
+      709        59  CONTA174      0.000   0.000000
+      711        56  CONTA174      0.000   0.000000
+      713        87  CONTA174      0.000   0.000000
+      715      1774  SURF152       0.016   0.000009
+
+   *** NODAL LOAD CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1        55  SOLID291      0.000   0.000000
+        2       526  SOLID291      0.000   0.000000
+        3       512  SOLID291      0.000   0.000000
+        4       151  SOLID291      0.000   0.000000
+        5       177  SOLID291      0.000   0.000000
+        6        15  SOLID279      0.000   0.000000
+        7       641  SOLID291      0.016   0.000024
+        8      4039  SOLID291      0.000   0.000000
+        9      1153  SOLID291      0.000   0.000000
+       10       532  SOLID291      0.016   0.000029
+       11        65  SOLID291      0.000   0.000000
+       12        63  SOLID291      0.000   0.000000
+       13       768  SOLID291      0.000   0.000000
+       14       164  SOLID291      0.016   0.000095
+       15       441  SOLID291      0.000   0.000000
+       16        46  SOLID291      0.000   0.000000
+       17       193  SOLID291      0.016   0.000081
+       18       261  SOLID291      0.000   0.000000
+       19       164  SOLID291      0.000   0.000000
+       20       441  SOLID291      0.000   0.000000
+       21        46  SOLID291      0.000   0.000000
+       22       193  SOLID291      0.000   0.000000
+       23       261  SOLID291      0.000   0.000000
+       24       164  SOLID291      0.000   0.000000
+       25       441  SOLID291      0.000   0.000000
+       26        46  SOLID291      0.000   0.000000
+       27       193  SOLID291      0.000   0.000000
+       28       261  SOLID291      0.000   0.000000
+       29        98  SOLID291      0.000   0.000000
+       30        98  SOLID291      0.016   0.000159
+       31        98  SOLID291      0.000   0.000000
+       32        98  SOLID291      0.000   0.000000
+       33       771  SOLID291      0.000   0.000000
+       34       771  SOLID291      0.000   0.000000
+       35       217  SOLID279      0.000   0.000000
+       36         3  SOLID279      0.000   0.000000
+       37        35  SOLID279      0.000   0.000000
+       38        34  SOLID279      0.000   0.000000
+       39        34  SOLID279      0.000   0.000000
+       40        78  SOLID279      0.000   0.000000
+       41        34  SOLID279      0.000   0.000000
+       42        35  SOLID279      0.000   0.000000
+       43        48  SOLID279      0.000   0.000000
+       44        21  SOLID279      0.000   0.000000
+       45        18  SOLID279      0.000   0.000000
+       46        15  SOLID279      0.000   0.000000
+       47        19  SOLID279      0.000   0.000000
+       48        28  SOLID279      0.000   0.000000
+       49        45  SOLID279      0.000   0.000000
+       50        53  SOLID279      0.000   0.000000
+       51        53  SOLID279      0.000   0.000000
+       52        35  SOLID279      0.000   0.000000
+       53        54  SOLID279      0.000   0.000000
+       54        20  SOLID279      0.000   0.000000
+       55        37  SOLID279      0.000   0.000000
+       56        28  SOLID279      0.000   0.000000
+       57        14  SOLID279      0.000   0.000000
+       58        14  SOLID279      0.000   0.000000
+       59      1323  SOLID291      0.000   0.000000
+       60        16  SOLID279      0.000   0.000000
+       61        16  SOLID279      0.000   0.000000
+       62       144  SOLID279      0.000   0.000000
+       63         1  SOLID279      0.000   0.000000
+       64        72  SOLID291      0.000   0.000000
+       65        39  SOLID291      0.000   0.000000
+       66       228  SOLID291      0.000   0.000000
+       67       228  SOLID291      0.000   0.000000
+       68        15  SOLID279      0.000   0.000000
+       69        15  SOLID279      0.000   0.000000
+       70      1471  SOLID291      0.000   0.000000
+       71       186  SOLID291      0.000   0.000000
+       72        72  SOLID291      0.000   0.000000
+       73         1  SOLID279      0.000   0.000000
+       74         1  SOLID279      0.000   0.000000
+       75         1  SOLID279      0.000   0.000000
+       76       231  SOLID291      0.000   0.000000
+       77         8  SOLID279      0.000   0.000000
+       78         8  SOLID279      0.000   0.000000
+       79       144  SOLID279      0.000   0.000000
+       80       186  SOLID291      0.000   0.000000
+       81       186  SOLID291      0.000   0.000000
+       82        41  SOLID291      0.000   0.000000
+       83         1  SOLID279      0.000   0.000000
+       84       246  SOLID291      0.000   0.000000
+       85       246  SOLID291      0.000   0.000000
+       86         1  SOLID279      0.000   0.000000
+       87         1  SOLID279      0.000   0.000000
+       88        36  SOLID291      0.000   0.000000
+       89       186  SOLID291      0.000   0.000000
+       90       258  SOLID291      0.000   0.000000
+       91        72  SOLID291      0.000   0.000000
+       92       258  SOLID291      0.000   0.000000
+       93        72  SOLID291      0.000   0.000000
+       94        40  SOLID291      0.000   0.000000
+       95         1  SOLID279      0.000   0.000000
+       96       186  SOLID291      0.000   0.000000
+       97       186  SOLID291      0.000   0.000000
+       98       258  SOLID291      0.000   0.000000
+       99        14  SOLID279      0.000   0.000000
+      100        14  SOLID279      0.000   0.000000
+      101      1325  SOLID291      0.031   0.000024
+      102        16  SOLID279      0.000   0.000000
+      103        16  SOLID279      0.000   0.000000
+      104       144  SOLID279      0.000   0.000000
+      105        16  SOLID279      0.000   0.000000
+      106        16  SOLID279      0.000   0.000000
+      107       144  SOLID279      0.000   0.000000
+      108        16  SOLID279      0.000   0.000000
+      109        16  SOLID279      0.000   0.000000
+      110        64  SOLID279      0.000   0.000000
+      111        16  SOLID279      0.000   0.000000
+      112        16  SOLID279      0.000   0.000000
+      113        64  SOLID279      0.000   0.000000
+      114        61  SOLID291      0.000   0.000000
+      115        61  SOLID291      0.000   0.000000
+      116        62  SOLID291      0.000   0.000000
+      117        46  SOLID291      0.000   0.000000
+      118        46  SOLID291      0.000   0.000000
+      119        46  SOLID291      0.000   0.000000
+      120        46  SOLID291      0.000   0.000000
+      121        46  SOLID291      0.000   0.000000
+      122        46  SOLID291      0.000   0.000000
+      123        46  SOLID291      0.000   0.000000
+      124        61  SOLID291      0.000   0.000000
+      125       576  SOLID279      0.000   0.000000
+      126       173  SOLID279      0.000   0.000000
+      127         3  SOLID279      0.000   0.000000
+      128        67  SOLID279      0.000   0.000000
+      129        57  CONTA174      0.000   0.000000
+      131       272  CONTA174      0.000   0.000000
+      133       209  CONTA174      0.000   0.000000
+      135         4  CONTA174      0.000   0.000000
+      137        99  CONTA174      0.000   0.000000
+      139        26  CONTA174      0.000   0.000000
+      141       254  CONTA174      0.000   0.000000
+      143        22  CONTA174      0.000   0.000000
+      145        72  CONTA174      0.000   0.000000
+      147        10  CONTA174      0.000   0.000000
+      149        67  CONTA174      0.000   0.000000
+      151        53  CONTA174      0.000   0.000000
+      153        14  CONTA174      0.000   0.000000
+      155       137  CONTA174      0.000   0.000000
+      157        13  CONTA174      0.000   0.000000
+      159         6  CONTA174      0.000   0.000000
+      161        10  CONTA174      0.000   0.000000
+      163         8  CONTA174      0.000   0.000000
+      165       176  CONTA174      0.000   0.000000
+      167        23  CONTA174      0.000   0.000000
+      169        95  CONTA174      0.000   0.000000
+      171        14  CONTA174      0.000   0.000000
+      173        94  CONTA174      0.000   0.000000
+      175        56  CONTA174      0.000   0.000000
+      177       698  CONTA174      0.000   0.000000
+      179        28  CONTA174      0.000   0.000000
+      181        12  CONTA174      0.000   0.000000
+      183        24  CONTA174      0.000   0.000000
+      185        12  CONTA174      0.000   0.000000
+      187        24  CONTA174      0.000   0.000000
+      189        76  CONTA174      0.000   0.000000
+      191        14  CONTA174      0.000   0.000000
+      193        14  CONTA174      0.000   0.000000
+      195        15  CONTA174      0.000   0.000000
+      197        12  CONTA174      0.000   0.000000
+      199        12  CONTA174      0.000   0.000000
+      201        28  CONTA174      0.000   0.000000
+      203        32  CONTA174      0.000   0.000000
+      205         9  CONTA174      0.000   0.000000
+      207        10  CONTA174      0.000   0.000000
+      209        10  CONTA174      0.000   0.000000
+      211         9  CONTA174      0.000   0.000000
+      213        12  CONTA174      0.000   0.000000
+      215        29  CONTA174      0.000   0.000000
+      217        65  CONTA174      0.000   0.000000
+      219        28  CONTA174      0.000   0.000000
+      221        66  CONTA174      0.000   0.000000
+      223        66  CONTA174      0.000   0.000000
+      225        66  CONTA174      0.000   0.000000
+      227        29  CONTA174      0.000   0.000000
+      229        28  CONTA174      0.000   0.000000
+      231        66  CONTA174      0.000   0.000000
+      233        65  CONTA174      0.000   0.000000
+      235        88  CONTA174      0.000   0.000000
+      237        10  CONTA174      0.000   0.000000
+      239        63  CONTA174      0.000   0.000000
+      241       167  CONTA174      0.000   0.000000
+      243       233  CONTA174      0.000   0.000000
+      245        32  CONTA174      0.000   0.000000
+      247        26  CONTA174      0.000   0.000000
+      249        74  CONTA174      0.016   0.000211
+      251        25  CONTA174      0.000   0.000000
+      253        35  CONTA174      0.000   0.000000
+      255        19  CONTA174      0.000   0.000000
+      257        35  CONTA174      0.000   0.000000
+      259        20  CONTA174      0.000   0.000000
+      261        10  CONTA174      0.000   0.000000
+      263        63  CONTA174      0.000   0.000000
+      265       167  CONTA174      0.000   0.000000
+      267       233  CONTA174      0.000   0.000000
+      269        32  CONTA174      0.000   0.000000
+      271        26  CONTA174      0.000   0.000000
+      273        77  CONTA174      0.000   0.000000
+      275        26  CONTA174      0.000   0.000000
+      277        35  CONTA174      0.000   0.000000
+      279        21  CONTA174      0.000   0.000000
+      281        35  CONTA174      0.000   0.000000
+      283        20  CONTA174      0.000   0.000000
+      285        10  CONTA174      0.000   0.000000
+      287        63  CONTA174      0.000   0.000000
+      289       167  CONTA174      0.000   0.000000
+      291       233  CONTA174      0.000   0.000000
+      293        32  CONTA174      0.000   0.000000
+      295        26  CONTA174      0.000   0.000000
+      297        75  CONTA174      0.000   0.000000
+      299        25  CONTA174      0.000   0.000000
+      301        35  CONTA174      0.000   0.000000
+      303        20  CONTA174      0.000   0.000000
+      305        35  CONTA174      0.000   0.000000
+      307        20  CONTA174      0.000   0.000000
+      309         7  CONTA174      0.000   0.000000
+      311        22  CONTA174      0.000   0.000000
+      313        94  CONTA174      0.000   0.000000
+      315        16  CONTA174      0.000   0.000000
+      317         7  CONTA174      0.000   0.000000
+      319        10  CONTA174      0.000   0.000000
+      321        88  CONTA174      0.000   0.000000
+      323        20  CONTA174      0.000   0.000000
+      325        15  CONTA174      0.000   0.000000
+      327         8  CONTA174      0.000   0.000000
+      329        10  CONTA174      0.000   0.000000
+      331        20  CONTA174      0.000   0.000000
+      333        94  CONTA174      0.000   0.000000
+      335        17  CONTA174      0.000   0.000000
+      337        14  CONTA174      0.000   0.000000
+      339         8  CONTA174      0.000   0.000000
+      341        88  CONTA174      0.000   0.000000
+      343        94  CONTA174      0.000   0.000000
+      345        16  CONTA174      0.000   0.000000
+      347       139  CONTA174      0.000   0.000000
+      349       137  CONTA174      0.000   0.000000
+      351        96  CONTA174      0.000   0.000000
+      353        18  CONTA174      0.000   0.000000
+      355       139  CONTA174      0.000   0.000000
+      357        73  CONTA174      0.000   0.000000
+      359        95  CONTA174      0.000   0.000000
+      361        10  CONTA174      0.000   0.000000
+      363        23  CONTA174      0.000   0.000000
+      365         6  CONTA174      0.000   0.000000
+      367        22  CONTA174      0.000   0.000000
+      369        31  CONTA174      0.000   0.000000
+      371        57  CONTA174      0.000   0.000000
+      373        53  CONTA174      0.000   0.000000
+      375        28  CONTA174      0.000   0.000000
+      377        30  CONTA174      0.000   0.000000
+      379        56  CONTA174      0.000   0.000000
+      381        45  CONTA174      0.000   0.000000
+      383       146  CONTA174      0.000   0.000000
+      385        56  CONTA174      0.000   0.000000
+      387        51  CONTA174      0.000   0.000000
+      389        38  CONTA174      0.000   0.000000
+      391        14  CONTA174      0.000   0.000000
+      393        40  CONTA174      0.000   0.000000
+      395        64  CONTA174      0.000   0.000000
+      397        97  CONTA174      0.000   0.000000
+      399        76  CONTA174      0.000   0.000000
+      401       152  CONTA174      0.000   0.000000
+      403        56  CONTA174      0.000   0.000000
+      405        39  CONTA174      0.000   0.000000
+      407        36  CONTA174      0.000   0.000000
+      409        56  CONTA174      0.000   0.000000
+      411        39  CONTA174      0.000   0.000000
+      413        16  CONTA174      0.000   0.000000
+      415       176  CONTA174      0.000   0.000000
+      417        25  CONTA174      0.000   0.000000
+      419       112  CONTA174      0.000   0.000000
+      421        26  CONTA174      0.000   0.000000
+      423        20  CONTA174      0.000   0.000000
+      425        12  CONTA174      0.000   0.000000
+      427        32  CONTA174      0.000   0.000000
+      429        17  CONTA174      0.000   0.000000
+      431        94  CONTA174      0.000   0.000000
+      433       120  CONTA174      0.000   0.000000
+      435        34  CONTA174      0.000   0.000000
+      437       148  CONTA174      0.000   0.000000
+      439        56  CONTA174      0.000   0.000000
+      441        31  CONTA174      0.000   0.000000
+      443        46  CONTA174      0.000   0.000000
+      445        73  CONTA174      0.000   0.000000
+      447        50  CONTA174      0.000   0.000000
+      449        54  CONTA174      0.000   0.000000
+      451        63  CONTA174      0.000   0.000000
+      453        68  CONTA174      0.000   0.000000
+      455        39  CONTA174      0.000   0.000000
+      457        69  CONTA174      0.000   0.000000
+      459        58  CONTA174      0.000   0.000000
+      461        42  CONTA174      0.000   0.000000
+      463        57  CONTA174      0.000   0.000000
+      465        41  CONTA174      0.000   0.000000
+      467        65  CONTA174      0.000   0.000000
+      469        50  CONTA174      0.000   0.000000
+      471        70  CONTA174      0.000   0.000000
+      473        12  CONTA174      0.000   0.000000
+      475        96  CONTA174      0.000   0.000000
+      477        28  CONTA174      0.000   0.000000
+      479       108  CONTA174      0.000   0.000000
+      481       120  CONTA174      0.000   0.000000
+      483        51  CONTA174      0.000   0.000000
+      485        24  CONTA174      0.000   0.000000
+      487        19  CONTA174      0.000   0.000000
+      489        28  CONTA174      0.000   0.000000
+      491        22  CONTA174      0.000   0.000000
+      493        35  CONTA174      0.000   0.000000
+      495       304  CONTA174      0.000   0.000000
+      497        35  CONTA174      0.000   0.000000
+      499       305  CONTA174      0.000   0.000000
+      501        35  CONTA174      0.000   0.000000
+      503       418  CONTA174      0.000   0.000000
+      505        72  CONTA174      0.000   0.000000
+      507        41  CONTA174      0.000   0.000000
+      509        72  CONTA174      0.000   0.000000
+      511        41  CONTA174      0.000   0.000000
+      513       160  CONTA174      0.000   0.000000
+      515         6  CONTA174      0.000   0.000000
+      517        28  CONTA174      0.000   0.000000
+      519        14  CONTA174      0.000   0.000000
+      521        78  CONTA174      0.000   0.000000
+      523        77  CONTA174      0.000   0.000000
+      525       305  CONTA174      0.000   0.000000
+      527        35  CONTA174      0.000   0.000000
+      529       312  CONTA174      0.000   0.000000
+      531        35  CONTA174      0.000   0.000000
+      533       448  CONTA174      0.000   0.000000
+      535        65  CONTA174      0.000   0.000000
+      537        29  CONTA174      0.000   0.000000
+      539         3  CONTA174      0.000   0.000000
+      541         5  CONTA174      0.000   0.000000
+      543         3  CONTA174      0.000   0.000000
+      545        80  CONTA174      0.000   0.000000
+      547        64  CONTA174      0.000   0.000000
+      549        26  CONTA174      0.000   0.000000
+      551        64  CONTA174      0.000   0.000000
+      553        26  CONTA174      0.000   0.000000
+      555       160  CONTA174      0.000   0.000000
+      557        65  CONTA174      0.000   0.000000
+      559        66  CONTA174      0.000   0.000000
+      561        14  CONTA174      0.000   0.000000
+      563         5  CONTA174      0.000   0.000000
+      565        84  CONTA174      0.000   0.000000
+      567        83  CONTA174      0.000   0.000000
+      569         3  CONTA174      0.000   0.000000
+      571         3  CONTA174      0.000   0.000000
+      573        14  CONTA174      0.000   0.000000
+      575        66  CONTA174      0.000   0.000000
+      577        90  CONTA174      0.000   0.000000
+      579        29  CONTA174      0.000   0.000000
+      581        91  CONTA174      0.000   0.000000
+      583        28  CONTA174      0.000   0.000000
+      585        17  CONTA174      0.000   0.000000
+      587         3  CONTA174      0.000   0.000000
+      589        66  CONTA174      0.000   0.000000
+      591        67  CONTA174      0.000   0.000000
+      593        90  CONTA174      0.000   0.000000
+      595       304  CONTA174      0.000   0.000000
+      597        32  CONTA174      0.000   0.000000
+      599       305  CONTA174      0.000   0.000000
+      601        32  CONTA174      0.000   0.000000
+      603       419  CONTA174      0.000   0.000000
+      605        72  CONTA174      0.000   0.000000
+      607        39  CONTA174      0.000   0.000000
+      609        72  CONTA174      0.000   0.000000
+      611        39  CONTA174      0.000   0.000000
+      613       160  CONTA174      0.000   0.000000
+      615        72  CONTA174      0.000   0.000000
+      617        35  CONTA174      0.000   0.000000
+      619        72  CONTA174      0.000   0.000000
+      621        35  CONTA174      0.000   0.000000
+      623       160  CONTA174      0.000   0.000000
+      625        64  CONTA174      0.000   0.000000
+      627        32  CONTA174      0.000   0.000000
+      629        64  CONTA174      0.000   0.000000
+      631        32  CONTA174      0.000   0.000000
+      633        80  CONTA174      0.000   0.000000
+      635        64  CONTA174      0.000   0.000000
+      637        35  CONTA174      0.000   0.000000
+      639        64  CONTA174      0.000   0.000000
+      641        35  CONTA174      0.000   0.000000
+      643        80  CONTA174      0.000   0.000000
+      645        26  CONTA174      0.000   0.000000
+      647        45  CONTA174      0.000   0.000000
+      649         6  CONTA174      0.000   0.000000
+      651        23  CONTA174      0.000   0.000000
+      653         8  CONTA174      0.000   0.000000
+      655        19  CONTA174      0.000   0.000000
+      657        17  CONTA174      0.000   0.000000
+      659        47  CONTA174      0.000   0.000000
+      661        18  CONTA174      0.000   0.000000
+      663        72  CONTA174      0.000   0.000000
+      665        32  CONTA174      0.000   0.000000
+      667       156  CONTA174      0.000   0.000000
+      669       136  CONTA174      0.000   0.000000
+      671         4  CONTA174      0.000   0.000000
+      673         5  CONTA174      0.000   0.000000
+      675        59  CONTA174      0.000   0.000000
+      677        51  CONTA174      0.000   0.000000
+      679       275  CONTA174      0.000   0.000000
+      681        22  CONTA174      0.000   0.000000
+      683        10  CONTA174      0.000   0.000000
+      685        14  CONTA174      0.000   0.000000
+      687        96  CONTA174      0.000   0.000000
+      689        51  CONTA174      0.000   0.000000
+      691        52  CONTA174      0.000   0.000000
+      693       210  CONTA174      0.000   0.000000
+      695         4  CONTA174      0.000   0.000000
+      697        53  CONTA174      0.000   0.000000
+      699        56  CONTA174      0.000   0.000000
+      701        62  CONTA174      0.000   0.000000
+      703         7  CONTA174      0.000   0.000000
+      705        10  CONTA174      0.000   0.000000
+      707        20  CONTA174      0.000   0.000000
+      709        59  CONTA174      0.000   0.000000
+      711        56  CONTA174      0.000   0.000000
+      713        87  CONTA174      0.000   0.000000
+      715      1774  SURF152       0.016   0.000009
+ *** LOAD STEP     1   SUBSTEP     1  COMPLETED.    CUM ITER =      1
+ *** TIME =   1.00000         TIME INC =   1.00000      NEW TRIANG MATRIX
+
+
+ *** MAPDL BINARY FILE STATISTICS
+  BUFFER SIZE USED= 16384
+       35.562 MB WRITTEN ON ELEMENT SAVED DATA FILE: file0.esav
+       13.438 MB WRITTEN ON ASSEMBLED MATRIX FILE: file0.full
+        7.500 MB WRITTEN ON RESULTS FILE: file0.rth
+ *************** Write FE CONNECTORS *********
+
+ WRITE OUT CONSTRAINT EQUATIONS TO FILE= file.ce                                                                                                                                                                                                                                                             
+ ****************************************************
+ *************** FINISHED SOLVE FOR LS 1 *************
+
+ *GET  _WALLASOL  FROM  ACTI  ITEM=TIME WALL  VALUE=  16.6897222    
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =         5.375
+
+
+
+ *** MAPDL - ENGINEERING ANALYSIS SYSTEM  RELEASE 2025 R2          25.2     ***
+ Ansys Mechanical Enterprise Academic Student      
+ 01055371  VERSION=WINDOWS x64   16:41:23  OCT 02, 2025 CP=      5.375
+
+ Projeto--Steady-State Thermal (B5)                                            
+
+
+
+          ***** MAPDL RESULTS INTERPRETATION (POST1) *****
+
+ *** NOTE ***                            CP =       5.375   TIME= 16:41:23
+ Reading results into the database (SET command) will update the current 
+ displacement and force boundary conditions in the database with the     
+ values from the results file for that load set.  Note that any          
+ subsequent solutions will use these values unless action is taken to    
+ either SAVE the current values or not overwrite them (/EXIT,NOSAVE).    
+
+ Set Encoding of XML File to:ISO-8859-1
+
+ Set Output of XML File to:
+     PARM,     ,     ,     ,     ,     ,     ,     ,     ,     ,     ,     ,
+         ,     ,     ,     ,     ,     ,     ,
+
+ DATABASE WRITTEN ON FILE  parm.xml                                                                                                                                                                                                                                                            
+
+ EXIT THE MAPDL POST1 DATABASE PROCESSOR
+
+
+ ***** ROUTINE COMPLETED *****  CP =         5.375
+
+
+
+ PRINTOUT RESUMED BY /GOP
+
+ *GET  _WALLDONE  FROM  ACTI  ITEM=TIME WALL  VALUE=  16.6897222    
+
+ PARAMETER _PREPTIME =     0.000000000    
+
+ PARAMETER _SOLVTIME =     4.000000000    
+
+ PARAMETER _POSTTIME =     0.000000000    
+
+ PARAMETER _TOTALTIM =     4.000000000    
+
+ *GET  _DLBRATIO  FROM  ACTI  ITEM=SOLU DLBR  VALUE=  1.04570231    
+
+ *GET  _COMBTIME  FROM  ACTI  ITEM=SOLU COMB  VALUE= 0.958637000E-01
+
+ *GET  _SSMODE   FROM  ACTI  ITEM=SOLU SSMM  VALUE=  2.00000000    
+
+ *GET  _NDOFS    FROM  ACTI  ITEM=SOLU NDOF  VALUE=  74270.0000    
+
+ /FCLEAN COMMAND REMOVING ALL LOCAL FILES
+ --- Total number of nodes = 74270
+ --- Total number of elements = 64920
+ --- Element load balance ratio = 1.04570231
+ --- Time to combine distributed files = 9.58637E-02
+ --- Sparse memory mode = 2
+ --- Number of DOF = 74270
+
+ EXIT MAPDL WITHOUT SAVING DATABASE
+
+
+ NUMBER OF WARNING MESSAGES ENCOUNTERED=          3
+ NUMBER OF ERROR   MESSAGES ENCOUNTERED=          0
+
++--------------------- M A P D L   S T A T I S T I C S ------------------------+
+
+Release: 2025 R2            Build: 25.2       Update: UP20250519   Platform: WINDOWS x64 
+Date Run: 10/02/2025   Time: 16:41     Process ID: 28392
+Operating System: Windows 11  (Build: 26100)
+
+Processor Model: 13th Gen Intel(R) Core(TM) i5-13450HX
+
+Compiler: Intel(R) Fortran Compiler Classic Version 2021.9  (Build: 20230302)
+          Intel(R) C/C++ Compiler Classic Version 2021.9  (Build: 20230302)
+          Intel(R) oneAPI Math Kernel Library Version 2024.2.3-Product Build 20250403
+
+Number of machines requested            :    1
+Total number of cores available         :   16
+Number of physical cores available      :   10
+Number of processes requested           :    4
+Number of threads per process requested :    1
+Total number of cores requested         :    4 (Distributed Memory Parallel)               
+MPI Type: INTELMPI
+MPI Version: Intel(R) MPI Library 2021.14 for Windows* OS
+
+
+GPU Acceleration: Not Requested
+
+Job Name: file0
+Input File: dummy.dat
+
+  Core                Machine Name   Working Directory
+ -----------------------------------------------------
+     0                      Andrey   C:\Users\andre\Desktop\PBLE00\Projeto-Ansys\_ProjectScratch\Scr9207
+     1                      Andrey   C:\Users\andre\Desktop\PBLE00\Projeto-Ansys\_ProjectScratch\Scr9207
+     2                      Andrey   C:\Users\andre\Desktop\PBLE00\Projeto-Ansys\_ProjectScratch\Scr9207
+     3                      Andrey   C:\Users\andre\Desktop\PBLE00\Projeto-Ansys\_ProjectScratch\Scr9207
+ 
+Latency time from master to core     1 =    1.533 microseconds
+Latency time from master to core     2 =    1.451 microseconds
+Latency time from master to core     3 =    2.412 microseconds
+ 
+Communication speed from master to core     1 = 10950.65 MB/sec
+Communication speed from master to core     2 = 10882.43 MB/sec
+Communication speed from master to core     3 =  5382.67 MB/sec
+
+Total CPU time for main thread                    :        5.1 seconds
+Total CPU time summed for all threads             :        5.5 seconds
+
+Elapsed time spent obtaining a license            :        0.5 seconds
+Elapsed time spent pre-processing model (/PREP7)  :        0.3 seconds
+Elapsed time spent solution - preprocessing       :        1.6 seconds
+Elapsed time spent computing solution             :        2.3 seconds
+Elapsed time spent solution - postprocessing      :        0.1 seconds
+Elapsed time spent post-processing model (/POST1) :        0.0 seconds
+ 
+Equation solver used                              :            Sparse (symmetric)
+Equation solver computational rate                :       10.2 Gflops
+
+Sum of disk space used on all processes           :      218.6 MB
+
+Sum of memory used on all processes               :      642.0 MB
+Sum of memory allocated on all processes          :     2976.0 MB
+Physical memory available                         :         16 GB
+Total amount of I/O written to disk               :        0.3 GB
+Total amount of I/O read from disk                :        0.1 GB
+
++------------------ E N D   M A P D L   S T A T I S T I C S -------------------+
+
+
+ *-----------------------------------------------------------------------------*
+ |                                                                             |
+ |                               RUN COMPLETED                                 |
+ |                                                                             |
+ |-----------------------------------------------------------------------------|
+ |                                                                             |
+ |  Ansys MAPDL 2025 R2         Build 25.2         UP20250519    WINDOWS x64   |
+ |                                                                             |
+ |-----------------------------------------------------------------------------|
+ |                                                                             |
+ |  Database Requested(-db)     1024 MB     Scratch Memory Requested   1024 MB |
+ |  Max Database Used(Master)     95 MB     Max Scratch Used(Master)    167 MB |
+ |  Max Database Used(Workers)     1 MB     Max Scratch Used(Workers)   132 MB |
+ |  Sum Database Used(All)        98 MB     Sum Scratch Used(All)       544 MB |
+ |                                                                             |
+ |-----------------------------------------------------------------------------|
+ |                                                                             |
+ |        CP Time      (sec) =          5.500       Time  =  16:41:38          |
+ |        Elapsed Time (sec) =         21.000       Date  =  10/02/2025        |
+ |                                                                             |
+ *-----------------------------------------------------------------------------*
