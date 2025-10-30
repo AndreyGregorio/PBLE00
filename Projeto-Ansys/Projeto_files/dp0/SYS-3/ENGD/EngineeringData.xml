@@ -305,7 +305,7 @@
           <PropertyData property="pr15">
             <Data format="string">-</Data>
             <Qualifier name="Behavior">Isotropic</Qualifier>
-            <ParameterValue parameter="pa30" format="float">
+            <ParameterValue parameter="pa31" format="float">
               <Data>1.7e-07</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [ohm m]</Qualifier>
@@ -374,7 +374,7 @@
               <Qualifier name="Lower Limit">Program Controlled</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr24">
+          <PropertyData property="pr21">
             <Data format="string">-</Data>
             <Qualifier name="Behavior">Isotropic</Qualifier>
             <ParameterValue parameter="pa37" format="float">
@@ -386,7 +386,7 @@
               </Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr22">
+          <PropertyData property="pr23">
             <Data format="string">-</Data>
             <Qualifier name="guid">59002a79-71c2-428e-906b-55d7dbee100e</Qualifier>
             <Qualifier name="Display">False</Qualifier>
@@ -694,7 +694,7 @@
           <PropertyData property="pr15">
             <Data format="string">-</Data>
             <Qualifier name="Behavior">Isotropic</Qualifier>
-            <ParameterValue parameter="pa31" format="float">
+            <ParameterValue parameter="pa30" format="float">
               <Data>1e+16</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [kg m^3 A^-2 s^-3]</Qualifier>
@@ -788,17 +788,17 @@
               </Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr21">
+          <PropertyData property="pr22">
             <Data format="string">-</Data>
             <Qualifier name="MaterialElectromagneticProperties">True</Qualifier>
             <Qualifier name="Display">False</Qualifier>
           </PropertyData>
-          <PropertyData property="pr22">
+          <PropertyData property="pr23">
             <Data format="string">-</Data>
             <Qualifier name="guid">5608350a-b010-4b71-8187-140619865111</Qualifier>
             <Qualifier name="Display">False</Qualifier>
           </PropertyData>
-          <PropertyData property="pr23">
+          <PropertyData property="pr24">
             <Data format="string">-</Data>
             <Qualifier name="Data version">4</Qualifier>
             <Qualifier name="Data link version">1</Qualifier>
@@ -906,7 +906,7 @@
         <ParameterDetails id="pa29">
           <Name>Cyclic Strain Hardening Exponent</Name>
         </ParameterDetails>
-        <ParameterDetails id="pa30">
+        <ParameterDetails id="pa31">
           <Name>Resistivity</Name>
           <Units name="Electrical Resistivity" />
         </ParameterDetails>
@@ -934,7 +934,7 @@
           <Name>Shear Modulus</Name>
           <Units name="Stress" />
         </ParameterDetails>
-        <ParameterDetails id="pa31">
+        <ParameterDetails id="pa30">
           <Name>Resistivity</Name>
           <Units name="Electrical Resistivity" />
         </ParameterDetails>
@@ -1019,16 +1019,16 @@
           <Name>Recycle</Name>
         </PropertyDetails>
         <PropertyDetails id="pr21">
-          <Name>Compatibility Info</Name>
+          <Name>Relative Permeability</Name>
         </PropertyDetails>
         <PropertyDetails id="pr22">
-          <Name>Material Unique Id</Name>
+          <Name>Compatibility Info</Name>
         </PropertyDetails>
         <PropertyDetails id="pr23">
-          <Name>Granta material details</Name>
+          <Name>Material Unique Id</Name>
         </PropertyDetails>
         <PropertyDetails id="pr24">
-          <Name>Relative Permeability</Name>
+          <Name>Granta material details</Name>
         </PropertyDetails>
         <PropertyDetails id="pr25">
           <Name>State Info</Name>
