@@ -91,9 +91,9 @@
               <Qualifier name="Lower Limit">Program Controlled</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr6">
+          <PropertyData property="pr4">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa11" format="float">
+            <ParameterValue parameter="pa9" format="float">
               <Data>250000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [Pa]</Qualifier>
@@ -101,9 +101,9 @@
               <Qualifier name="Units">Pa</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr7">
+          <PropertyData property="pr5">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa12" format="float">
+            <ParameterValue parameter="pa10" format="float">
               <Data>460000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [Pa]</Qualifier>
@@ -111,7 +111,7 @@
               <Qualifier name="Units">Pa</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr9">
+          <PropertyData property="pr6">
             <Data format="string">-</Data>
             <Qualifier name="Definition">Secant</Qualifier>
             <Qualifier name="Behavior">Isotropic</Qualifier>
@@ -123,7 +123,7 @@
               <Qualifier name="Cached">True</Qualifier>
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa14" format="float">
+            <ParameterValue parameter="pa11" format="float">
               <Data>1.2e-05</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [C^-1]</Qualifier>
@@ -143,11 +143,11 @@
               <Qualifier name="Lower Limit">Program Controlled</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr10">
+          <PropertyData property="pr9">
             <Data format="string">-</Data>
             <Qualifier name="Definition">Secant</Qualifier>
             <Qualifier name="Behavior">Isotropic</Qualifier>
-            <ParameterValue parameter="pa18" format="float">
+            <ParameterValue parameter="pa14" format="float">
               <Data>22</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [C]</Qualifier>
@@ -158,7 +158,7 @@
               <Data>Coefficient of Thermal Expansion</Data>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr11">
+          <PropertyData property="pr10">
             <Data format="string">-</Data>
             <Qualifier name="Definition">Constant Pressure</Qualifier>
             <Qualifier name="Field Variable Compatible">Temperature</Qualifier>
@@ -170,7 +170,7 @@
               <Qualifier name="Cached">True</Qualifier>
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa19" format="float">
+            <ParameterValue parameter="pa15" format="float">
               <Data>434</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [J kg^-1 C^-1]</Qualifier>
@@ -252,17 +252,17 @@
               <Qualifier name="Lower Limit">Program Controlled</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr24">
+          <PropertyData property="pr14">
             <Data format="string">-</Data>
             <Qualifier name="Display Curve Type">Strain-Life</Qualifier>
-            <ParameterValue parameter="pa30" format="float">
+            <ParameterValue parameter="pa24" format="float">
               <Data>920000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [Pa]</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
               <Qualifier name="Units">Pa</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa31" format="float">
+            <ParameterValue parameter="pa25" format="float">
               <Data>-0.106</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -270,7 +270,7 @@
               <Qualifier name="Units">
               </Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa32" format="float">
+            <ParameterValue parameter="pa26" format="float">
               <Data>0.213</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -278,7 +278,7 @@
               <Qualifier name="Units">
               </Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa33" format="float">
+            <ParameterValue parameter="pa27" format="float">
               <Data>-0.47</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -286,14 +286,14 @@
               <Qualifier name="Units">
               </Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa34" format="float">
+            <ParameterValue parameter="pa28" format="float">
               <Data>1000000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [Pa]</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
               <Qualifier name="Units">Pa</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa35" format="float">
+            <ParameterValue parameter="pa29" format="float">
               <Data>0.2</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -302,10 +302,10 @@
               </Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr14">
+          <PropertyData property="pr15">
             <Data format="string">-</Data>
             <Qualifier name="Behavior">Isotropic</Qualifier>
-            <ParameterValue parameter="pa36" format="float">
+            <ParameterValue parameter="pa30" format="float">
               <Data>1.7e-07</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [ohm m]</Qualifier>
@@ -320,7 +320,7 @@
               <Qualifier name="Units">C</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr8">
+          <PropertyData property="pr11">
             <Data format="string">-</Data>
             <Qualifier name="Behavior">Isotropic</Qualifier>
             <Qualifier name="Derive from">Young's Modulus and Poisson's Ratio</Qualifier>
@@ -332,14 +332,14 @@
               <Qualifier name="Cached">True</Qualifier>
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa13" format="float">
+            <ParameterValue parameter="pa16" format="float">
               <Data>200000000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [Pa]</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
               <Qualifier name="Units">Pa</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa15" format="float">
+            <ParameterValue parameter="pa17" format="float">
               <Data>0.3</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -347,14 +347,14 @@
               <Qualifier name="Units">
               </Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa16" format="float">
+            <ParameterValue parameter="pa18" format="float">
               <Data>166666666666.667</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [Pa]</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
               <Qualifier name="Units">Pa</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa17" format="float">
+            <ParameterValue parameter="pa19" format="float">
               <Data>76923076923.0769</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [Pa]</Qualifier>
@@ -386,7 +386,7 @@
               </Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr21">
+          <PropertyData property="pr22">
             <Data format="string">-</Data>
             <Qualifier name="guid">59002a79-71c2-428e-906b-55d7dbee100e</Qualifier>
             <Qualifier name="Display">False</Qualifier>
@@ -435,9 +435,9 @@
               <Data>Appearance</Data>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr4">
+          <PropertyData property="pr7">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa9" format="float">
+            <ParameterValue parameter="pa12" format="float">
               <Data>0.9</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -449,9 +449,9 @@
               <Data>Appearance</Data>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr5">
+          <PropertyData property="pr8">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa10" format="float">
+            <ParameterValue parameter="pa13" format="float">
               <Data>0</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -493,7 +493,7 @@
               <Qualifier name="Lower Limit">11.5</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr8">
+          <PropertyData property="pr11">
             <Data format="string">-</Data>
             <Qualifier name="Behavior">Isotropic</Qualifier>
             <Qualifier name="Derive from">Young's Modulus and Poisson's Ratio</Qualifier>
@@ -505,14 +505,14 @@
               <Qualifier name="Cached">True</Qualifier>
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa13" format="float">
+            <ParameterValue parameter="pa16" format="float">
               <Data>24370000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [Pa]</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
               <Qualifier name="Units">Pa</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa15" format="float">
+            <ParameterValue parameter="pa17" format="float">
               <Data>0.1649</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -520,14 +520,14 @@
               <Qualifier name="Units">
               </Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa16" format="float">
+            <ParameterValue parameter="pa18" format="float">
               <Data>12120759972.1476</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [Pa]</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
               <Qualifier name="Units">Pa</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa17" format="float">
+            <ParameterValue parameter="pa19" format="float">
               <Data>10460125332.6466</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [Pa]</Qualifier>
@@ -547,41 +547,41 @@
               <Qualifier name="Lower Limit">11.5</Qualifier>
             </ParameterValue>
           </PropertyData>
+          <PropertyData property="pr4">
+            <Data format="string">-</Data>
+            <ParameterValue parameter="pa9" format="float">
+              <Data>298000000</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0 [Pa]</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">Pa</Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa8" format="float">
+              <Data>23</Data>
+              <Qualifier name="Variable Type">Independent</Qualifier>
+              <Qualifier name="Offset">0 [C]</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">C</Qualifier>
+            </ParameterValue>
+          </PropertyData>
+          <PropertyData property="pr5">
+            <Data format="string">-</Data>
+            <ParameterValue parameter="pa10" format="float">
+              <Data>298000000</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0 [Pa]</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">Pa</Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa8" format="float">
+              <Data>23</Data>
+              <Qualifier name="Variable Type">Independent</Qualifier>
+              <Qualifier name="Offset">0 [C]</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">C</Qualifier>
+            </ParameterValue>
+          </PropertyData>
           <PropertyData property="pr6">
-            <Data format="string">-</Data>
-            <ParameterValue parameter="pa11" format="float">
-              <Data>298000000</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0 [Pa]</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">Pa</Qualifier>
-            </ParameterValue>
-            <ParameterValue parameter="pa8" format="float">
-              <Data>23</Data>
-              <Qualifier name="Variable Type">Independent</Qualifier>
-              <Qualifier name="Offset">0 [C]</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">C</Qualifier>
-            </ParameterValue>
-          </PropertyData>
-          <PropertyData property="pr7">
-            <Data format="string">-</Data>
-            <ParameterValue parameter="pa12" format="float">
-              <Data>298000000</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0 [Pa]</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">Pa</Qualifier>
-            </ParameterValue>
-            <ParameterValue parameter="pa8" format="float">
-              <Data>23</Data>
-              <Qualifier name="Variable Type">Independent</Qualifier>
-              <Qualifier name="Offset">0 [C]</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">C</Qualifier>
-            </ParameterValue>
-          </PropertyData>
-          <PropertyData property="pr9">
             <Data format="string">-</Data>
             <Qualifier name="Definition">Secant</Qualifier>
             <Qualifier name="Behavior">Isotropic</Qualifier>
@@ -593,7 +593,7 @@
               <Qualifier name="Cached">True</Qualifier>
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa14" format="float">
+            <ParameterValue parameter="pa11" format="float">
               <Data>1.47e-05</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [C^-1]</Qualifier>
@@ -613,11 +613,11 @@
               <Qualifier name="Lower Limit">11.5</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr10">
+          <PropertyData property="pr9">
             <Data format="string">-</Data>
             <Qualifier name="Definition">Secant</Qualifier>
             <Qualifier name="Behavior">Isotropic</Qualifier>
-            <ParameterValue parameter="pa18" format="float">
+            <ParameterValue parameter="pa14" format="float">
               <Data>23</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [C]</Qualifier>
@@ -659,7 +659,7 @@
               <Qualifier name="Lower Limit">11.5</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr11">
+          <PropertyData property="pr10">
             <Data format="string">-</Data>
             <Qualifier name="Definition">Constant Pressure</Qualifier>
             <Qualifier name="Field Variable Compatible">Temperature</Qualifier>
@@ -671,7 +671,7 @@
               <Qualifier name="Cached">True</Qualifier>
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa19" format="float">
+            <ParameterValue parameter="pa15" format="float">
               <Data>962.6</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [J kg^-1 C^-1]</Qualifier>
@@ -691,10 +691,10 @@
               <Qualifier name="Lower Limit">11.5</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr14">
+          <PropertyData property="pr15">
             <Data format="string">-</Data>
             <Qualifier name="Behavior">Isotropic</Qualifier>
-            <ParameterValue parameter="pa24" format="float">
+            <ParameterValue parameter="pa31" format="float">
               <Data>10000000000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [kg m^3 A^-2 s^-3]</Qualifier>
@@ -709,35 +709,11 @@
               <Qualifier name="Units">C</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr15">
-            <Data format="string">-</Data>
-            <Qualifier name="Behavior">Isotropic</Qualifier>
-            <ParameterValue parameter="pa25" format="float">
-              <Data>0.02167</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">
-              </Qualifier>
-            </ParameterValue>
-            <ParameterValue parameter="pa8" format="float">
-              <Data>23</Data>
-              <Qualifier name="Variable Type">Independent</Qualifier>
-              <Qualifier name="Offset">0 [C]</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">C</Qualifier>
-              <Qualifier name="Field Variable">Temperature</Qualifier>
-              <Qualifier name="Default Data">23</Qualifier>
-              <Qualifier name="Field Units">C</Qualifier>
-              <Qualifier name="Upper Limit">34.5</Qualifier>
-              <Qualifier name="Lower Limit">11.5</Qualifier>
-            </ParameterValue>
-          </PropertyData>
           <PropertyData property="pr16">
             <Data format="string">-</Data>
             <Qualifier name="Behavior">Isotropic</Qualifier>
-            <ParameterValue parameter="pa26" format="float">
-              <Data>4.095</Data>
+            <ParameterValue parameter="pa32" format="float">
+              <Data>0.02167</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
@@ -759,7 +735,31 @@
           </PropertyData>
           <PropertyData property="pr17">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa27" format="float">
+            <Qualifier name="Behavior">Isotropic</Qualifier>
+            <ParameterValue parameter="pa33" format="float">
+              <Data>4.095</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">
+              </Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa8" format="float">
+              <Data>23</Data>
+              <Qualifier name="Variable Type">Independent</Qualifier>
+              <Qualifier name="Offset">0 [C]</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">C</Qualifier>
+              <Qualifier name="Field Variable">Temperature</Qualifier>
+              <Qualifier name="Default Data">23</Qualifier>
+              <Qualifier name="Field Units">C</Qualifier>
+              <Qualifier name="Upper Limit">34.5</Qualifier>
+              <Qualifier name="Lower Limit">11.5</Qualifier>
+            </ParameterValue>
+          </PropertyData>
+          <PropertyData property="pr18">
+            <Data format="string">-</Data>
+            <ParameterValue parameter="pa34" format="float">
               <Data>37.88</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [dBA]</Qualifier>
@@ -767,9 +767,9 @@
               <Qualifier name="Units">dBA</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr18">
+          <PropertyData property="pr19">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa28" format="float">
+            <ParameterValue parameter="pa35" format="float">
               <Data>593100000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [J kg^-1]</Qualifier>
@@ -777,9 +777,9 @@
               <Qualifier name="Units">J kg^-1</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr19">
+          <PropertyData property="pr20">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa29" format="float">
+            <ParameterValue parameter="pa36" format="float">
               <Data>1</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -788,17 +788,17 @@
               </Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr20">
+          <PropertyData property="pr21">
             <Data format="string">-</Data>
             <Qualifier name="MaterialElectromagneticProperties">True</Qualifier>
             <Qualifier name="Display">False</Qualifier>
           </PropertyData>
-          <PropertyData property="pr21">
+          <PropertyData property="pr22">
             <Data format="string">-</Data>
             <Qualifier name="guid">444f73a8-2e75-42c8-9814-81d365f330ca</Qualifier>
             <Qualifier name="Display">False</Qualifier>
           </PropertyData>
-          <PropertyData property="pr22">
+          <PropertyData property="pr23">
             <Data format="string">-</Data>
             <Qualifier name="Data version">4</Qualifier>
             <Qualifier name="Data link version">1</Qualifier>
@@ -810,7 +810,7 @@
             <Qualifier name="Granta data">True</Qualifier>
             <Qualifier name="Display">False</Qualifier>
           </PropertyData>
-          <PropertyData property="pr23">
+          <PropertyData property="pr24">
             <Data format="string">-</Data>
             <Qualifier name="Stateless Name">PCB laminate</Qualifier>
             <Qualifier name="State">Solid</Qualifier>
@@ -861,9 +861,9 @@
               <Data>Appearance</Data>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr4">
+          <PropertyData property="pr7">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa9" format="float">
+            <ParameterValue parameter="pa12" format="float">
               <Data>1</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -875,9 +875,9 @@
               <Data>Appearance</Data>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr5">
+          <PropertyData property="pr8">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa10" format="float">
+            <ParameterValue parameter="pa13" format="float">
               <Data>1</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -919,7 +919,7 @@
               <Qualifier name="Lower Limit">11.5</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr8">
+          <PropertyData property="pr11">
             <Data format="string">-</Data>
             <Qualifier name="Behavior">Isotropic</Qualifier>
             <Qualifier name="Derive from">Young's Modulus and Poisson's Ratio</Qualifier>
@@ -931,14 +931,14 @@
               <Qualifier name="Cached">True</Qualifier>
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa13" format="float">
+            <ParameterValue parameter="pa16" format="float">
               <Data>126000000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [Pa]</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
               <Qualifier name="Units">Pa</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa15" format="float">
+            <ParameterValue parameter="pa17" format="float">
               <Data>0.345</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -946,14 +946,14 @@
               <Qualifier name="Units">
               </Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa16" format="float">
+            <ParameterValue parameter="pa18" format="float">
               <Data>135483870967.742</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [Pa]</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
               <Qualifier name="Units">Pa</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa17" format="float">
+            <ParameterValue parameter="pa19" format="float">
               <Data>46840148698.8848</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [Pa]</Qualifier>
@@ -973,9 +973,9 @@
               <Qualifier name="Lower Limit">11.5</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr6">
+          <PropertyData property="pr4">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa11" format="float">
+            <ParameterValue parameter="pa9" format="float">
               <Data>250800000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [Pa]</Qualifier>
@@ -990,9 +990,9 @@
               <Qualifier name="Units">C</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr7">
+          <PropertyData property="pr5">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa12" format="float">
+            <ParameterValue parameter="pa10" format="float">
               <Data>343200000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [Pa]</Qualifier>
@@ -1007,7 +1007,7 @@
               <Qualifier name="Units">C</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr9">
+          <PropertyData property="pr6">
             <Data format="string">-</Data>
             <Qualifier name="Definition">Secant</Qualifier>
             <Qualifier name="Behavior">Isotropic</Qualifier>
@@ -1019,7 +1019,7 @@
               <Qualifier name="Cached">True</Qualifier>
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa14" format="float">
+            <ParameterValue parameter="pa11" format="float">
               <Data>1.674e-05</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [C^-1]</Qualifier>
@@ -1039,11 +1039,11 @@
               <Qualifier name="Lower Limit">11.5</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr10">
+          <PropertyData property="pr9">
             <Data format="string">-</Data>
             <Qualifier name="Definition">Secant</Qualifier>
             <Qualifier name="Behavior">Isotropic</Qualifier>
-            <ParameterValue parameter="pa18" format="float">
+            <ParameterValue parameter="pa14" format="float">
               <Data>20</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [C]</Qualifier>
@@ -1085,7 +1085,7 @@
               <Qualifier name="Lower Limit">11.5</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr11">
+          <PropertyData property="pr10">
             <Data format="string">-</Data>
             <Qualifier name="Definition">Constant Pressure</Qualifier>
             <Qualifier name="Field Variable Compatible">Temperature</Qualifier>
@@ -1097,7 +1097,7 @@
               <Qualifier name="Cached">True</Qualifier>
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa19" format="float">
+            <ParameterValue parameter="pa15" format="float">
               <Data>383.3</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [J kg^-1 C^-1]</Qualifier>
@@ -1117,10 +1117,10 @@
               <Qualifier name="Lower Limit">11.5</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr14">
+          <PropertyData property="pr15">
             <Data format="string">-</Data>
             <Qualifier name="Behavior">Isotropic</Qualifier>
-            <ParameterValue parameter="pa24" format="float">
+            <ParameterValue parameter="pa31" format="float">
               <Data>1.74e-08</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [kg m^3 A^-2 s^-3]</Qualifier>
@@ -1135,9 +1135,9 @@
               <Qualifier name="Units">C</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr17">
+          <PropertyData property="pr18">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa27" format="float">
+            <ParameterValue parameter="pa34" format="float">
               <Data>3.962</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [dBA]</Qualifier>
@@ -1145,9 +1145,9 @@
               <Qualifier name="Units">dBA</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr18">
+          <PropertyData property="pr19">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa28" format="float">
+            <ParameterValue parameter="pa35" format="float">
               <Data>59760000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [J kg^-1]</Qualifier>
@@ -1155,9 +1155,9 @@
               <Qualifier name="Units">J kg^-1</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr19">
+          <PropertyData property="pr20">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa29" format="float">
+            <ParameterValue parameter="pa36" format="float">
               <Data>1</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -1166,17 +1166,17 @@
               </Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr20">
+          <PropertyData property="pr21">
             <Data format="string">-</Data>
             <Qualifier name="MaterialElectromagneticProperties">False</Qualifier>
             <Qualifier name="Display">False</Qualifier>
           </PropertyData>
-          <PropertyData property="pr21">
+          <PropertyData property="pr22">
             <Data format="string">-</Data>
             <Qualifier name="guid">731216fa-396d-43f3-bb8e-4015ca70f80a</Qualifier>
             <Qualifier name="Display">False</Qualifier>
           </PropertyData>
-          <PropertyData property="pr22">
+          <PropertyData property="pr23">
             <Data format="string">-</Data>
             <Qualifier name="Data version">5</Qualifier>
             <Qualifier name="Data link version">1</Qualifier>
@@ -1188,7 +1188,7 @@
             <Qualifier name="Granta data">True</Qualifier>
             <Qualifier name="Display">False</Qualifier>
           </PropertyData>
-          <PropertyData property="pr23">
+          <PropertyData property="pr24">
             <Data format="string">-</Data>
             <Qualifier name="Stateless Name">Copper</Qualifier>
             <Qualifier name="State">Solid</Qualifier>
@@ -1239,9 +1239,9 @@
               <Data>Appearance</Data>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr4">
+          <PropertyData property="pr7">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa9" format="float">
+            <ParameterValue parameter="pa12" format="float">
               <Data>0.8</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -1253,9 +1253,9 @@
               <Data>Appearance</Data>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr5">
+          <PropertyData property="pr8">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa10" format="float">
+            <ParameterValue parameter="pa13" format="float">
               <Data>0</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -1297,7 +1297,7 @@
               <Qualifier name="Lower Limit">11.5</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr8">
+          <PropertyData property="pr11">
             <Data format="string">-</Data>
             <Qualifier name="Behavior">Isotropic</Qualifier>
             <Qualifier name="Derive from">Young's Modulus and Poisson's Ratio</Qualifier>
@@ -1309,14 +1309,14 @@
               <Qualifier name="Cached">True</Qualifier>
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa13" format="float">
+            <ParameterValue parameter="pa16" format="float">
               <Data>162700000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [Pa]</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
               <Qualifier name="Units">Pa</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa15" format="float">
+            <ParameterValue parameter="pa17" format="float">
               <Data>0.27</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -1324,14 +1324,14 @@
               <Qualifier name="Units">
               </Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa16" format="float">
+            <ParameterValue parameter="pa18" format="float">
               <Data>117898550724.638</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [Pa]</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
               <Qualifier name="Units">Pa</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa17" format="float">
+            <ParameterValue parameter="pa19" format="float">
               <Data>64055118110.2362</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [Pa]</Qualifier>
@@ -1351,41 +1351,41 @@
               <Qualifier name="Lower Limit">11.5</Qualifier>
             </ParameterValue>
           </PropertyData>
+          <PropertyData property="pr4">
+            <Data format="string">-</Data>
+            <ParameterValue parameter="pa9" format="float">
+              <Data>172300000</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0 [Pa]</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">Pa</Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa8" format="float">
+              <Data>23</Data>
+              <Qualifier name="Variable Type">Independent</Qualifier>
+              <Qualifier name="Offset">0 [C]</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">C</Qualifier>
+            </ParameterValue>
+          </PropertyData>
+          <PropertyData property="pr5">
+            <Data format="string">-</Data>
+            <ParameterValue parameter="pa10" format="float">
+              <Data>172300000</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0 [Pa]</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">Pa</Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa8" format="float">
+              <Data>23</Data>
+              <Qualifier name="Variable Type">Independent</Qualifier>
+              <Qualifier name="Offset">0 [C]</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">C</Qualifier>
+            </ParameterValue>
+          </PropertyData>
           <PropertyData property="pr6">
-            <Data format="string">-</Data>
-            <ParameterValue parameter="pa11" format="float">
-              <Data>172300000</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0 [Pa]</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">Pa</Qualifier>
-            </ParameterValue>
-            <ParameterValue parameter="pa8" format="float">
-              <Data>23</Data>
-              <Qualifier name="Variable Type">Independent</Qualifier>
-              <Qualifier name="Offset">0 [C]</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">C</Qualifier>
-            </ParameterValue>
-          </PropertyData>
-          <PropertyData property="pr7">
-            <Data format="string">-</Data>
-            <ParameterValue parameter="pa12" format="float">
-              <Data>172300000</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0 [Pa]</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">Pa</Qualifier>
-            </ParameterValue>
-            <ParameterValue parameter="pa8" format="float">
-              <Data>23</Data>
-              <Qualifier name="Variable Type">Independent</Qualifier>
-              <Qualifier name="Offset">0 [C]</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">C</Qualifier>
-            </ParameterValue>
-          </PropertyData>
-          <PropertyData property="pr9">
             <Data format="string">-</Data>
             <Qualifier name="Definition">Secant</Qualifier>
             <Qualifier name="Behavior">Isotropic</Qualifier>
@@ -1397,7 +1397,7 @@
               <Qualifier name="Cached">True</Qualifier>
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa14" format="float">
+            <ParameterValue parameter="pa11" format="float">
               <Data>2.578e-06</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [C^-1]</Qualifier>
@@ -1417,11 +1417,11 @@
               <Qualifier name="Lower Limit">11.5</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr10">
+          <PropertyData property="pr9">
             <Data format="string">-</Data>
             <Qualifier name="Definition">Secant</Qualifier>
             <Qualifier name="Behavior">Isotropic</Qualifier>
-            <ParameterValue parameter="pa18" format="float">
+            <ParameterValue parameter="pa14" format="float">
               <Data>20</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [C]</Qualifier>
@@ -1463,7 +1463,7 @@
               <Qualifier name="Lower Limit">11.5</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr11">
+          <PropertyData property="pr10">
             <Data format="string">-</Data>
             <Qualifier name="Definition">Constant Pressure</Qualifier>
             <Qualifier name="Field Variable Compatible">Temperature</Qualifier>
@@ -1475,7 +1475,7 @@
               <Qualifier name="Cached">True</Qualifier>
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa19" format="float">
+            <ParameterValue parameter="pa15" format="float">
               <Data>695.1</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [J kg^-1 C^-1]</Qualifier>
@@ -1495,10 +1495,10 @@
               <Qualifier name="Lower Limit">11.5</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr14">
+          <PropertyData property="pr15">
             <Data format="string">-</Data>
             <Qualifier name="Behavior">Isotropic</Qualifier>
-            <ParameterValue parameter="pa24" format="float">
+            <ParameterValue parameter="pa31" format="float">
               <Data>1</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [kg m^3 A^-2 s^-3]</Qualifier>
@@ -1513,35 +1513,11 @@
               <Qualifier name="Units">C</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr15">
-            <Data format="string">-</Data>
-            <Qualifier name="Behavior">Isotropic</Qualifier>
-            <ParameterValue parameter="pa25" format="float">
-              <Data>0.002236</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">
-              </Qualifier>
-            </ParameterValue>
-            <ParameterValue parameter="pa8" format="float">
-              <Data>23</Data>
-              <Qualifier name="Variable Type">Independent</Qualifier>
-              <Qualifier name="Offset">0 [C]</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">C</Qualifier>
-              <Qualifier name="Field Variable">Temperature</Qualifier>
-              <Qualifier name="Default Data">23</Qualifier>
-              <Qualifier name="Field Units">C</Qualifier>
-              <Qualifier name="Upper Limit">34.5</Qualifier>
-              <Qualifier name="Lower Limit">11.5</Qualifier>
-            </ParameterValue>
-          </PropertyData>
           <PropertyData property="pr16">
             <Data format="string">-</Data>
             <Qualifier name="Behavior">Isotropic</Qualifier>
-            <ParameterValue parameter="pa26" format="float">
-              <Data>11.49</Data>
+            <ParameterValue parameter="pa32" format="float">
+              <Data>0.002236</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
@@ -1563,7 +1539,31 @@
           </PropertyData>
           <PropertyData property="pr17">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa27" format="float">
+            <Qualifier name="Behavior">Isotropic</Qualifier>
+            <ParameterValue parameter="pa33" format="float">
+              <Data>11.49</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">
+              </Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa8" format="float">
+              <Data>23</Data>
+              <Qualifier name="Variable Type">Independent</Qualifier>
+              <Qualifier name="Offset">0 [C]</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">C</Qualifier>
+              <Qualifier name="Field Variable">Temperature</Qualifier>
+              <Qualifier name="Default Data">23</Qualifier>
+              <Qualifier name="Field Units">C</Qualifier>
+              <Qualifier name="Upper Limit">34.5</Qualifier>
+              <Qualifier name="Lower Limit">11.5</Qualifier>
+            </ParameterValue>
+          </PropertyData>
+          <PropertyData property="pr18">
+            <Data format="string">-</Data>
+            <ParameterValue parameter="pa34" format="float">
               <Data>11.38</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [dBA]</Qualifier>
@@ -1571,9 +1571,9 @@
               <Qualifier name="Units">dBA</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr18">
+          <PropertyData property="pr19">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa28" format="float">
+            <ParameterValue parameter="pa35" format="float">
               <Data>131900000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [J kg^-1]</Qualifier>
@@ -1581,9 +1581,9 @@
               <Qualifier name="Units">J kg^-1</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr19">
+          <PropertyData property="pr20">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa29" format="float">
+            <ParameterValue parameter="pa36" format="float">
               <Data>0</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -1592,17 +1592,17 @@
               </Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr20">
+          <PropertyData property="pr21">
             <Data format="string">-</Data>
             <Qualifier name="MaterialElectromagneticProperties">True</Qualifier>
             <Qualifier name="Display">False</Qualifier>
           </PropertyData>
-          <PropertyData property="pr21">
+          <PropertyData property="pr22">
             <Data format="string">-</Data>
             <Qualifier name="guid">64774a21-b727-447e-8426-1667d5282786</Qualifier>
             <Qualifier name="Display">False</Qualifier>
           </PropertyData>
-          <PropertyData property="pr22">
+          <PropertyData property="pr23">
             <Data format="string">-</Data>
             <Qualifier name="Data version">3</Qualifier>
             <Qualifier name="Data link version">1</Qualifier>
@@ -1614,7 +1614,7 @@
             <Qualifier name="Granta data">True</Qualifier>
             <Qualifier name="Display">False</Qualifier>
           </PropertyData>
-          <PropertyData property="pr23">
+          <PropertyData property="pr24">
             <Data format="string">-</Data>
             <Qualifier name="Stateless Name">Silicon</Qualifier>
             <Qualifier name="State">Solid</Qualifier>
@@ -1665,9 +1665,9 @@
               <Data>Appearance</Data>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr4">
+          <PropertyData property="pr7">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa9" format="float">
+            <ParameterValue parameter="pa12" format="float">
               <Data>1</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -1679,9 +1679,9 @@
               <Data>Appearance</Data>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr5">
+          <PropertyData property="pr8">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa10" format="float">
+            <ParameterValue parameter="pa13" format="float">
               <Data>1</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -1723,7 +1723,7 @@
               <Qualifier name="Lower Limit">11.5</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr8">
+          <PropertyData property="pr11">
             <Data format="string">-</Data>
             <Qualifier name="Behavior">Isotropic</Qualifier>
             <Qualifier name="Derive from">Young's Modulus and Poisson's Ratio</Qualifier>
@@ -1735,14 +1735,14 @@
               <Qualifier name="Cached">True</Qualifier>
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa13" format="float">
+            <ParameterValue parameter="pa16" format="float">
               <Data>126000000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [Pa]</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
               <Qualifier name="Units">Pa</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa15" format="float">
+            <ParameterValue parameter="pa17" format="float">
               <Data>0.345</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -1750,14 +1750,14 @@
               <Qualifier name="Units">
               </Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa16" format="float">
+            <ParameterValue parameter="pa18" format="float">
               <Data>135483870967.742</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [Pa]</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
               <Qualifier name="Units">Pa</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa17" format="float">
+            <ParameterValue parameter="pa19" format="float">
               <Data>46840148698.8848</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [Pa]</Qualifier>
@@ -1777,9 +1777,9 @@
               <Qualifier name="Lower Limit">11.5</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr6">
+          <PropertyData property="pr4">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa11" format="float">
+            <ParameterValue parameter="pa9" format="float">
               <Data>250800000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [Pa]</Qualifier>
@@ -1794,9 +1794,9 @@
               <Qualifier name="Units">C</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr7">
+          <PropertyData property="pr5">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa12" format="float">
+            <ParameterValue parameter="pa10" format="float">
               <Data>343200000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [Pa]</Qualifier>
@@ -1811,7 +1811,7 @@
               <Qualifier name="Units">C</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr9">
+          <PropertyData property="pr6">
             <Data format="string">-</Data>
             <Qualifier name="Definition">Secant</Qualifier>
             <Qualifier name="Behavior">Isotropic</Qualifier>
@@ -1823,7 +1823,7 @@
               <Qualifier name="Cached">True</Qualifier>
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa14" format="float">
+            <ParameterValue parameter="pa11" format="float">
               <Data>1.674e-05</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [C^-1]</Qualifier>
@@ -1843,11 +1843,11 @@
               <Qualifier name="Lower Limit">11.5</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr10">
+          <PropertyData property="pr9">
             <Data format="string">-</Data>
             <Qualifier name="Definition">Secant</Qualifier>
             <Qualifier name="Behavior">Isotropic</Qualifier>
-            <ParameterValue parameter="pa18" format="float">
+            <ParameterValue parameter="pa14" format="float">
               <Data>20</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [C]</Qualifier>
@@ -1889,7 +1889,7 @@
               <Qualifier name="Lower Limit">11.5</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr11">
+          <PropertyData property="pr10">
             <Data format="string">-</Data>
             <Qualifier name="Definition">Constant Pressure</Qualifier>
             <Qualifier name="Field Variable Compatible">Temperature</Qualifier>
@@ -1901,7 +1901,7 @@
               <Qualifier name="Cached">True</Qualifier>
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa19" format="float">
+            <ParameterValue parameter="pa15" format="float">
               <Data>383.3</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [J kg^-1 C^-1]</Qualifier>
@@ -1921,10 +1921,10 @@
               <Qualifier name="Lower Limit">11.5</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr14">
+          <PropertyData property="pr15">
             <Data format="string">-</Data>
             <Qualifier name="Behavior">Isotropic</Qualifier>
-            <ParameterValue parameter="pa24" format="float">
+            <ParameterValue parameter="pa31" format="float">
               <Data>1.74e-08</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [kg m^3 A^-2 s^-3]</Qualifier>
@@ -1939,9 +1939,9 @@
               <Qualifier name="Units">C</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr17">
+          <PropertyData property="pr18">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa27" format="float">
+            <ParameterValue parameter="pa34" format="float">
               <Data>3.962</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [dBA]</Qualifier>
@@ -1949,9 +1949,9 @@
               <Qualifier name="Units">dBA</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr18">
+          <PropertyData property="pr19">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa28" format="float">
+            <ParameterValue parameter="pa35" format="float">
               <Data>59760000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [J kg^-1]</Qualifier>
@@ -1959,9 +1959,9 @@
               <Qualifier name="Units">J kg^-1</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr19">
+          <PropertyData property="pr20">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa29" format="float">
+            <ParameterValue parameter="pa36" format="float">
               <Data>1</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -1970,17 +1970,17 @@
               </Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr20">
+          <PropertyData property="pr21">
             <Data format="string">-</Data>
             <Qualifier name="MaterialElectromagneticProperties">False</Qualifier>
             <Qualifier name="Display">False</Qualifier>
           </PropertyData>
-          <PropertyData property="pr21">
+          <PropertyData property="pr22">
             <Data format="string">-</Data>
             <Qualifier name="guid">731216fa-396d-43f3-bb8e-4015ca70f80a</Qualifier>
             <Qualifier name="Display">False</Qualifier>
           </PropertyData>
-          <PropertyData property="pr22">
+          <PropertyData property="pr23">
             <Data format="string">-</Data>
             <Qualifier name="Data version">5</Qualifier>
             <Qualifier name="Data link version">1</Qualifier>
@@ -1992,7 +1992,7 @@
             <Qualifier name="Granta data">True</Qualifier>
             <Qualifier name="Display">False</Qualifier>
           </PropertyData>
-          <PropertyData property="pr23">
+          <PropertyData property="pr24">
             <Data format="string">-</Data>
             <Qualifier name="Stateless Name">Copper</Qualifier>
             <Qualifier name="State">Solid</Qualifier>
@@ -2033,23 +2033,23 @@
           <Name>Temperature</Name>
           <Units name="Temperature" />
         </ParameterDetails>
-        <ParameterDetails id="pa11">
+        <ParameterDetails id="pa9">
           <Name>Tensile Yield Strength</Name>
           <Units name="Stress" />
         </ParameterDetails>
-        <ParameterDetails id="pa12">
+        <ParameterDetails id="pa10">
           <Name>Tensile Ultimate Strength</Name>
           <Units name="Stress" />
         </ParameterDetails>
-        <ParameterDetails id="pa14">
+        <ParameterDetails id="pa11">
           <Name>Coefficient of Thermal Expansion</Name>
           <Units name="InvTemp1" />
         </ParameterDetails>
-        <ParameterDetails id="pa18">
+        <ParameterDetails id="pa14">
           <Name>Zero-Thermal-Strain Reference Temperature</Name>
           <Units name="Temperature" />
         </ParameterDetails>
-        <ParameterDetails id="pa19">
+        <ParameterDetails id="pa15">
           <Name>Specific Heat</Name>
           <Units name="Specific Heat Capacity" />
         </ParameterDetails>
@@ -2068,73 +2068,73 @@
           <Name>Mean Stress</Name>
           <Units name="Stress" />
         </ParameterDetails>
-        <ParameterDetails id="pa30">
+        <ParameterDetails id="pa24">
           <Name>Strength Coefficient</Name>
           <Units name="Stress" />
         </ParameterDetails>
-        <ParameterDetails id="pa31">
+        <ParameterDetails id="pa25">
           <Name>Strength Exponent</Name>
         </ParameterDetails>
-        <ParameterDetails id="pa32">
+        <ParameterDetails id="pa26">
           <Name>Ductility Coefficient</Name>
         </ParameterDetails>
-        <ParameterDetails id="pa33">
+        <ParameterDetails id="pa27">
           <Name>Ductility Exponent</Name>
         </ParameterDetails>
-        <ParameterDetails id="pa34">
+        <ParameterDetails id="pa28">
           <Name>Cyclic Strength Coefficient</Name>
           <Units name="Stress" />
         </ParameterDetails>
-        <ParameterDetails id="pa35">
+        <ParameterDetails id="pa29">
           <Name>Cyclic Strain Hardening Exponent</Name>
         </ParameterDetails>
-        <ParameterDetails id="pa36">
+        <ParameterDetails id="pa30">
           <Name>Resistivity</Name>
           <Units name="Electrical Resistivity" />
         </ParameterDetails>
         <ParameterDetails id="pa37">
           <Name>Relative Permeability</Name>
         </ParameterDetails>
-        <ParameterDetails id="pa9">
+        <ParameterDetails id="pa12">
           <Name>Opacity</Name>
         </ParameterDetails>
-        <ParameterDetails id="pa10">
+        <ParameterDetails id="pa13">
           <Name>Metallic Finish</Name>
         </ParameterDetails>
-        <ParameterDetails id="pa13">
+        <ParameterDetails id="pa16">
           <Name>Young's Modulus</Name>
           <Units name="Stress" />
         </ParameterDetails>
-        <ParameterDetails id="pa15">
+        <ParameterDetails id="pa17">
           <Name>Poisson's Ratio</Name>
         </ParameterDetails>
-        <ParameterDetails id="pa16">
+        <ParameterDetails id="pa18">
           <Name>Bulk Modulus</Name>
           <Units name="Stress" />
         </ParameterDetails>
-        <ParameterDetails id="pa17">
+        <ParameterDetails id="pa19">
           <Name>Shear Modulus</Name>
           <Units name="Stress" />
         </ParameterDetails>
-        <ParameterDetails id="pa24">
+        <ParameterDetails id="pa31">
           <Name>Resistivity</Name>
           <Units name="Electrical Resistivity" />
         </ParameterDetails>
-        <ParameterDetails id="pa25">
+        <ParameterDetails id="pa32">
           <Name>Electric Loss Tangent</Name>
         </ParameterDetails>
-        <ParameterDetails id="pa26">
+        <ParameterDetails id="pa33">
           <Name>Relative Permittivity</Name>
         </ParameterDetails>
-        <ParameterDetails id="pa27">
+        <ParameterDetails id="pa34">
           <Name>Climate change (CO2-eq)</Name>
           <Units name="A Weighted Sound Pressure Level" />
         </ParameterDetails>
-        <ParameterDetails id="pa28">
+        <ParameterDetails id="pa35">
           <Name>Embodied energy</Name>
           <Units name="Energy Density by Mass" />
         </ParameterDetails>
-        <ParameterDetails id="pa29">
+        <ParameterDetails id="pa36">
           <Name>Recycle</Name>
         </ParameterDetails>
         <PropertyDetails id="pr0">
@@ -2150,28 +2150,28 @@
           <Name>Density</Name>
         </PropertyDetails>
         <PropertyDetails id="pr4">
-          <Name>Opacity</Name>
-        </PropertyDetails>
-        <PropertyDetails id="pr5">
-          <Name>Metallic Finish</Name>
-        </PropertyDetails>
-        <PropertyDetails id="pr6">
           <Name>Tensile Yield Strength</Name>
         </PropertyDetails>
-        <PropertyDetails id="pr7">
+        <PropertyDetails id="pr5">
           <Name>Tensile Ultimate Strength</Name>
         </PropertyDetails>
-        <PropertyDetails id="pr8">
-          <Name>Elasticity</Name>
-        </PropertyDetails>
-        <PropertyDetails id="pr9">
+        <PropertyDetails id="pr6">
           <Name>Coefficient of Thermal Expansion</Name>
         </PropertyDetails>
-        <PropertyDetails id="pr10">
+        <PropertyDetails id="pr7">
+          <Name>Opacity</Name>
+        </PropertyDetails>
+        <PropertyDetails id="pr8">
+          <Name>Metallic Finish</Name>
+        </PropertyDetails>
+        <PropertyDetails id="pr9">
           <Name>Zero-Thermal-Strain Reference Temperature</Name>
         </PropertyDetails>
-        <PropertyDetails id="pr11">
+        <PropertyDetails id="pr10">
           <Name>Specific Heat</Name>
+        </PropertyDetails>
+        <PropertyDetails id="pr11">
+          <Name>Elasticity</Name>
         </PropertyDetails>
         <PropertyDetails id="pr12">
           <Name>Thermal Conductivity</Name>
@@ -2180,37 +2180,37 @@
           <Name>S-N Curve</Name>
         </PropertyDetails>
         <PropertyDetails id="pr14">
-          <Name>Resistivity</Name>
+          <Name>Strain-Life Parameters</Name>
         </PropertyDetails>
         <PropertyDetails id="pr15">
-          <Name>Electric Loss Tangent</Name>
+          <Name>Resistivity</Name>
         </PropertyDetails>
         <PropertyDetails id="pr16">
-          <Name>Relative Permittivity</Name>
+          <Name>Electric Loss Tangent</Name>
         </PropertyDetails>
         <PropertyDetails id="pr17">
-          <Name>Climate change (CO2-eq)</Name>
+          <Name>Relative Permittivity</Name>
         </PropertyDetails>
         <PropertyDetails id="pr18">
-          <Name>Embodied energy</Name>
+          <Name>Climate change (CO2-eq)</Name>
         </PropertyDetails>
         <PropertyDetails id="pr19">
-          <Name>Recycle</Name>
+          <Name>Embodied energy</Name>
         </PropertyDetails>
         <PropertyDetails id="pr20">
-          <Name>Compatibility Info</Name>
+          <Name>Recycle</Name>
         </PropertyDetails>
         <PropertyDetails id="pr21">
-          <Name>Material Unique Id</Name>
+          <Name>Compatibility Info</Name>
         </PropertyDetails>
         <PropertyDetails id="pr22">
-          <Name>Granta material details</Name>
+          <Name>Material Unique Id</Name>
         </PropertyDetails>
         <PropertyDetails id="pr23">
-          <Name>State Info</Name>
+          <Name>Granta material details</Name>
         </PropertyDetails>
         <PropertyDetails id="pr24">
-          <Name>Strain-Life Parameters</Name>
+          <Name>State Info</Name>
         </PropertyDetails>
         <PropertyDetails id="pr25">
           <Name>Relative Permeability</Name>
