@@ -34,7 +34,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">7723</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 15795, "Input": 7721, "Output": 7721}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 17351, "Input": 7721, "Output": 7721}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <unique-system-dir valType="String">Geom</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
@@ -505,7 +505,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">4003</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 15797, "Input": 3999, "Output": 3999}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 17353, "Input": 3999, "Output": 3999}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <unique-system-dir valType="String">Geom-2</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
@@ -3746,8 +3746,8 @@
       <container-type valType="String">Ansys.DesignModeler.Core.Addin:Geometry</container-type>
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
-      <last-updated valType="Int64">15754</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 15799, "Input": 15752, "Output": 15752}</last-modified-by-usage>
+      <last-updated valType="Int64">17258</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 17355, "Input": 17256, "Output": 17256}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Geometry": 7723, "Engineering Data 1": 3840, "Geometry 3": 4003, "Model 1": 4050, "Setup 1": 0, "Solution 1": 0, "Results 1": 0, "Engineering Data 2": 7879, "Model 2": 7933, "Setup 2": 8259, "Solution 2": 8260, "Results 2": 8261, "Engineering Data": 9570, "Geometry 1": 0, "Model": 0, "Setup": 0, "Solution": 0, "Results": 0}</last-update-regen-times>
       <unique-system-dir valType="String">SYS-3</unique-system-dir>
@@ -3798,15 +3798,45 @@
         <object-name valType="String">SCDataObject 5</object-name>
         <member-data valType="String">{"DisplayText": "SCDataObject", "Guid": "2e3105b7-70cf-4de7-94e9-7662fea45d77"}</member-data>
       </Object>
+      <Object Name="/Geometry 1/SpaceClaimCallBackData:SCDataObject 6" Version="1.0">
+        <class-type valType="String">SpaceClaimCallBackData</class-type>
+        <object-name valType="String">SCDataObject 6</object-name>
+        <member-data valType="String">{"DisplayText": "SCDataObject", "Guid": "2e3105b7-70cf-4de7-94e9-7662fea45d77"}</member-data>
+      </Object>
+      <Object Name="/Geometry 1/SpaceClaimCallBackData:SCDataObject 7" Version="1.0">
+        <class-type valType="String">SpaceClaimCallBackData</class-type>
+        <object-name valType="String">SCDataObject 7</object-name>
+        <member-data valType="String">{"DisplayText": "SCDataObject", "Guid": "2e3105b7-70cf-4de7-94e9-7662fea45d77"}</member-data>
+      </Object>
+      <Object Name="/Geometry 1/SpaceClaimCallBackData:SCDataObject 8" Version="1.0">
+        <class-type valType="String">SpaceClaimCallBackData</class-type>
+        <object-name valType="String">SCDataObject 8</object-name>
+        <member-data valType="String">{"DisplayText": "SCDataObject", "Guid": "2e3105b7-70cf-4de7-94e9-7662fea45d77"}</member-data>
+      </Object>
+      <Object Name="/Geometry 1/SpaceClaimCallBackData:SCDataObject 9" Version="1.0">
+        <class-type valType="String">SpaceClaimCallBackData</class-type>
+        <object-name valType="String">SCDataObject 9</object-name>
+        <member-data valType="String">{"DisplayText": "SCDataObject", "Guid": "2e3105b7-70cf-4de7-94e9-7662fea45d77"}</member-data>
+      </Object>
+      <Object Name="/Geometry 1/SpaceClaimCallBackData:SCDataObject 10" Version="1.0">
+        <class-type valType="String">SpaceClaimCallBackData</class-type>
+        <object-name valType="String">SCDataObject 10</object-name>
+        <member-data valType="String">{"DisplayText": "SCDataObject", "Guid": "2e3105b7-70cf-4de7-94e9-7662fea45d77"}</member-data>
+      </Object>
+      <Object Name="/Geometry 1/SpaceClaimCallBackData:SCDataObject 11" Version="1.0">
+        <class-type valType="String">SpaceClaimCallBackData</class-type>
+        <object-name valType="String">SCDataObject 11</object-name>
+        <member-data valType="String">{"DisplayText": "SCDataObject", "Guid": "2e3105b7-70cf-4de7-94e9-7662fea45d77"}</member-data>
+      </Object>
     </Container>
     <Container Name="Model" Version="1.0">
       <container-type valType="String">Ansys.Simulation.Core.Addin:SimulationModel</container-type>
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
-      <last-updated valType="Int64">15782</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 15781, "Input": 15781, "Output": 15781}</last-modified-by-usage>
+      <last-updated valType="Int64">17338</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 17337, "Input": 17337, "Output": 17337}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
-      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Geometry": 7723, "Engineering Data 1": 3840, "Geometry 3": 4003, "Model 1": 4050, "Setup 1": 0, "Solution 1": 0, "Results 1": 0, "Engineering Data 2": 7879, "Model 2": 7933, "Setup 2": 10927, "Solution 2": 10928, "Results 2": 10929, "Engineering Data": 13602, "Geometry 1": 15754, "Model": 15684, "Setup": 15700, "Solution": 15701, "Results": 15702, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0, "SpaceClaimSessionContainer": 0}</last-update-regen-times>
+      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Geometry": 7723, "Engineering Data 1": 3840, "Geometry 3": 4003, "Model 1": 4050, "Setup 1": 0, "Solution 1": 0, "Results 1": 0, "Engineering Data 2": 7879, "Model 2": 7933, "Setup 2": 10927, "Solution 2": 10928, "Results 2": 10929, "Engineering Data": 13602, "Geometry 1": 17258, "Model": 17265, "Setup": 17274, "Solution": 17275, "Results": 17276, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0, "SpaceClaimSessionContainer": 0}</last-update-regen-times>
       <unique-system-dir valType="String">SYS-3</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Model/SimulationConnection:SimulationConnection" Version="1.0">
@@ -3906,10 +3936,10 @@
       <container-type valType="String">Ansys.Simulation.Core.Addin:SimulationSetup</container-type>
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
-      <last-updated valType="Int64">15791</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 15786, "Input": 15786, "Output": 15786}</last-modified-by-usage>
+      <last-updated valType="Int64">17347</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 17342, "Input": 17342, "Output": 17342}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
-      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Geometry": 7723, "Engineering Data 1": 3840, "Geometry 3": 4003, "Model 1": 4050, "Setup 1": 0, "Solution 1": 0, "Results 1": 0, "Engineering Data 2": 7879, "Model 2": 7933, "Setup 2": 10927, "Solution 2": 10928, "Results 2": 10929, "Engineering Data": 13602, "Geometry 1": 15754, "Model": 15782, "Setup": 15700, "Solution": 15701, "Results": 15702, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0, "SpaceClaimSessionContainer": 0}</last-update-regen-times>
+      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Geometry": 7723, "Engineering Data 1": 3840, "Geometry 3": 4003, "Model 1": 4050, "Setup 1": 0, "Solution 1": 0, "Results 1": 0, "Engineering Data 2": 7879, "Model 2": 7933, "Setup 2": 10927, "Solution 2": 10928, "Results 2": 10929, "Engineering Data": 13602, "Geometry 1": 17258, "Model": 17338, "Setup": 17274, "Solution": 17275, "Results": 17276, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0, "SpaceClaimSessionContainer": 0}</last-update-regen-times>
       <unique-system-dir valType="String">SYS-3</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Setup/MechanicalSystemType:SystemClass for Structural|Static|ANSYS" Version="1.0">
@@ -3965,10 +3995,10 @@
       <container-type valType="String">Ansys.Simulation.Core.Addin:SimulationSolution</container-type>
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
-      <last-updated valType="Int64">15792</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 15787, "Input": 15787, "Output": 15787}</last-modified-by-usage>
+      <last-updated valType="Int64">17348</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 17343, "Input": 17343, "Output": 17343}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
-      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Geometry": 7723, "Engineering Data 1": 3840, "Geometry 3": 4003, "Model 1": 4050, "Setup 1": 0, "Solution 1": 0, "Results 1": 0, "Engineering Data 2": 7879, "Model 2": 7933, "Setup 2": 10927, "Solution 2": 10928, "Results 2": 10929, "Engineering Data": 13602, "Geometry 1": 15754, "Model": 15782, "Setup": 15791, "Solution": 15701, "Results": 15702, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0, "SpaceClaimSessionContainer": 0}</last-update-regen-times>
+      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Geometry": 7723, "Engineering Data 1": 3840, "Geometry 3": 4003, "Model 1": 4050, "Setup 1": 0, "Solution 1": 0, "Results 1": 0, "Engineering Data 2": 7879, "Model 2": 7933, "Setup 2": 10927, "Solution 2": 10928, "Results 2": 10929, "Engineering Data": 13602, "Geometry 1": 17258, "Model": 17338, "Setup": 17347, "Solution": 17275, "Results": 17276, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0, "SpaceClaimSessionContainer": 0}</last-update-regen-times>
       <unique-system-dir valType="String">SYS-3</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Solution/MechanicalSystemType:SystemClass for Structural|Static|ANSYS" Version="1.0">
@@ -4053,10 +4083,10 @@
       <container-type valType="String">Ansys.Simulation.Core.Addin:SimulationResults</container-type>
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
-      <last-updated valType="Int64">15793</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 15790, "Input": 15790, "Output": 15790}</last-modified-by-usage>
+      <last-updated valType="Int64">17349</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 17346, "Input": 17346, "Output": 17346}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
-      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Geometry": 7723, "Engineering Data 1": 3840, "Geometry 3": 4003, "Model 1": 4050, "Setup 1": 0, "Solution 1": 0, "Results 1": 0, "Engineering Data 2": 7879, "Model 2": 7933, "Setup 2": 10927, "Solution 2": 10928, "Results 2": 10929, "Engineering Data": 13602, "Geometry 1": 15754, "Model": 15782, "Setup": 15791, "Solution": 15792, "Results": 15702, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0, "SpaceClaimSessionContainer": 0}</last-update-regen-times>
+      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Geometry": 7723, "Engineering Data 1": 3840, "Geometry 3": 4003, "Model 1": 4050, "Setup 1": 0, "Solution 1": 0, "Results 1": 0, "Engineering Data 2": 7879, "Model 2": 7933, "Setup 2": 10927, "Solution 2": 10928, "Results 2": 10929, "Engineering Data": 13602, "Geometry 1": 17258, "Model": 17338, "Setup": 17347, "Solution": 17348, "Results": 17276, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0, "SpaceClaimSessionContainer": 0}</last-update-regen-times>
       <unique-system-dir valType="String">SYS-3</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Results/MechanicalSystemType:SystemClass for Structural|Static|ANSYS" Version="1.0">

@@ -30,6 +30,7 @@ dp0/SYS-3/MECH/CAERep.xml
 dp0/SYS-3/MECH/CAERepOutput.xml
 dp0/SYS-3/MECH/ds.dat
 dp0/SYS-3/MECH/file.aapresults
+dp0/SYS-3/MECH/file.cnd
 dp0/SYS-3/MECH/file.DSP
 dp0/SYS-3/MECH/file.mntr
 dp0/SYS-3/MECH/file.rst
@@ -39,6 +40,10 @@ dp0/SYS-3/MECH/solve.out
 dp0/act.dat
 dp0/designPoint.wbdp
 session_files/journal1.wbjn
+session_files/journal10.wbjn
+session_files/journal11.wbjn
+session_files/journal12.wbjn
+session_files/journal13.wbjn
 session_files/journal2.wbjn
 session_files/journal3.wbjn
 session_files/journal4.wbjn

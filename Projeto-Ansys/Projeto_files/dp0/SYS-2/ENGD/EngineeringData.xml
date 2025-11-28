@@ -143,7 +143,7 @@
               <Qualifier name="Lower Limit">Program Controlled</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr9">
+          <PropertyData property="pr8">
             <Data format="string">-</Data>
             <Qualifier name="Definition">Secant</Qualifier>
             <Qualifier name="Behavior">Isotropic</Qualifier>
@@ -270,7 +270,7 @@
               <Qualifier name="Units">
               </Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa26" format="float">
+            <ParameterValue parameter="pa27" format="float">
               <Data>0.213</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -278,7 +278,7 @@
               <Qualifier name="Units">
               </Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa27" format="float">
+            <ParameterValue parameter="pa29" format="float">
               <Data>-0.47</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -286,14 +286,14 @@
               <Qualifier name="Units">
               </Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa28" format="float">
+            <ParameterValue parameter="pa30" format="float">
               <Data>1000000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [Pa]</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
               <Qualifier name="Units">Pa</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa29" format="float">
+            <ParameterValue parameter="pa32" format="float">
               <Data>0.2</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -305,7 +305,7 @@
           <PropertyData property="pr15">
             <Data format="string">-</Data>
             <Qualifier name="Behavior">Isotropic</Qualifier>
-            <ParameterValue parameter="pa30" format="float">
+            <ParameterValue parameter="pa34" format="float">
               <Data>1.7e-07</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [ohm m]</Qualifier>
@@ -374,10 +374,10 @@
               <Qualifier name="Lower Limit">Program Controlled</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr25">
+          <PropertyData property="pr23">
             <Data format="string">-</Data>
             <Qualifier name="Behavior">Isotropic</Qualifier>
-            <ParameterValue parameter="pa37" format="float">
+            <ParameterValue parameter="pa35" format="float">
               <Data>10000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -386,7 +386,7 @@
               </Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr22">
+          <PropertyData property="pr20">
             <Data format="string">-</Data>
             <Qualifier name="guid">59002a79-71c2-428e-906b-55d7dbee100e</Qualifier>
             <Qualifier name="Display">False</Qualifier>
@@ -449,7 +449,7 @@
               <Data>Appearance</Data>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr8">
+          <PropertyData property="pr9">
             <Data format="string">-</Data>
             <ParameterValue parameter="pa13" format="float">
               <Data>0</Data>
@@ -613,7 +613,7 @@
               <Qualifier name="Lower Limit">11.5</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr9">
+          <PropertyData property="pr8">
             <Data format="string">-</Data>
             <Qualifier name="Definition">Secant</Qualifier>
             <Qualifier name="Behavior">Isotropic</Qualifier>
@@ -694,7 +694,7 @@
           <PropertyData property="pr15">
             <Data format="string">-</Data>
             <Qualifier name="Behavior">Isotropic</Qualifier>
-            <ParameterValue parameter="pa31" format="float">
+            <ParameterValue parameter="pa26" format="float">
               <Data>10000000000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [kg m^3 A^-2 s^-3]</Qualifier>
@@ -709,10 +709,10 @@
               <Qualifier name="Units">C</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr16">
+          <PropertyData property="pr24">
             <Data format="string">-</Data>
             <Qualifier name="Behavior">Isotropic</Qualifier>
-            <ParameterValue parameter="pa32" format="float">
+            <ParameterValue parameter="pa36" format="float">
               <Data>0.02167</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -733,10 +733,10 @@
               <Qualifier name="Lower Limit">11.5</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr17">
+          <PropertyData property="pr25">
             <Data format="string">-</Data>
             <Qualifier name="Behavior">Isotropic</Qualifier>
-            <ParameterValue parameter="pa33" format="float">
+            <ParameterValue parameter="pa37" format="float">
               <Data>4.095</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -757,9 +757,9 @@
               <Qualifier name="Lower Limit">11.5</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr18">
+          <PropertyData property="pr16">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa34" format="float">
+            <ParameterValue parameter="pa28" format="float">
               <Data>37.88</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [dBA]</Qualifier>
@@ -767,9 +767,9 @@
               <Qualifier name="Units">dBA</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr19">
+          <PropertyData property="pr17">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa35" format="float">
+            <ParameterValue parameter="pa31" format="float">
               <Data>593100000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [J kg^-1]</Qualifier>
@@ -777,9 +777,9 @@
               <Qualifier name="Units">J kg^-1</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr20">
+          <PropertyData property="pr18">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa36" format="float">
+            <ParameterValue parameter="pa33" format="float">
               <Data>1</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -788,17 +788,17 @@
               </Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr21">
+          <PropertyData property="pr19">
             <Data format="string">-</Data>
             <Qualifier name="MaterialElectromagneticProperties">True</Qualifier>
             <Qualifier name="Display">False</Qualifier>
           </PropertyData>
-          <PropertyData property="pr22">
+          <PropertyData property="pr20">
             <Data format="string">-</Data>
             <Qualifier name="guid">444f73a8-2e75-42c8-9814-81d365f330ca</Qualifier>
             <Qualifier name="Display">False</Qualifier>
           </PropertyData>
-          <PropertyData property="pr23">
+          <PropertyData property="pr21">
             <Data format="string">-</Data>
             <Qualifier name="Data version">4</Qualifier>
             <Qualifier name="Data link version">1</Qualifier>
@@ -810,7 +810,7 @@
             <Qualifier name="Granta data">True</Qualifier>
             <Qualifier name="Display">False</Qualifier>
           </PropertyData>
-          <PropertyData property="pr24">
+          <PropertyData property="pr22">
             <Data format="string">-</Data>
             <Qualifier name="Stateless Name">PCB laminate</Qualifier>
             <Qualifier name="State">Solid</Qualifier>
@@ -875,7 +875,7 @@
               <Data>Appearance</Data>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr8">
+          <PropertyData property="pr9">
             <Data format="string">-</Data>
             <ParameterValue parameter="pa13" format="float">
               <Data>1</Data>
@@ -1039,7 +1039,7 @@
               <Qualifier name="Lower Limit">11.5</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr9">
+          <PropertyData property="pr8">
             <Data format="string">-</Data>
             <Qualifier name="Definition">Secant</Qualifier>
             <Qualifier name="Behavior">Isotropic</Qualifier>
@@ -1120,7 +1120,7 @@
           <PropertyData property="pr15">
             <Data format="string">-</Data>
             <Qualifier name="Behavior">Isotropic</Qualifier>
-            <ParameterValue parameter="pa31" format="float">
+            <ParameterValue parameter="pa26" format="float">
               <Data>1.74e-08</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [kg m^3 A^-2 s^-3]</Qualifier>
@@ -1135,9 +1135,9 @@
               <Qualifier name="Units">C</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr18">
+          <PropertyData property="pr16">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa34" format="float">
+            <ParameterValue parameter="pa28" format="float">
               <Data>3.962</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [dBA]</Qualifier>
@@ -1145,9 +1145,9 @@
               <Qualifier name="Units">dBA</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr19">
+          <PropertyData property="pr17">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa35" format="float">
+            <ParameterValue parameter="pa31" format="float">
               <Data>59760000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [J kg^-1]</Qualifier>
@@ -1155,9 +1155,9 @@
               <Qualifier name="Units">J kg^-1</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr20">
+          <PropertyData property="pr18">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa36" format="float">
+            <ParameterValue parameter="pa33" format="float">
               <Data>1</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -1166,17 +1166,17 @@
               </Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr21">
+          <PropertyData property="pr19">
             <Data format="string">-</Data>
             <Qualifier name="MaterialElectromagneticProperties">False</Qualifier>
             <Qualifier name="Display">False</Qualifier>
           </PropertyData>
-          <PropertyData property="pr22">
+          <PropertyData property="pr20">
             <Data format="string">-</Data>
             <Qualifier name="guid">731216fa-396d-43f3-bb8e-4015ca70f80a</Qualifier>
             <Qualifier name="Display">False</Qualifier>
           </PropertyData>
-          <PropertyData property="pr23">
+          <PropertyData property="pr21">
             <Data format="string">-</Data>
             <Qualifier name="Data version">5</Qualifier>
             <Qualifier name="Data link version">1</Qualifier>
@@ -1188,7 +1188,7 @@
             <Qualifier name="Granta data">True</Qualifier>
             <Qualifier name="Display">False</Qualifier>
           </PropertyData>
-          <PropertyData property="pr24">
+          <PropertyData property="pr22">
             <Data format="string">-</Data>
             <Qualifier name="Stateless Name">Copper</Qualifier>
             <Qualifier name="State">Solid</Qualifier>
@@ -1253,7 +1253,7 @@
               <Data>Appearance</Data>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr8">
+          <PropertyData property="pr9">
             <Data format="string">-</Data>
             <ParameterValue parameter="pa13" format="float">
               <Data>0</Data>
@@ -1417,7 +1417,7 @@
               <Qualifier name="Lower Limit">11.5</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr9">
+          <PropertyData property="pr8">
             <Data format="string">-</Data>
             <Qualifier name="Definition">Secant</Qualifier>
             <Qualifier name="Behavior">Isotropic</Qualifier>
@@ -1498,7 +1498,7 @@
           <PropertyData property="pr15">
             <Data format="string">-</Data>
             <Qualifier name="Behavior">Isotropic</Qualifier>
-            <ParameterValue parameter="pa31" format="float">
+            <ParameterValue parameter="pa26" format="float">
               <Data>1</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [kg m^3 A^-2 s^-3]</Qualifier>
@@ -1513,10 +1513,10 @@
               <Qualifier name="Units">C</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr16">
+          <PropertyData property="pr24">
             <Data format="string">-</Data>
             <Qualifier name="Behavior">Isotropic</Qualifier>
-            <ParameterValue parameter="pa32" format="float">
+            <ParameterValue parameter="pa36" format="float">
               <Data>0.002236</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -1537,10 +1537,10 @@
               <Qualifier name="Lower Limit">11.5</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr17">
+          <PropertyData property="pr25">
             <Data format="string">-</Data>
             <Qualifier name="Behavior">Isotropic</Qualifier>
-            <ParameterValue parameter="pa33" format="float">
+            <ParameterValue parameter="pa37" format="float">
               <Data>11.49</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -1561,9 +1561,9 @@
               <Qualifier name="Lower Limit">11.5</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr18">
+          <PropertyData property="pr16">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa34" format="float">
+            <ParameterValue parameter="pa28" format="float">
               <Data>11.38</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [dBA]</Qualifier>
@@ -1571,9 +1571,9 @@
               <Qualifier name="Units">dBA</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr19">
+          <PropertyData property="pr17">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa35" format="float">
+            <ParameterValue parameter="pa31" format="float">
               <Data>131900000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [J kg^-1]</Qualifier>
@@ -1581,9 +1581,9 @@
               <Qualifier name="Units">J kg^-1</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr20">
+          <PropertyData property="pr18">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa36" format="float">
+            <ParameterValue parameter="pa33" format="float">
               <Data>0</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -1592,17 +1592,17 @@
               </Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr21">
+          <PropertyData property="pr19">
             <Data format="string">-</Data>
             <Qualifier name="MaterialElectromagneticProperties">True</Qualifier>
             <Qualifier name="Display">False</Qualifier>
           </PropertyData>
-          <PropertyData property="pr22">
+          <PropertyData property="pr20">
             <Data format="string">-</Data>
             <Qualifier name="guid">64774a21-b727-447e-8426-1667d5282786</Qualifier>
             <Qualifier name="Display">False</Qualifier>
           </PropertyData>
-          <PropertyData property="pr23">
+          <PropertyData property="pr21">
             <Data format="string">-</Data>
             <Qualifier name="Data version">3</Qualifier>
             <Qualifier name="Data link version">1</Qualifier>
@@ -1614,7 +1614,7 @@
             <Qualifier name="Granta data">True</Qualifier>
             <Qualifier name="Display">False</Qualifier>
           </PropertyData>
-          <PropertyData property="pr24">
+          <PropertyData property="pr22">
             <Data format="string">-</Data>
             <Qualifier name="Stateless Name">Silicon</Qualifier>
             <Qualifier name="State">Solid</Qualifier>
@@ -1679,7 +1679,7 @@
               <Data>Appearance</Data>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr8">
+          <PropertyData property="pr9">
             <Data format="string">-</Data>
             <ParameterValue parameter="pa13" format="float">
               <Data>1</Data>
@@ -1843,7 +1843,7 @@
               <Qualifier name="Lower Limit">11.5</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr9">
+          <PropertyData property="pr8">
             <Data format="string">-</Data>
             <Qualifier name="Definition">Secant</Qualifier>
             <Qualifier name="Behavior">Isotropic</Qualifier>
@@ -1924,7 +1924,7 @@
           <PropertyData property="pr15">
             <Data format="string">-</Data>
             <Qualifier name="Behavior">Isotropic</Qualifier>
-            <ParameterValue parameter="pa31" format="float">
+            <ParameterValue parameter="pa26" format="float">
               <Data>1.74e-08</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [kg m^3 A^-2 s^-3]</Qualifier>
@@ -1939,9 +1939,9 @@
               <Qualifier name="Units">C</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr18">
+          <PropertyData property="pr16">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa34" format="float">
+            <ParameterValue parameter="pa28" format="float">
               <Data>3.962</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [dBA]</Qualifier>
@@ -1949,9 +1949,9 @@
               <Qualifier name="Units">dBA</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr19">
+          <PropertyData property="pr17">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa35" format="float">
+            <ParameterValue parameter="pa31" format="float">
               <Data>59760000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [J kg^-1]</Qualifier>
@@ -1959,9 +1959,9 @@
               <Qualifier name="Units">J kg^-1</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr20">
+          <PropertyData property="pr18">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa36" format="float">
+            <ParameterValue parameter="pa33" format="float">
               <Data>1</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -1970,17 +1970,17 @@
               </Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr21">
+          <PropertyData property="pr19">
             <Data format="string">-</Data>
             <Qualifier name="MaterialElectromagneticProperties">False</Qualifier>
             <Qualifier name="Display">False</Qualifier>
           </PropertyData>
-          <PropertyData property="pr22">
+          <PropertyData property="pr20">
             <Data format="string">-</Data>
             <Qualifier name="guid">731216fa-396d-43f3-bb8e-4015ca70f80a</Qualifier>
             <Qualifier name="Display">False</Qualifier>
           </PropertyData>
-          <PropertyData property="pr23">
+          <PropertyData property="pr21">
             <Data format="string">-</Data>
             <Qualifier name="Data version">5</Qualifier>
             <Qualifier name="Data link version">1</Qualifier>
@@ -1992,7 +1992,7 @@
             <Qualifier name="Granta data">True</Qualifier>
             <Qualifier name="Display">False</Qualifier>
           </PropertyData>
-          <PropertyData property="pr24">
+          <PropertyData property="pr22">
             <Data format="string">-</Data>
             <Qualifier name="Stateless Name">Copper</Qualifier>
             <Qualifier name="State">Solid</Qualifier>
@@ -2075,24 +2075,24 @@
         <ParameterDetails id="pa25">
           <Name>Strength Exponent</Name>
         </ParameterDetails>
-        <ParameterDetails id="pa26">
+        <ParameterDetails id="pa27">
           <Name>Ductility Coefficient</Name>
         </ParameterDetails>
-        <ParameterDetails id="pa27">
+        <ParameterDetails id="pa29">
           <Name>Ductility Exponent</Name>
         </ParameterDetails>
-        <ParameterDetails id="pa28">
+        <ParameterDetails id="pa30">
           <Name>Cyclic Strength Coefficient</Name>
           <Units name="Stress" />
         </ParameterDetails>
-        <ParameterDetails id="pa29">
+        <ParameterDetails id="pa32">
           <Name>Cyclic Strain Hardening Exponent</Name>
         </ParameterDetails>
-        <ParameterDetails id="pa30">
+        <ParameterDetails id="pa34">
           <Name>Resistivity</Name>
           <Units name="Electrical Resistivity" />
         </ParameterDetails>
-        <ParameterDetails id="pa37">
+        <ParameterDetails id="pa35">
           <Name>Relative Permeability</Name>
         </ParameterDetails>
         <ParameterDetails id="pa12">
@@ -2116,26 +2116,26 @@
           <Name>Shear Modulus</Name>
           <Units name="Stress" />
         </ParameterDetails>
-        <ParameterDetails id="pa31">
+        <ParameterDetails id="pa26">
           <Name>Resistivity</Name>
           <Units name="Electrical Resistivity" />
         </ParameterDetails>
-        <ParameterDetails id="pa32">
-          <Name>Electric Loss Tangent</Name>
-        </ParameterDetails>
-        <ParameterDetails id="pa33">
-          <Name>Relative Permittivity</Name>
-        </ParameterDetails>
-        <ParameterDetails id="pa34">
+        <ParameterDetails id="pa28">
           <Name>Climate change (CO2-eq)</Name>
           <Units name="A Weighted Sound Pressure Level" />
         </ParameterDetails>
-        <ParameterDetails id="pa35">
+        <ParameterDetails id="pa31">
           <Name>Embodied energy</Name>
           <Units name="Energy Density by Mass" />
         </ParameterDetails>
-        <ParameterDetails id="pa36">
+        <ParameterDetails id="pa33">
           <Name>Recycle</Name>
+        </ParameterDetails>
+        <ParameterDetails id="pa36">
+          <Name>Electric Loss Tangent</Name>
+        </ParameterDetails>
+        <ParameterDetails id="pa37">
+          <Name>Relative Permittivity</Name>
         </ParameterDetails>
         <PropertyDetails id="pr0">
           <Name>Color</Name>
@@ -2162,10 +2162,10 @@
           <Name>Opacity</Name>
         </PropertyDetails>
         <PropertyDetails id="pr8">
-          <Name>Metallic Finish</Name>
+          <Name>Zero-Thermal-Strain Reference Temperature</Name>
         </PropertyDetails>
         <PropertyDetails id="pr9">
-          <Name>Zero-Thermal-Strain Reference Temperature</Name>
+          <Name>Metallic Finish</Name>
         </PropertyDetails>
         <PropertyDetails id="pr10">
           <Name>Specific Heat</Name>
@@ -2186,34 +2186,34 @@
           <Name>Resistivity</Name>
         </PropertyDetails>
         <PropertyDetails id="pr16">
-          <Name>Electric Loss Tangent</Name>
-        </PropertyDetails>
-        <PropertyDetails id="pr17">
-          <Name>Relative Permittivity</Name>
-        </PropertyDetails>
-        <PropertyDetails id="pr18">
           <Name>Climate change (CO2-eq)</Name>
         </PropertyDetails>
-        <PropertyDetails id="pr19">
+        <PropertyDetails id="pr17">
           <Name>Embodied energy</Name>
         </PropertyDetails>
-        <PropertyDetails id="pr20">
+        <PropertyDetails id="pr18">
           <Name>Recycle</Name>
         </PropertyDetails>
-        <PropertyDetails id="pr21">
+        <PropertyDetails id="pr19">
           <Name>Compatibility Info</Name>
         </PropertyDetails>
-        <PropertyDetails id="pr22">
+        <PropertyDetails id="pr20">
           <Name>Material Unique Id</Name>
         </PropertyDetails>
-        <PropertyDetails id="pr23">
+        <PropertyDetails id="pr21">
           <Name>Granta material details</Name>
         </PropertyDetails>
-        <PropertyDetails id="pr24">
+        <PropertyDetails id="pr22">
           <Name>State Info</Name>
         </PropertyDetails>
-        <PropertyDetails id="pr25">
+        <PropertyDetails id="pr23">
           <Name>Relative Permeability</Name>
+        </PropertyDetails>
+        <PropertyDetails id="pr24">
+          <Name>Electric Loss Tangent</Name>
+        </PropertyDetails>
+        <PropertyDetails id="pr25">
+          <Name>Relative Permittivity</Name>
         </PropertyDetails>
       </Metadata>
     </MatML_Doc>
