@@ -108,13 +108,13 @@
   DISTRIBUTED MEMORY PARALLEL REQUESTED
        4 PARALLEL PROCESSES REQUESTED WITH SINGLE THREAD PER PROCESS
     TOTAL OF     4 CORES REQUESTED
-  INPUT FILE NAME              = C:\Users\andre\Desktop\PBLE00\Projeto-Ansys\_ProjectScratch\Scr4EA8\dummy.dat
-  OUTPUT FILE NAME             = C:\Users\andre\Desktop\PBLE00\Projeto-Ansys\_ProjectScratch\Scr4EA8\solve.out
+  INPUT FILE NAME              = C:\Users\andre\Desktop\PBLE00\Projeto-Ansys\_ProjectScratch\Scr65F7\dummy.dat
+  OUTPUT FILE NAME             = C:\Users\andre\Desktop\PBLE00\Projeto-Ansys\_ProjectScratch\Scr65F7\solve.out
   START-UP FILE MODE           = NOREAD
   STOP FILE MODE               = NOREAD
 
  RELEASE= 2025 R2              BUILD= 25.2      UP20250519   VERSION=WINDOWS x64 
- CURRENT JOBNAME=file0  19:57:09  NOV 28, 2025 CP=      0.062
+ CURRENT JOBNAME=file0  16:17:37  DEC 02, 2025 CP=      0.031
 
 
  PARAMETER _DS_PROGRESS =     999.0000000    
@@ -123,11 +123,11 @@
 
 
 
- *** NOTE ***                            CP =       0.219   TIME= 19:57:10
+ *** NOTE ***                            CP =       0.203   TIME= 16:17:38
  The /CONFIG,NOELDB command is not valid in a distributed memory         
  parallel solution.  Command is ignored.                                 
 
- *GET  _WALLSTRT  FROM  ACTI  ITEM=TIME WALL  VALUE=  19.9527778    
+ *GET  _WALLSTRT  FROM  ACTI  ITEM=TIME WALL  VALUE=  16.2938889    
 
  TITLE= 
  Projeto--Static Structural (C5)                                               
@@ -142,7 +142,7 @@
  SET PARAMETER DIMENSIONS ON  _WB_PROJECTSCRATCH_DIR
   TYPE=STRI  DIMENSIONS=      248        1        1
 
- PARAMETER _WB_PROJECTSCRATCH_DIR(1) = C:\Users\andre\Desktop\PBLE00\Projeto-Ansys\_ProjectScratch\Scr4EA8\
+ PARAMETER _WB_PROJECTSCRATCH_DIR(1) = C:\Users\andre\Desktop\PBLE00\Projeto-Ansys\_ProjectScratch\Scr65F7\
 
  SET PARAMETER DIMENSIONS ON  _WB_SOLVERFILES_DIR
   TYPE=STRI  DIMENSIONS=      248        1        1
@@ -168,7 +168,7 @@
 
  *** MAPDL - ENGINEERING ANALYSIS SYSTEM  RELEASE 2025 R2          25.2     ***
  Ansys Mechanical Enterprise Academic Student      
- 01055371  VERSION=WINDOWS x64   19:57:10  NOV 28, 2025 CP=      0.234
+ 01055371  VERSION=WINDOWS x64   16:17:38  DEC 02, 2025 CP=      0.219
 
  Projeto--Static Structural (C5)                                               
 
@@ -192,7 +192,7 @@
  *********** Define Force Using Surface Effect Elements ***********
 
 
- ***** ROUTINE COMPLETED *****  CP =         0.359
+ ***** ROUTINE COMPLETED *****  CP =         0.297
 
 
  --- Number of total nodes = 19428
@@ -203,7 +203,7 @@
  --- Number of condensed parts = 0
  --- Number of total elements = 10712
 
- *GET  _WALLBSOL  FROM  ACTI  ITEM=TIME WALL  VALUE=  19.9527778    
+ *GET  _WALLBSOL  FROM  ACTI  ITEM=TIME WALL  VALUE=  16.2938889    
  ****************************************************************************
  *************************    SOLUTION       ********************************
  ****************************************************************************
@@ -258,12 +258,12 @@
      VALUES =   -0.29841       -0.29841       -0.29841       -0.29841    
 
  ALL SELECT   FOR ITEM=NODE COMPONENT=    
-  IN RANGE         1 TO      85206 STEP          1
+  IN RANGE         1 TO      86918 STEP          1
 
       19428  NODES (OF      19428  DEFINED) SELECTED BY NSEL  COMMAND.
 
  ALL SELECT   FOR ITEM=ELEM COMPONENT=    
-  IN RANGE         1 TO      55075 STEP          1
+  IN RANGE         1 TO      55083 STEP          1
 
       10712  ELEMENTS (OF      10712  DEFINED) SELECTED BY  ESEL  COMMAND.
 
@@ -316,20 +316,20 @@
 
  *ENDIF
 
- *** NOTE ***                            CP =       0.438   TIME= 19:57:10
+ *** NOTE ***                            CP =       0.375   TIME= 16:17:38
  The automatic domain decomposition logic has selected the MESH domain   
  decomposition method with 4 processes per solution.                     
 
  *****  MAPDL SOLVE    COMMAND  *****
 
- *** WARNING ***                         CP =       0.484   TIME= 19:57:10
+ *** WARNING ***                         CP =       0.422   TIME= 16:17:38
  Element shape checking is currently inactive.  Issue SHPP,ON or         
  SHPP,WARN to reactivate, if desired.                                    
 
- *** NOTE ***                            CP =       0.500   TIME= 19:57:10
+ *** NOTE ***                            CP =       0.438   TIME= 16:17:38
  The model data was checked and warning messages were found.             
   Please review output or errors file (                                  
- C:\Users\andre\Desktop\PBLE00\Projeto-Ansys\_ProjectScratch\Scr4EA8\fil 
+ C:\Users\andre\Desktop\PBLE00\Projeto-Ansys\_ProjectScratch\Scr65F7\fil 
  le0.err ) for these warning messages.                                   
 
  *** SELECTION OF ELEMENT TECHNOLOGIES FOR APPLICABLE ELEMENTS ***
@@ -348,7 +348,7 @@
 
  *** MAPDL - ENGINEERING ANALYSIS SYSTEM  RELEASE 2025 R2          25.2     ***
  Ansys Mechanical Enterprise Academic Student      
- 01055371  VERSION=WINDOWS x64   19:57:10  NOV 28, 2025 CP=      0.500
+ 01055371  VERSION=WINDOWS x64   16:17:38  DEC 02, 2025 CP=      0.438
 
  Projeto--Static Structural (C5)                                               
 
@@ -363,32 +363,32 @@
    EQUATION SOLVER OPTION. . . . . . . . . . . . .SPARSE             
    GLOBALLY ASSEMBLED MATRIX . . . . . . . . . . .SYMMETRIC  
 
- *** WARNING ***                         CP =       0.516   TIME= 19:57:10
- Material number 10 (used by element 54754) should normally have at      
+ *** WARNING ***                         CP =       0.438   TIME= 16:17:38
+ Material number 10 (used by element 54762) should normally have at      
  least one MP or one TB type command associated with it.  Output of      
  energy by material may not be available.                                
 
- *** NOTE ***                            CP =       0.516   TIME= 19:57:10
+ *** NOTE ***                            CP =       0.438   TIME= 16:17:38
  The step data was checked and warning messages were found.              
   Please review output or errors file (                                  
- C:\Users\andre\Desktop\PBLE00\Projeto-Ansys\_ProjectScratch\Scr4EA8\fil 
+ C:\Users\andre\Desktop\PBLE00\Projeto-Ansys\_ProjectScratch\Scr65F7\fil 
  le0.err ) for these warning messages.                                   
 
- *** NOTE ***                            CP =       0.516   TIME= 19:57:10
+ *** NOTE ***                            CP =       0.438   TIME= 16:17:38
  The conditions for direct assembly have been met.  No .emat or .erot    
  files will be produced.                                                 
 
  TRIM CONTACT/TARGET SURFACE
- *WARNING*: Some MPC/Lagrange based elements (e.g.52783) in real         
+ *WARNING*: Some MPC/Lagrange based elements (e.g.52791) in real         
  constant set 4 overlap with other MPC/Lagrange based elements           
- (e.g.53285) in real constant set 6 which can cause overconstraint.      
+ (e.g.53293) in real constant set 6 which can cause overconstraint.      
 
- *** WARNING ***                         CP =       0.656   TIME= 19:57:10
+ *** WARNING ***                         CP =       0.609   TIME= 16:17:38
  Overconstraint may occur for Lagrange multiplier or MPC based contact   
  algorithm.                                                              
 
- *** WARNING ***                         CP =       0.656   TIME= 19:57:10
- Certain contact elements (for example 54035 & 52943) overlap with       
+ *** WARNING ***                         CP =       0.625   TIME= 16:17:38
+ Certain contact elements (for example 54043 & 52951) overlap with       
  other.                                                                  
  START TRIMMING SMALL/BONDED CONTACT PAIRS FOR DMP RUN.                  
 
@@ -397,16 +397,16 @@
 
  CHECK INITIAL OPEN/CLOSED STATUS OF SELECTED CONTACT ELEMENTS
       AND LIST DETAILED CONTACT PAIR INFORMATION
- *WARNING*: Some MPC/Lagrange based elements (e.g.52928) in real         
+ *WARNING*: Some MPC/Lagrange based elements (e.g.52936) in real         
  constant set 5 overlap with other MPC/Lagrange based elements           
- (e.g.54023) in real constant set 8 which can cause overconstraint.      
+ (e.g.54031) in real constant set 8 which can cause overconstraint.      
 
- *** WARNING ***                         CP =       0.797   TIME= 19:57:10
+ *** WARNING ***                         CP =       0.672   TIME= 16:17:38
  Overconstraint may occur for Lagrange multiplier or MPC based contact   
  algorithm.                                                              
 
- *** WARNING ***                         CP =       0.797   TIME= 19:57:10
- Certain contact elements (for example 54035 & 52943) overlap with       
+ *** WARNING ***                         CP =       0.672   TIME= 16:17:38
+ Certain contact elements (for example 54043 & 52951) overlap with       
  other.                                                                  
  
  SPLITTING CONTACT SURFACES WITH DISCONNECTED REGIONS FIRST
@@ -415,46 +415,46 @@
  CONTACT PAIR ASSOCIATED WITH REAL CONSTANT 6 SPLIT INTO 2 NEW PAIRS 
  ASSOCIATED WITH REAL CONSTANTS 11 - 11
 
- NEW TARGET ELEMENTS FROM 55076 TO 55185 WERE CREATED TO HANDLE
+ NEW TARGET ELEMENTS FROM 55084 TO 55193 WERE CREATED TO HANDLE
  THE SPLIT CONTACT PAIRS
 
- *** NOTE ***                            CP =       0.812   TIME= 19:57:10
+ *** NOTE ***                            CP =       0.688   TIME= 16:17:38
  The maximum number of contact elements in any single contact pair is    
  234, which is smaller than the optimal domain size of 545 elements for  
  the given number of CPU domains (4).  Therefore, no contact pairs are   
  being split by the CNCH,DMP logic.                                      
 
  TRIM CONTACT/TARGET SURFACE
- *WARNING*: Some MPC/Lagrange based elements (e.g.52928) in real         
+ *WARNING*: Some MPC/Lagrange based elements (e.g.52936) in real         
  constant set 5 overlap with other MPC/Lagrange based elements           
- (e.g.54023) in real constant set 8 which can cause overconstraint.      
+ (e.g.54031) in real constant set 8 which can cause overconstraint.      
 
- *** WARNING ***                         CP =       0.906   TIME= 19:57:10
+ *** WARNING ***                         CP =       0.797   TIME= 16:17:38
  Overconstraint may occur for Lagrange multiplier or MPC based contact   
  algorithm.                                                              
 
- *** WARNING ***                         CP =       0.906   TIME= 19:57:10
- Certain contact elements (for example 54035 & 52943) overlap with       
+ *** WARNING ***                         CP =       0.797   TIME= 16:17:38
+ Certain contact elements (for example 54043 & 52951) overlap with       
  other.                                                                  
 
        0 CONTACT ELEMENTS &      95 TARGET ELEMENTS ARE DELETED DUE TO SPLITTING LOGIC.
- *WARNING*: Some MPC/Lagrange based elements (e.g.52928) in real         
+ *WARNING*: Some MPC/Lagrange based elements (e.g.52936) in real         
  constant set 5 overlap with other MPC/Lagrange based elements           
- (e.g.54023) in real constant set 8 which can cause overconstraint.      
+ (e.g.54031) in real constant set 8 which can cause overconstraint.      
 
- *** NOTE ***                            CP =       0.969   TIME= 19:57:10
+ *** NOTE ***                            CP =       0.828   TIME= 16:17:38
  Smoothing on certain target nodes (e.g.65844) for pair ID 5 may have    
  accuracy issue.  Please verify element normal of connected target       
- elements (e.g.52642 & 52685).                                           
+ elements (e.g.52650 & 52693).                                           
 
- *** NOTE ***                            CP =       1.016   TIME= 19:57:10
+ *** NOTE ***                            CP =       0.875   TIME= 16:17:38
  Deformable-deformable contact pair identified by real constant set 5    
  and contact element type 4 has been set up.                             
  Auto surface constraint is built
  MPC anywhere inside pinball may be built
  Contact algorithm: MPC based approach
 
- *** NOTE ***                            CP =       1.016   TIME= 19:57:10
+ *** NOTE ***                            CP =       0.875   TIME= 16:17:38
  Contact related postprocess items (ETABLE, pressure ...) are not        
  available.                                                              
  Contact detection at: nodal point (normal to target surface)
@@ -463,7 +463,7 @@
  surfaces, or split the current pair into multiple pairs, or use Gauss   
  detection.                                                              
  MPC will be built internally to handle bonded contact.
- *WARNING*: Certain contact elements (for example 52983&54023) overlap   
+ *WARNING*: Certain contact elements (for example 52991&54031) overlap   
  each other.  Overconstraint may occur.                                  
  Average contact surface length                1.7042    
  Average contact pair depth                    2.8277    
@@ -474,9 +474,9 @@
  Initial penetration/gap is excluded.
  Bonded contact (always) is defined.
 
- *** NOTE ***                            CP =       1.016   TIME= 19:57:10
+ *** NOTE ***                            CP =       0.875   TIME= 16:17:38
  Max.  Initial penetration 0.41698315 was detected between contact       
- element 52942 and target element 52773.                                 
+ element 52950 and target element 52781.                                 
  You may move entire target surface by : x= -0.294968745, y=             
  -0.294734357, z= -2.132885473E-04,to reduce initial penetration.        
  *WARNING*: The geometric gap/penetration may be too large.  Increase    
@@ -485,14 +485,14 @@
  ****************************************
   
 
- *** NOTE ***                            CP =       1.016   TIME= 19:57:10
+ *** NOTE ***                            CP =       0.875   TIME= 16:17:38
  Deformable-deformable contact pair identified by real constant set 6    
  and contact element type 6 has been set up.                             
  Auto surface constraint is built
  The current pair was split from a base pair (real ID 6).                
  Contact algorithm: MPC based approach
 
- *** NOTE ***                            CP =       1.016   TIME= 19:57:10
+ *** NOTE ***                            CP =       0.875   TIME= 16:17:38
  Contact related postprocess items (ETABLE, pressure ...) are not        
  available.                                                              
  Contact detection at: nodal point (normal to target surface)
@@ -506,20 +506,20 @@
  Initial penetration/gap is excluded.
  Bonded contact (always) is defined.
 
- *** NOTE ***                            CP =       1.016   TIME= 19:57:10
+ *** NOTE ***                            CP =       0.875   TIME= 16:17:38
  Max.  Initial penetration 5.329070518E-15 was detected between contact  
- element 53230 and target element 53534.                                 
+ element 53238 and target element 53542.                                 
  ****************************************
   
 
- *** NOTE ***                            CP =       1.016   TIME= 19:57:10
+ *** NOTE ***                            CP =       0.875   TIME= 16:17:38
  Deformable-deformable contact pair identified by real constant set 11   
  and contact element type 6 has been set up.                             
  Auto surface constraint is built
  The current pair was split from a base pair (real ID 6).                
  Contact algorithm: MPC based approach
 
- *** NOTE ***                            CP =       1.016   TIME= 19:57:10
+ *** NOTE ***                            CP =       0.875   TIME= 16:17:38
  Contact related postprocess items (ETABLE, pressure ...) are not        
  available.                                                              
  Contact detection at: nodal point (normal to target surface)
@@ -533,25 +533,25 @@
  Initial penetration/gap is excluded.
  Bonded contact (always) is defined.
 
- *** NOTE ***                            CP =       1.016   TIME= 19:57:10
+ *** NOTE ***                            CP =       0.875   TIME= 16:17:38
  Max.  Initial penetration 5.329070518E-15 was detected between contact  
- element 53230 and target element 53534.                                 
+ element 53238 and target element 53542.                                 
  ****************************************
   
 
- *** NOTE ***                            CP =       1.016   TIME= 19:57:10
+ *** NOTE ***                            CP =       0.875   TIME= 16:17:38
  Deformable-deformable contact pair identified by real constant set 8    
  and contact element type 8 has been set up.                             
  Auto surface constraint is built
  MPC anywhere inside pinball may be built
  Contact algorithm: MPC based approach
 
- *** NOTE ***                            CP =       1.016   TIME= 19:57:10
+ *** NOTE ***                            CP =       0.875   TIME= 16:17:38
  Contact related postprocess items (ETABLE, pressure ...) are not        
  available.                                                              
  Contact detection at: nodal point (normal to target surface)
  MPC will be built internally to handle bonded contact.
- *WARNING*: Certain contact elements (for example 54035&52943) overlap   
+ *WARNING*: Certain contact elements (for example 54043&52951) overlap   
  each other.  Overconstraint may occur.                                  
  Average contact surface length                2.6066    
  Average contact pair depth                    1.0002    
@@ -562,19 +562,19 @@
  Initial penetration/gap is excluded.
  Bonded contact (always) is defined.
 
- *** NOTE ***                            CP =       1.016   TIME= 19:57:10
+ *** NOTE ***                            CP =       0.875   TIME= 16:17:38
  Max.  Initial penetration 6.439293543E-15 was detected between contact  
- element 53995 and target element 54659.                                 
+ element 54003 and target element 54667.                                 
  ****************************************
   
 
- *** WARNING ***                         CP =       1.016   TIME= 19:57:10
+ *** WARNING ***                         CP =       0.875   TIME= 16:17:38
  Overconstraint may occur for Lagrange multiplier or MPC based contact   
  algorithm.                                                              
  The reasons for possible overconstraint are:                            
 
- *** WARNING ***                         CP =       1.016   TIME= 19:57:10
- Certain contact elements (for example 54035 & 52943) overlap with       
+ *** WARNING ***                         CP =       0.875   TIME= 16:17:38
+ Certain contact elements (for example 54043 & 52951) overlap with       
  other.                                                                  
  ****************************************
   
@@ -587,7 +587,7 @@
   ...Number of elements: 9669
   ...Number of nodes:    19428
   ...Decompose to 4 CPU domains
-  ...Element load balance ratio =     1.135
+  ...Element load balance ratio =     1.277
 
 
                       L O A D   S T E P   O P T I O N S
@@ -651,74 +651,74 @@
      3  0.163108E-05
 
  Range of element maximum matrix coefficients in global coordinates
- Maximum = 1887908.53 at element 16246.                                  
- Minimum = 534.6345 at element 41854.                                    
+ Maximum = 1887908.53 at element 24302.                                  
+ Minimum = 534.6345 at element 17672.                                    
 
    *** ELEMENT MATRIX FORMULATION TIMES
      TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
 
-        1      6868  SOLID187      0.219   0.000032
-        2       234  SOLID186      0.000   0.000000
+        1      6868  SOLID187      0.203   0.000030
+        2       234  SOLID186      0.031   0.000134
         3      1172  SOLID187      0.031   0.000027
         4        56  CONTA174      0.000   0.000000
         5       145  TARGE170      0.000   0.000000
-        6       157  CONTA174      0.016   0.000100
+        6       157  CONTA174      0.031   0.000199
         7       125  TARGE170      0.000   0.000000
         8       234  CONTA174      0.031   0.000134
         9       356  TARGE170      0.000   0.000000
        10       322  SURF154       0.000   0.000000
- Time at end of element matrix formulation CP = 1.4375.                  
+ Time at end of element matrix formulation CP = 1.28125.                 
 
  DISTRIBUTED SPARSE MATRIX DIRECT SOLVER.
-  Number of equations =       52923,    Maximum wavefront =    375
+  Number of equations =       52923,    Maximum wavefront =    300
 
 
   Memory allocated on only this MPI rank (rank     0)
   -------------------------------------------------------------------
-  Equation solver memory allocated                     =    39.744 MB
-  Equation solver memory required for in-core mode     =    38.233 MB
-  Equation solver memory required for out-of-core mode =    19.720 MB
-  Total (solver and non-solver) memory allocated       =   568.768 MB
+  Equation solver memory allocated                     =    38.365 MB
+  Equation solver memory required for in-core mode     =    36.915 MB
+  Equation solver memory required for out-of-core mode =    19.679 MB
+  Total (solver and non-solver) memory allocated       =   563.330 MB
 
 
   Total memory summed across all MPI ranks on this machines
   -------------------------------------------------------------------
-  Equation solver memory allocated                     =   231.616 MB
-  Equation solver memory required for in-core mode     =   222.552 MB
-  Equation solver memory required for out-of-core mode =   115.307 MB
-  Total (solver and non-solver) memory allocated       =  1360.678 MB
+  Equation solver memory allocated                     =   227.308 MB
+  Equation solver memory required for in-core mode     =   218.415 MB
+  Equation solver memory required for out-of-core mode =   114.553 MB
+  Total (solver and non-solver) memory allocated       =  1323.109 MB
 
- *** NOTE ***                            CP =       1.641   TIME= 19:57:11
+ *** NOTE ***                            CP =       1.453   TIME= 16:17:39
  The Distributed Sparse Matrix Solver is currently running in the        
  in-core memory mode.  This memory mode uses the most amount of memory   
  in order to avoid using the hard drive as much as possible, which most  
  often results in the fastest solution time.  This mode is recommended   
  if enough physical memory is present to accommodate all of the solver   
  data.                                                                   
- curEqn=   4140  totEqn=   4140 Job CP sec=      1.828
-      Factor Done= 100% Factor Wall sec=      0.154 rate=      13.3 GFlops
- Distributed sparse solver maximum pivot= 1769607.27 at node 81051 UZ.   
- Distributed sparse solver minimum pivot= 35.128503 at node 66366 UX.    
- Distributed sparse solver minimum pivot in absolute value= 35.128503 at 
- node 66366 UX.                                                          
+ curEqn=   4101  totEqn=   4101 Job CP sec=      1.672
+      Factor Done= 100% Factor Wall sec=      0.157 rate=      12.0 GFlops
+ Distributed sparse solver maximum pivot= 1749774.15 at node 82774 UZ.   
+ Distributed sparse solver minimum pivot= 45.6351709 at node 67936 UY.   
+ Distributed sparse solver minimum pivot in absolute value= 45.6351709   
+ at node 67936 UY.                                                       
 
    *** ELEMENT RESULT CALCULATION TIMES
      TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
 
-        1      6868  SOLID187      0.234   0.000034
-        2       234  SOLID186      0.016   0.000067
-        3      1172  SOLID187      0.031   0.000027
+        1      6868  SOLID187      0.172   0.000025
+        2       234  SOLID186      0.000   0.000000
+        3      1172  SOLID187      0.016   0.000013
         4        56  CONTA174      0.000   0.000000
         6       157  CONTA174      0.000   0.000000
-        8       234  CONTA174      0.016   0.000067
-       10       322  SURF154       0.000   0.000000
+        8       234  CONTA174      0.000   0.000000
+       10       322  SURF154       0.016   0.000049
 
    *** NODAL LOAD CALCULATION TIMES
      TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
 
-        1      6868  SOLID187      0.031   0.000005
+        1      6868  SOLID187      0.047   0.000007
         2       234  SOLID186      0.000   0.000000
-        3      1172  SOLID187      0.000   0.000000
+        3      1172  SOLID187      0.016   0.000013
         4        56  CONTA174      0.000   0.000000
         6       157  CONTA174      0.000   0.000000
         8       234  CONTA174      0.000   0.000000
@@ -730,7 +730,7 @@
  *** MAPDL BINARY FILE STATISTICS
   BUFFER SIZE USED= 16384
         0.812 MB WRITTEN ON ELEMENT SAVED DATA FILE: file0.esav
-        6.562 MB WRITTEN ON ASSEMBLED MATRIX FILE: file0.full
+        6.438 MB WRITTEN ON ASSEMBLED MATRIX FILE: file0.full
         1.812 MB WRITTEN ON RESULTS FILE: file0.rst
  *************** Write FE CONNECTORS *********
 
@@ -738,20 +738,20 @@
  ****************************************************
  *************** FINISHED SOLVE FOR LS 1 *************
 
- *GET  _WALLASOL  FROM  ACTI  ITEM=TIME WALL  VALUE=  19.9533333    
+ *GET  _WALLASOL  FROM  ACTI  ITEM=TIME WALL  VALUE=  16.2941667    
 
  PRINTOUT RESUMED BY /GOP
 
  FINISH SOLUTION PROCESSING
 
 
- ***** ROUTINE COMPLETED *****  CP =         2.125
+ ***** ROUTINE COMPLETED *****  CP =         1.953
 
 
 
  *** MAPDL - ENGINEERING ANALYSIS SYSTEM  RELEASE 2025 R2          25.2     ***
  Ansys Mechanical Enterprise Academic Student      
- 01055371  VERSION=WINDOWS x64   19:57:12  NOV 28, 2025 CP=      2.141
+ 01055371  VERSION=WINDOWS x64   16:17:39  DEC 02, 2025 CP=      1.953
 
  Projeto--Static Structural (C5)                                               
 
@@ -759,7 +759,7 @@
 
           ***** MAPDL RESULTS INTERPRETATION (POST1) *****
 
- *** NOTE ***                            CP =       2.141   TIME= 19:57:12
+ *** NOTE ***                            CP =       1.953   TIME= 16:17:39
  Reading results into the database (SET command) will update the current 
  displacement and force boundary conditions in the database with the     
  values from the results file for that load set.  Note that any          
@@ -777,25 +777,25 @@
  EXIT THE MAPDL POST1 DATABASE PROCESSOR
 
 
- ***** ROUTINE COMPLETED *****  CP =         2.141
+ ***** ROUTINE COMPLETED *****  CP =         1.953
 
 
 
  PRINTOUT RESUMED BY /GOP
 
- *GET  _WALLDONE  FROM  ACTI  ITEM=TIME WALL  VALUE=  19.9533333    
+ *GET  _WALLDONE  FROM  ACTI  ITEM=TIME WALL  VALUE=  16.2941667    
 
  PARAMETER _PREPTIME =     0.000000000    
 
- PARAMETER _SOLVTIME =     2.000000000    
+ PARAMETER _SOLVTIME =     1.000000000    
 
  PARAMETER _POSTTIME =     0.000000000    
 
- PARAMETER _TOTALTIM =     2.000000000    
+ PARAMETER _TOTALTIM =     1.000000000    
 
- *GET  _DLBRATIO  FROM  ACTI  ITEM=SOLU DLBR  VALUE=  1.13532513    
+ *GET  _DLBRATIO  FROM  ACTI  ITEM=SOLU DLBR  VALUE=  1.27680141    
 
- *GET  _COMBTIME  FROM  ACTI  ITEM=SOLU COMB  VALUE= 0.269434000E-01
+ *GET  _COMBTIME  FROM  ACTI  ITEM=SOLU COMB  VALUE= 0.278393000E-01
 
  *GET  _SSMODE   FROM  ACTI  ITEM=SOLU SSMM  VALUE=  2.00000000    
 
@@ -811,8 +811,8 @@
  *ENDIF
  --- Total number of nodes = 19428
  --- Total number of elements = 9669
- --- Element load balance ratio = 1.13532513
- --- Time to combine distributed files = 2.69434E-02
+ --- Element load balance ratio = 1.27680141
+ --- Time to combine distributed files = 2.78393E-02
  --- Sparse memory mode = 2
  --- Number of DOF = 52923
 
@@ -825,7 +825,7 @@
 +--------------------- M A P D L   S T A T I S T I C S ------------------------+
 
 Release: 2025 R2            Build: 25.2       Update: UP20250519   Platform: WINDOWS x64 
-Date Run: 11/28/2025   Time: 19:57     Process ID: 23052
+Date Run: 12/02/2025   Time: 16:17     Process ID: 29316
 Operating System: Windows 11  (Build: 26200)
 
 Processor Model: 13th Gen Intel(R) Core(TM) i5-13450HX
@@ -851,36 +851,37 @@ Input File: dummy.dat
 
   Core                Machine Name   Working Directory
  -----------------------------------------------------
-     0                      Andrey   C:\Users\andre\Desktop\PBLE00\Projeto-Ansys\_ProjectScratch\Scr4EA8
-     1                      Andrey   C:\Users\andre\Desktop\PBLE00\Projeto-Ansys\_ProjectScratch\Scr4EA8
-     2                      Andrey   C:\Users\andre\Desktop\PBLE00\Projeto-Ansys\_ProjectScratch\Scr4EA8
-     3                      Andrey   C:\Users\andre\Desktop\PBLE00\Projeto-Ansys\_ProjectScratch\Scr4EA8
+     0                      Andrey   C:\Users\andre\Desktop\PBLE00\Projeto-Ansys\_ProjectScratch\Scr65F7
+     1                      Andrey   C:\Users\andre\Desktop\PBLE00\Projeto-Ansys\_ProjectScratch\Scr65F7
+     2                      Andrey   C:\Users\andre\Desktop\PBLE00\Projeto-Ansys\_ProjectScratch\Scr65F7
+     3                      Andrey   C:\Users\andre\Desktop\PBLE00\Projeto-Ansys\_ProjectScratch\Scr65F7
  
-Latency time from master to core     1 =    1.706 microseconds
-Latency time from master to core     2 =    1.666 microseconds
-Latency time from master to core     3 =    2.721 microseconds
+Latency time from master to core     1 =    1.529 microseconds
+Latency time from master to core     2 =    1.518 microseconds
+Latency time from master to core     3 =    2.676 microseconds
  
-Communication speed from master to core     1 = 12008.77 MB/sec
-Communication speed from master to core     2 = 10047.10 MB/sec
-Communication speed from master to core     3 =  6614.85 MB/sec
+Communication speed from master to core     1 = 10835.85 MB/sec
+Communication speed from master to core     2 = 10926.42 MB/sec
+Communication speed from master to core     3 =  6217.60 MB/sec
 
-Total CPU time for main thread                    :        2.3 seconds
-Total CPU time summed for all threads             :        2.2 seconds
+Total CPU time for main thread                    :        2.1 seconds
+Total CPU time summed for all threads             :        2.0 seconds
 
 Elapsed time spent obtaining a license            :        0.4 seconds
 Elapsed time spent pre-processing model (/PREP7)  :        0.1 seconds
 Elapsed time spent solution - preprocessing       :        0.6 seconds
-Elapsed time spent computing solution             :        0.9 seconds
+Elapsed time spent computing solution             :        0.8 seconds
 Elapsed time spent solution - postprocessing      :        0.0 seconds
 Elapsed time spent post-processing model (/POST1) :        0.0 seconds
  
 Equation solver used                              :            Sparse (symmetric)
-Equation solver computational rate                :       44.1 Gflops
+Equation solver computational rate                :       44.4 Gflops
+Equation solver effective I/O rate                :       21.7 GB/sec
 
-Sum of disk space used on all processes           :       58.4 MB
+Sum of disk space used on all processes           :       57.9 MB
 
-Sum of memory used on all processes               :      386.0 MB
-Sum of memory allocated on all processes          :     2976.0 MB
+Sum of memory used on all processes               :      378.0 MB
+Sum of memory allocated on all processes          :     2880.0 MB
 Physical memory available                         :         16 GB
 Total amount of I/O written to disk               :        0.0 GB
 Total amount of I/O read from disk                :        0.0 GB
@@ -899,13 +900,13 @@ Total amount of I/O read from disk                :        0.0 GB
  |-----------------------------------------------------------------------------|
  |                                                                             |
  |  Database Requested(-db)     1024 MB     Scratch Memory Requested   1024 MB |
- |  Max Database Used(Master)     19 MB     Max Scratch Used(Master)     76 MB |
+ |  Max Database Used(Master)     20 MB     Max Scratch Used(Master)     74 MB |
  |  Max Database Used(Workers)     1 MB     Max Scratch Used(Workers)   105 MB |
- |  Sum Database Used(All)        22 MB     Sum Scratch Used(All)       364 MB |
+ |  Sum Database Used(All)        23 MB     Sum Scratch Used(All)       355 MB |
  |                                                                             |
  |-----------------------------------------------------------------------------|
  |                                                                             |
- |        CP Time      (sec) =          2.234       Time  =  19:57:26          |
- |        Elapsed Time (sec) =         18.000       Date  =  11/28/2025        |
+ |        CP Time      (sec) =          2.031       Time  =  16:17:54          |
+ |        Elapsed Time (sec) =         18.000       Date  =  12/02/2025        |
  |                                                                             |
  *-----------------------------------------------------------------------------*

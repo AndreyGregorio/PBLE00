@@ -195,7 +195,7 @@
 		(property "Reference" "J1"
 			(at 2.487052 -6.770615 90)
 			(layer "F.SilkS")
-			(uuid "235c0202-3087-4376-bbc0-cd453e824f45")
+			(uuid "89d5b6de-b9d2-435f-8d65-87ddf85eba8d")
 			(effects
 				(font
 					(size 1.000827 1.000827)
@@ -206,7 +206,7 @@
 		(property "Value" "PJ-002A"
 			(at 6.302433 5.78184 90)
 			(layer "F.Fab")
-			(uuid "e62c647f-0020-4a30-af41-0e20d4c8445d")
+			(uuid "83d200b4-8752-47f9-8462-26defbae59bf")
 			(effects
 				(font
 					(size 1.001181 1.001181)
@@ -218,7 +218,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "68023010-39f4-48b1-a955-d6014d71219d")
+			(uuid "d5682d00-4adb-4438-98d9-2c189d762e1d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -230,7 +230,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b7a935f5-e585-413f-9b09-64597a9e2673")
+			(uuid "ec2c4f1f-2d9e-47d2-a8da-b6e630122293")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4277,6 +4277,18 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "61bad3c7-52af-4ae1-82c0-864e4106024d")
+	)
+	(gr_text "Andrey Gregório Cassiano\nLucas Souza de Oliveira\nPoliana Cruz Costa\nVictor Hugo Rodrigues"
+		(at 116.5 110.5 90)
+		(layer "F.SilkS")
+		(uuid "7d0b0f2b-aa37-4915-b8b1-7a9764ed32c9")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 137.55 100.55)

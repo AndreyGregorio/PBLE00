@@ -1,42 +1,42 @@
-/COM,ANSYS RELEASE 2025 R2           BUILD 25.2      UP20250519       19:57:09
+/COM,ANSYS RELEASE 2025 R2           BUILD 25.2      UP20250519       16:17:37
 
- *** WARNING ***                         CP =       0.484   TIME= 19:57:10
+ *** WARNING ***                         CP =       0.422   TIME= 16:17:38
  Element shape checking is currently inactive.  Issue SHPP,ON or         
  SHPP,WARN to reactivate, if desired.                                    
 
- *** WARNING ***                         CP =       0.516   TIME= 19:57:10
- Material number 10 (used by element 54754) should normally have at      
+ *** WARNING ***                         CP =       0.438   TIME= 16:17:38
+ Material number 10 (used by element 54762) should normally have at      
  least one MP or one TB type command associated with it.  Output of      
  energy by material may not be available.                                
 
- *** WARNING ***                         CP =       0.656   TIME= 19:57:10
+ *** WARNING ***                         CP =       0.609   TIME= 16:17:38
  Overconstraint may occur for Lagrange multiplier or MPC based contact   
  algorithm.                                                              
 
- *** WARNING ***                         CP =       0.656   TIME= 19:57:10
- Certain contact elements (for example 54035 & 52943) overlap with       
+ *** WARNING ***                         CP =       0.625   TIME= 16:17:38
+ Certain contact elements (for example 54043 & 52951) overlap with       
  other.                                                                  
 
- *** WARNING ***                         CP =       0.797   TIME= 19:57:10
+ *** WARNING ***                         CP =       0.672   TIME= 16:17:38
  Overconstraint may occur for Lagrange multiplier or MPC based contact   
  algorithm.                                                              
 
- *** WARNING ***                         CP =       0.797   TIME= 19:57:10
- Certain contact elements (for example 54035 & 52943) overlap with       
+ *** WARNING ***                         CP =       0.672   TIME= 16:17:38
+ Certain contact elements (for example 54043 & 52951) overlap with       
  other.                                                                  
 
- *** WARNING ***                         CP =       0.906   TIME= 19:57:10
+ *** WARNING ***                         CP =       0.797   TIME= 16:17:38
  Overconstraint may occur for Lagrange multiplier or MPC based contact   
  algorithm.                                                              
 
- *** WARNING ***                         CP =       0.906   TIME= 19:57:10
- Certain contact elements (for example 54035 & 52943) overlap with       
+ *** WARNING ***                         CP =       0.797   TIME= 16:17:38
+ Certain contact elements (for example 54043 & 52951) overlap with       
  other.                                                                  
 
- *** WARNING ***                         CP =       1.016   TIME= 19:57:10
+ *** WARNING ***                         CP =       0.875   TIME= 16:17:38
  Overconstraint may occur for Lagrange multiplier or MPC based contact   
  algorithm.                                                              
 
- *** WARNING ***                         CP =       1.016   TIME= 19:57:10
- Certain contact elements (for example 54035 & 52943) overlap with       
+ *** WARNING ***                         CP =       0.875   TIME= 16:17:38
+ Certain contact elements (for example 54043 & 52951) overlap with       
  other.                                                                  
